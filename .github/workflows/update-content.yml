@@ -1,0 +1,69 @@
+name: Update Content
+
+on:
+  # Run daily at 7am UTC (morning UK time)
+  schedule:
+    - cron: '0 7 * * *'
+
+  # Also allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max articles to process (0 = no limit)'
+        required: false
+        default: '10'
+      dry_run:
+        description: 'Dry run (no publishing)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-articles:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run content pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          LIMIT="${{ github.event.inputs.limit }}"
+          if [ -n "$LIMIT" ] && [ "$LIMIT" != "0" ]; then
+            ARGS="$ARGS --limit $LIMIT"
+          else
+            ARGS="$ARGS --limit 10"
+          fi
+          python scripts/content_pipeline.py $ARGS
+
+      - name: Commit and push changes
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "Content Pipeline Bot"
+          git config user.email "bot@lukeparker.co.uk"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No new content to commit"
+          else
+            ARTICLE_COUNT=$(git diff --cached --name-only | grep "^articles/" | wc -l)
+            git commit -m "Auto-update: ${ARTICLE_COUNT} new article(s) - $(date +%Y-%m-%d)"
+            git push
+          fi
