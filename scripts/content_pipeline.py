@@ -448,7 +448,6 @@ DEFAULT_ARTICLE_TEMPLATE = """<!DOCTYPE html>
         <footer>
             <p>This article represents the views and analysis of Luke Parker, a Reform UK councillor focused on
             improving governance and policy. For more information, visit <a href="https://lukeparker.co.uk">lukeparker.co.uk</a></p>
-            <p>Original source: <a href="{{SOURCE_URL}}">{{SOURCE}}</a></p>
         </footer>
     </article>
 </body>

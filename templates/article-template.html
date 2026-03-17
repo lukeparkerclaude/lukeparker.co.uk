@@ -6,12 +6,12 @@
     <meta name="description" content="{{EXCERPT}}">
     <meta property="og:title" content="{{TITLE}} - Luke Parker">
     <meta property="og:description" content="{{EXCERPT}}">
-    <meta property="og:image" content="{{IMAGE_URL}}">
+    <meta property="og:image" content="">
     <meta property="og:url" content="https://lukeparker.co.uk/articles/{{SLUG}}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{TITLE}} - Luke Parker">
     <meta name="twitter:description" content="{{EXCERPT}}">
-    <meta name="twitter:image" content="{{IMAGE_URL}}">
+    <meta name="twitter:image" content="">
     <title>{{TITLE}} - Luke Parker</title>
 
     <style>
@@ -537,9 +537,6 @@
             </div>
             <h1>{{TITLE}}</h1>
             <p class="article-excerpt">{{EXCERPT}}</p>
-            {{#IMAGE_URL}}
-            <img src="{{IMAGE_URL}}" alt="{{TITLE}}" class="hero-image">
-            {{/IMAGE_URL}}
         </div>
     </section>
 
@@ -549,10 +546,6 @@
             {{CONTENT}}
         </div>
 
-        <!-- SOURCE ATTRIBUTION -->
-        <div class="source-box">
-            <p>Originally reported by <a href="{{SOURCE_URL}}" target="_blank" rel="noopener noreferrer">{{SOURCE_NAME}}</a>. Rewritten with commentary by <strong>Luke Parker</strong>.</p>
-        </div>
 
         <!-- SHARE BUTTONS -->
         <div class="share-container">
