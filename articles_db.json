@@ -1,4 +1,55 @@
 {
-  "articles": [],
-  "last_updated": null
+  "articles": [
+    {
+      "title": "Reform UK Councils Deliver the Lowest Council Tax Rises \u2014 And That's Just the Start",
+      "slug": "reform-uk-councils-deliver-the-lowest-council-tax-rises-and-that-s-just-the-start",
+      "date": "2026-03-17",
+      "category": "Economy",
+      "excerpt": "Reform UK councils are delivering lower council tax increases than Labour, Conservatives, and Lib Dems combined.",
+      "read_time": "2 min read",
+      "source_url": "",
+      "original_title": "Reform UK Councils Deliver the Lowest Council Tax Rises \u2014 And That's Just the Start"
+    },
+    {
+      "title": "It's Time to Shake Up the Civil Service \u2014 Reform UK Has the Right Idea",
+      "slug": "it-s-time-to-shake-up-the-civil-service-reform-uk-has-the-right-idea",
+      "date": "2026-03-17",
+      "category": "Democracy",
+      "excerpt": "The civil service needs reform to ensure elected governments can actually implement their mandates.",
+      "read_time": "2 min read",
+      "source_url": "",
+      "original_title": "It's Time to Shake Up the Civil Service \u2014 Reform UK Has the Right Idea"
+    },
+    {
+      "title": "Staffordshire Shows How Reform Councils Protect Our Countryside",
+      "slug": "staffordshire-shows-how-reform-councils-protect-our-countryside",
+      "date": "2026-03-17",
+      "category": "Council Reform",
+      "excerpt": "Staffordshire's new County Farms Policy protects agricultural land from development and housing pressure.",
+      "read_time": "2 min read",
+      "source_url": "",
+      "original_title": "Staffordshire Shows How Reform Councils Protect Our Countryside"
+    },
+    {
+      "title": "Immigration Reform Needs to Go Further \u2014 Much Further",
+      "slug": "immigration-reform-needs-to-go-further-much-further",
+      "date": "2026-03-17",
+      "category": "Immigration",
+      "excerpt": "Current government reforms don't match the scale of change the British people are demanding.",
+      "read_time": "2 min read",
+      "source_url": "",
+      "original_title": "Immigration Reform Needs to Go Further \u2014 Much Further"
+    },
+    {
+      "title": "Reform UK Needs a Serious Foreign Policy \u2014 And We're Building One",
+      "slug": "reform-uk-needs-a-serious-foreign-policy-and-we-re-building-one",
+      "date": "2026-03-17",
+      "category": "Democracy",
+      "excerpt": "Migration isn't enough \u2014 Reform must develop comprehensive thinking on Ukraine, security, and Britain's global role.",
+      "read_time": "2 min read",
+      "source_url": "",
+      "original_title": "Reform UK Needs a Serious Foreign Policy \u2014 And We're Building One"
+    }
+  ],
+  "last_updated": "2026-03-17"
 }
