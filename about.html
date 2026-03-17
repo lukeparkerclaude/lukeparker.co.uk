@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Luke Parker - Reform UK County Councillor for Preston East</title>
+    <meta name="description" content="Luke Parker is a Reform UK County Councillor representing Preston East on Lancashire County Council. Businessman, community champion, and advocate for real change.">
+    <link rel="canonical" href="https://lukeparker.co.uk/about.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #12B0B0;
+            --primary-dark: #0e8e8e;
+            --primary-glow: rgba(18, 176, 176, 0.15);
+            --bg-darkest: #060a0a;
+            --bg-dark: #0a0f0f;
+            --bg-card: #111919;
+            --bg-card-hover: #152020;
+            --border: #1a2a2a;
+            --border-light: #223333;
+            --text-primary: #f0f5f5;
+            --text-secondary: #8fa5a5;
+            --text-muted: #5a7070;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-darkest);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ===== HEADER ===== */
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(6, 10, 10, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-inner {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .logo { text-decoration: none; display: flex; flex-direction: column; }
+        .logo-name {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            line-height: 1.1;
+        }
+        .logo-tag {
+            font-size: 0.65rem;
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        .nav-desktop { display: flex; gap: 4px; }
+        .nav-desktop a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+        .nav-desktop a:hover { color: var(--text-primary); background: var(--bg-card); }
+        .nav-desktop a.active { color: var(--primary); }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 8px;
+            background: none;
+            border: none;
+        }
+        .hamburger span {
+            width: 24px; height: 2px;
+            background: var(--text-primary);
+            transition: all 0.3s;
+        }
+
+        .nav-mobile {
+            display: none;
+            position: absolute;
+            top: 64px; left: 0; right: 0;
+            background: var(--bg-dark);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 24px;
+        }
+        .nav-mobile.open { display: block; }
+        .nav-mobile a {
+            display: block;
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 12px 0;
+            font-size: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-mobile a:last-child { border-bottom: none; }
+        .nav-mobile a:hover { color: var(--primary); }
+
+        /* ===== PAGE HERO ===== */
+        .page-hero {
+            background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-darkest) 100%);
+            position: relative;
+            overflow: hidden;
+            padding: 80px 24px 60px;
+            text-align: center;
+        }
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, var(--primary-glow) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .page-hero-content { position: relative; max-width: 800px; margin: 0 auto; }
+        .page-hero h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 3rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .page-hero h1 span { color: var(--primary); }
+        .page-hero p {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* ===== ABOUT CONTENT ===== */
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        .about-section {
+            margin-bottom: 48px;
+        }
+
+        .about-section h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--primary);
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .about-section p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .committee-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .committee-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.2s;
+        }
+        .committee-card:hover {
+            border-color: var(--primary);
+            background: var(--bg-card-hover);
+        }
+
+        .committee-card h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .committee-card .role {
+            font-size: 0.85rem;
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .committee-card .body {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .outside-bodies {
+            margin-top: 24px;
+        }
+
+        .outside-bodies h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .outside-body-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .outside-body-list li {
+            color: var(--text-secondary);
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.95rem;
+        }
+        .outside-body-list li:last-child { border-bottom: none; }
+        .outside-body-list li::before {
+            content: '\2022';
+            color: var(--primary);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .contact-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 24px;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        .contact-card:hover {
+            border-color: var(--primary);
+        }
+
+        .contact-card .icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+
+        .contact-card h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .contact-card a {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+        .contact-card a:hover { text-decoration: underline; }
+
+        .contact-card p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* ===== FOOTER ===== */
+        .site-footer {
+            background: var(--bg-dark);
+            border-top: 1px solid var(--border);
+            padding: 48px 24px 24px;
+            margin-top: 40px;
+        }
+        .footer-inner {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+        }
+        .footer-about p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; }
+        .site-footer h4 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+        .site-footer ul { list-style: none; }
+        .site-footer li { margin-bottom: 8px; }
+        .site-footer a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+        .site-footer a:hover { color: var(--primary); }
+
+        .footer-bottom {
+            max-width: 1300px;
+            margin: 32px auto 0;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        .footer-bottom a { color: var(--text-muted); text-decoration: none; margin-left: 16px; }
+        .footer-bottom a:hover { color: var(--primary); }
+
+        @media (max-width: 768px) {
+            .nav-desktop { display: none; }
+            .hamburger { display: flex; }
+            .page-hero h1 { font-size: 2.2rem; }
+            .committee-grid { grid-template-columns: 1fr; }
+            .contact-grid { grid-template-columns: 1fr; }
+            .footer-inner { grid-template-columns: 1fr; gap: 24px; }
+            .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <span class="logo-name">Luke Parker</span>
+                <span class="logo-tag">Reform UK Councillor</span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="/">Articles</a>
+                <a href="/about.html" class="active">About</a>
+                <a href="/#contact">Contact</a>
+            </nav>
+            <button class="hamburger" onclick="document.querySelector('.nav-mobile').classList.toggle('open')" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/">Articles</a>
+            <a href="/about.html">About</a>
+            <a href="/#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1>About <span>Luke Parker</span></h1>
+            <p>County Councillor for Preston East. Businessman. Community champion. Fighting for real change in Lancashire.</p>
+        </div>
+    </section>
+
+    <div class="about-content">
+
+        <section class="about-section">
+            <h2>Who I Am</h2>
+            <p>I'm Luke Parker, the Reform UK County Councillor for Preston East, representing the communities of Brookfield, Ribbleton, and Garrison on Lancashire County Council. I was elected in May 2025 and I'm proud to serve until 2029.</p>
+            <p>Before entering politics, I built a successful business from the ground up — a growing company that employs local people and trades both nationally and internationally. Through that experience, I've learned how to manage budgets, create jobs, and deliver real results under pressure. I bring that same no-nonsense approach to my work on the council.</p>
+            <p>I got into politics because I was fed up with the same old broken promises and wasteful spending. People in Preston East deserve a councillor who actually listens, turns up, and fights their corner. That's what I aim to do every single day.</p>
+        </section>
+
+        <section class="about-section">
+            <h2>Committee Memberships</h2>
+            <p>I serve on a number of key committees across Lancashire County Council, the Lancashire Combined County Authority, and the Lancashire Combined Fire Authority. This is where the real work gets done — scrutinising decisions, holding the administration to account, and making sure your voice is heard.</p>
+
+            <div class="committee-grid">
+                <div class="committee-card">
+                    <h3>Full Council</h3>
+                    <div class="role">Committee Member</div>
+                    <div class="body">Lancashire County Council</div>
+                </div>
+                <div class="committee-card">
+                    <h3>Audit &amp; Governance Committee</h3>
+                    <div class="role">Committee Member</div>
+                    <div class="body">Lancashire Combined County Authority</div>
+                </div>
+                <div class="committee-card">
+                    <h3>Overview &amp; Scrutiny Committee</h3>
+                    <div class="role">Committee Member</div>
+                    <div class="body">Lancashire Combined County Authority</div>
+                </div>
+                <div class="committee-card">
+                    <h3>Environment, Economic Growth &amp; Transport Scrutiny</h3>
+                    <div class="role">Committee Member</div>
+                    <div class="body">Lancashire County Council</div>
+                </div>
+                <div class="committee-card">
+                    <h3>Employment Committee</h3>
+                    <div class="role">Committee Member</div>
+                    <div class="body">Lancashire County Council</div>
+                </div>
+                <div class="committee-card">
+                    <h3>Health &amp; Adult Services Scrutiny</h3>
+                    <div class="role">Committee Member</div>
+                    <div class="body">Lancashire County Council</div>
+                </div>
+                <div class="committee-card">
+                    <h3>Urgency Committee of the Full Council</h3>
+                    <div class="role">Reform UK Designation</div>
+                    <div class="body">Lancashire County Council</div>
+                </div>
+                <div class="committee-card">
+                    <h3>Cabinet</h3>
+                    <div class="role">County Councillor in Attendance</div>
+                    <div class="body">Lancashire County Council</div>
+                </div>
+                <div class="committee-card">
+                    <h3>Lancashire Combined Fire Authority</h3>
+                    <div class="role">Elected Member</div>
+                    <div class="body">Lancashire Fire &amp; Rescue Service</div>
+                </div>
+            </div>
+
+            <div class="outside-bodies">
+                <h3>Outside Body Appointments</h3>
+                <ul class="outside-body-list">
+                    <li>Central Lancashire Strategic Planning Joint Advisory Committee</li>
+                    <li>Community Safety Partnership — Preston</li>
+                    <li>Educational Foundation of John Farrington</li>
+                    <li>Joint Advisory Committee for Strategic Planning (Minerals and Waste Local Plan)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>Business Background</h2>
+            <p>I'm not a career politician — I'm a businessman who got into politics to make a difference. I built a company from nothing into a growing enterprise that employs local people and trades nationally and internationally. I know what it takes to balance the books, make tough decisions, and deliver results because I've done it in the real world, not from behind a desk in County Hall.</p>
+            <p>That experience is exactly what local government needs. Too many decisions are made by people who've never run anything, never had to make payroll, and never had to answer to customers. I bring a practical, results-driven mindset to every committee I sit on and every decision I'm involved in.</p>
+        </section>
+
+        <section class="about-section">
+            <h2>What I Stand For</h2>
+            <p>I believe in real investment in our communities, safer streets, and delivering tangible results rather than empty promises. I'm committed to holding the council to account on how your money is spent, pushing for better local services, and ensuring that the people of Preston East have a strong, independent voice on Lancashire County Council.</p>
+            <p>Whether it's scrutinising the county budget, challenging poor decisions on transport and infrastructure, or fighting for better health and adult services, I'm in this to make a real difference — not to climb a political ladder.</p>
+        </section>
+
+        <section class="about-section">
+            <h2>Get In Touch</h2>
+            <p>I'm always happy to hear from residents in Preston East or anyone who wants to get involved with Reform UK in Lancashire. Don't hesitate to reach out.</p>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="icon">&#9993;</div>
+                    <h3>Council Email</h3>
+                    <a href="mailto:luke.parker@lancashire.gov.uk">luke.parker@lancashire.gov.uk</a>
+                </div>
+                <div class="contact-card">
+                    <div class="icon">&#128222;</div>
+                    <h3>Phone</h3>
+                    <a href="tel:07756505335">07756 505335</a>
+                </div>
+                <div class="contact-card">
+                    <div class="icon">&#127970;</div>
+                    <h3>Correspondence</h3>
+                    <p>Reform UK Group Office<br>County Hall, Preston<br>PR1 0LD</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-about">
+                <h4>Luke Parker</h4>
+                <p>Reform UK County Councillor for Preston East. Bringing common sense, accountability, and a business mindset to Lancashire County Council.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="/">Articles</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:luke.parker@lancashire.gov.uk">Email</a></li>
+                    <li><a href="https://x.com/" target="_blank" rel="noopener">X / Twitter</a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Luke Parker. All rights reserved.</span>
+            <div>
+                <a href="/sitemap.xml">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
