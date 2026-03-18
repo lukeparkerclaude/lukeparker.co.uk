@@ -1,24 +1,114 @@
 {
   "articles": [
     {
-      "title": "Reform UK Councils Deliver the Lowest Council Tax Rises \u2014 And That's Just the Start",
+      "slug": "new-reform-uk-group-leader-for-staffordshire-county-council-elected-staffordshire-county-council",
+      "title": "New Reform UK Group Leader for Staffordshire County Council Elected - Staffordshire County Council",
+      "category": "Council Reform",
+      "date": "2026-03-18T09:43:18.785143",
+      "source": "Google News - Council Reform",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZXZFTGxOMTFFQ0lRUXdFd0k4c1VYOGQxZTdIRTlIUll3Mk9GUUNtSllUZnU3RlNfVTJHMmt2T09UOVM4aHA5RE1KYW9oSHBocUE5NDVyMUk5RXA3dXpib1ZiVUxaQjQ5UVg5SGdGV2piWDg5Sk9oNlJEUFoyNEtSSWQ3Z2xZV3Vnc0xDWUZWdnVqU3lTWThYOHJPRjB1VlZ3cWZCVFhnN24yRFE2RHU0?oc=5",
+      "original_title": "New Reform UK Group Leader for Staffordshire County Council Elected - Staffordshire County Council"
+    },
+    {
+      "slug": "reform-uk-council-leader-narrowly-survives-no-confidence-vote-bbc",
+      "title": "Reform UK council leader narrowly survives no confidence vote - BBC",
+      "category": "Council Reform",
+      "date": "2026-03-18T09:42:55.932276",
+      "source": "Google News - Council Reform",
+      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBIOEtmTUg3VXFqX3hoVmc4NTFVY0hZY2ZvODIxODh2OU15LTg5blBMYUhwYkt5RFpnZ1diUHNXWmFlYm1yNmlXYWdPTnZRV1JEQ3B4QzAwRQ?oc=5",
+      "original_title": "Reform UK council leader narrowly survives no confidence vote - BBC"
+    },
+    {
+      "slug": "reform-uk-councils-deliver-lowest-average-tax-rises-the-telegraph",
+      "title": "Reform UK councils deliver lowest average tax rises - The Telegraph",
+      "category": "Economy",
+      "date": "2026-03-18T09:42:31.926855",
+      "source": "Google News - Council Reform",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdEJZc21BdDJ6cFhTaHB4bWhaYkFJSEZva1AyT25sUFN4ZDdQWGMxZVZFcnRMdGNHdFR4MjloSThKaVBOYndweTA0SXFLU18xb1V5QUxWZE15bGEtRGF5T1BjU21lckM0U0hkT2RpREFpMmt6WjZSWHNtbjUyMnRJR2FqS05uOHJqVW43T3JSU2N3NWlJaXZQV0RVUUE?oc=5",
+      "original_title": "Reform UK councils deliver lowest average tax rises - The Telegraph"
+    },
+    {
+      "slug": "reform-uk-council-to-declare-migration-emergency-the-european-conservative",
+      "title": "Reform UK Council To Declare Migration Emergency - The European Conservative",
+      "category": "Immigration",
+      "date": "2026-03-18T09:42:09.261008",
+      "source": "Google News - Council Reform",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPXzVya3F2YXZUR2VjTzVGSlR1UnpoQmpMUl9wcHNPcHI4X2FnNU9ZbW52QkpKbGI2UWRHbUY5dG5SVVA2QTJRR1ZnY0JwZ2VWa0JZcmNQZEJiRFdUQzNlSUE4Q1U3bVc5dDZ2WFJac2VDb29HSDdhekp3S0VWMTNpcVhUZ09NUkNxX1F2UXA4YnBiZnhUdTYyeWlfcGY?oc=5",
+      "original_title": "Reform UK Council To Declare Migration Emergency - The European Conservative"
+    },
+    {
+      "slug": "the-elections-watchdog-doesnt-know-where-reform-uk-s-crypto-donations-are-coming-from-byline-times",
+      "title": "The Elections Watchdog Doesn’t Know Where Reform UK's Crypto Donations Are Coming From - Byline Times",
+      "category": "General",
+      "date": "2026-03-18T09:41:47.476373",
+      "source": "Google News - Reform UK",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWmZsX0tTZGY3ZF95TWphSlBMS0FqaWVJT0k4eFY3Nm5EUUVNbFU1OGppWHotZE9WSVRNMGdiSHZGSGc3UXFiYW82NEZrekdZcmItUHYzQXZHWGVYT0VyU0Eta2hveFJ4R19kTHFtYTBXaHNfSzk5WHZmMTN0SEpqZWJUY2I1NzMwcnBtUXpucjl4ZWdrbU9TNmhPLXc5Mm5DUV9OUU9XM04yaC1xeEN2NENoODBUQV9NcFVNSQ?oc=5",
+      "original_title": "The Elections Watchdog Doesn’t Know Where Reform UK's Crypto Donations Are Coming From - Byline Times"
+    },
+    {
+      "slug": "reform-uk-pledges-tougher-migration-citizenship-rules-ahead-of-2029-election-the-arab-weekly",
+      "title": "Reform UK pledges tougher migration, citizenship rules ahead of 2029 election - The Arab Weekly",
+      "category": "Immigration",
+      "date": "2026-03-18T09:41:23.541955",
+      "source": "Google News - UK Reform Policy",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ1EzTXhsYU14a291NnZtOG53SHNudW42WkkwTnU1OVRUTUNMakFxVV9aWjlrOWExbGUtWWIwOHhOX1B6dUJGdHh3ZUtIazZKMEUwUVRYMm45MTdrRHBXM290MGY1cFpqcFZmQWNtWDV3SEg4X2VQY21pQ0lSZl92VXhHU04tMHQ5WEkyUW0yRG5KNnVnX3FneG5rNGYxU21R?oc=5",
+      "original_title": "Reform UK pledges tougher migration, citizenship rules ahead of 2029 election - The Arab Weekly"
+    },
+    {
+      "slug": "reform-uk-a-foreign-policy-of-withdrawal-next-century-foundation",
+      "title": "Reform UK: A Foreign Policy of Withdrawal - Next Century Foundation",
+      "category": "General",
+      "date": "2026-03-18T09:40:58.960454",
+      "source": "Google News - UK Reform Policy",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVmhnVFZhV05Jc0s0bXZwWW53MVZhS0hGOUJCeDZGTG1HMUNiWEhZRE9iYVkzcFJ1MDZVeHg0VlNRTnN1V2p4bG4zTmotVE51ZFRDMEdYVTJJRDRvWXgyMlc4WlgyZ0JKbWNsOGVPSlFMSmNqV2djdVhxTU9ZbEpCMUZ3RlExdw?oc=5",
+      "original_title": "Reform UK: A Foreign Policy of Withdrawal - Next Century Foundation"
+    },
+    {
+      "slug": "does-reform-uk-have-a-foreign-policy-chatham-house",
+      "title": "Does Reform UK have a foreign policy? - Chatham House",
+      "category": "Housing",
+      "date": "2026-03-18T09:40:37.434276",
+      "source": "Google News - UK Reform Policy",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14c29uS0h6aXhGSWxQTFgxSG9NY0JLb3hjUHgydTItMEV2V0U1SUxhcUwwMUhFQ3EwT205S3VsczBTbHN2bTU5N0FONy1vRjlvUDlQbXl0WC1sM0IycVdwc1NoN0dIX2hlbkEtdnNxYWZQVHBuYVlUeEw4MA?oc=5",
+      "original_title": "Does Reform UK have a foreign policy? - Chatham House"
+    },
+    {
+      "slug": "reform-uk-s-doge-promises-amounted-to-little-elsewhere-so-why-will-southport-be-different-the-southp",
+      "title": "Reform UK's DOGE promises amounted to little elsewhere - so why will Southport be different? - The Southport Lead",
+      "category": "Housing",
+      "date": "2026-03-18T09:40:13.410849",
+      "source": "Google News - Council Reform",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSXFNNEY4UGlHcGNwR0Y4NVh5R2d6Y0dGWDZDSlFEd0JQemIzTjlZc1A5dTY2T1BFYXl3ZHllRmV0QWxKTWJDSVRHc2U2UGwzQjRmTHM2ZE9lYnFMOXNGelFmOU00YlY1SVp3ZW9RdkhuVTBQX0V2am5CRGlmb201V3dHVElQSlpPbS1Fcm54b0t2cnpMSGpfX3hIanhJdzZyYWxvZ1BIemEtVmF5cFpKUExQRUVEb2lCRDBoZWVrbHN6WE1sT2FhWHB5Z2c?oc=5",
+      "original_title": "Reform UK's DOGE promises amounted to little elsewhere - so why will Southport be different? - The Southport Lead"
+    },
+    {
+      "slug": "reform-uk-government-would-replace-top-civil-servants-with-those-more-likely-to-implement-partys-pri",
+      "title": "Reform UK government would replace top civil servants with those ‘more likely to implement party’s priorities’ - The Guardian",
+      "category": "General",
+      "date": "2026-03-18T09:39:49.708131",
+      "source": "Google News - UK Reform Policy",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNXzNCdWlhZ1hnaEw5UW5jNThJdWtQMzh5RmdLaDA1c2x6cmt3al8zcW92WWIzVTJnTXZiZHdLa1NTM0paSjk0TktSVndvdGVNOEhuOGNwTE1qSjhXMFU5X0NkTk93LTc1b0tkV3J6N0Z5SFVfeVFoZV9oUU5WaGowM3JybDI2QW5tUUIzMEcwM2FROXV3SWQtUEcxYWNJb3UzcnRtZHNPb1hCUEduVmZXU19qVEh6OHNxTlp0Vg?oc=5",
+      "original_title": "Reform UK government would replace top civil servants with those ‘more likely to implement party’s priorities’ - The Guardian"
+    },
+    {
+      "title": "Reform UK Councils Deliver the Lowest Council Tax Rises — And That's Just the Start",
       "slug": "reform-uk-councils-deliver-the-lowest-council-tax-rises-and-that-s-just-the-start",
       "date": "2026-03-17",
       "category": "Economy",
       "excerpt": "Reform UK councils are delivering lower council tax increases than Labour, Conservatives, and Lib Dems combined.",
       "read_time": "2 min read",
       "source_url": "",
-      "original_title": "Reform UK Councils Deliver the Lowest Council Tax Rises \u2014 And That's Just the Start"
+      "original_title": "Reform UK Councils Deliver the Lowest Council Tax Rises — And That's Just the Start"
     },
     {
-      "title": "It's Time to Shake Up the Civil Service \u2014 Reform UK Has the Right Idea",
+      "title": "It's Time to Shake Up the Civil Service — Reform UK Has the Right Idea",
       "slug": "it-s-time-to-shake-up-the-civil-service-reform-uk-has-the-right-idea",
       "date": "2026-03-17",
       "category": "Democracy",
       "excerpt": "The civil service needs reform to ensure elected governments can actually implement their mandates.",
       "read_time": "2 min read",
       "source_url": "",
-      "original_title": "It's Time to Shake Up the Civil Service \u2014 Reform UK Has the Right Idea"
+      "original_title": "It's Time to Shake Up the Civil Service — Reform UK Has the Right Idea"
     },
     {
       "title": "Staffordshire Shows How Reform Councils Protect Our Countryside",
@@ -31,25 +121,25 @@
       "original_title": "Staffordshire Shows How Reform Councils Protect Our Countryside"
     },
     {
-      "title": "Immigration Reform Needs to Go Further \u2014 Much Further",
+      "title": "Immigration Reform Needs to Go Further — Much Further",
       "slug": "immigration-reform-needs-to-go-further-much-further",
       "date": "2026-03-17",
       "category": "Immigration",
       "excerpt": "Current government reforms don't match the scale of change the British people are demanding.",
       "read_time": "2 min read",
       "source_url": "",
-      "original_title": "Immigration Reform Needs to Go Further \u2014 Much Further"
+      "original_title": "Immigration Reform Needs to Go Further — Much Further"
     },
     {
-      "title": "Reform UK Needs a Serious Foreign Policy \u2014 And We're Building One",
+      "title": "Reform UK Needs a Serious Foreign Policy — And We're Building One",
       "slug": "reform-uk-needs-a-serious-foreign-policy-and-we-re-building-one",
       "date": "2026-03-17",
       "category": "Democracy",
-      "excerpt": "Migration isn't enough \u2014 Reform must develop comprehensive thinking on Ukraine, security, and Britain's global role.",
+      "excerpt": "Migration isn't enough — Reform must develop comprehensive thinking on Ukraine, security, and Britain's global role.",
       "read_time": "2 min read",
       "source_url": "",
-      "original_title": "Reform UK Needs a Serious Foreign Policy \u2014 And We're Building One"
+      "original_title": "Reform UK Needs a Serious Foreign Policy — And We're Building One"
     }
   ],
-  "last_updated": "2026-03-17"
+  "last_updated": "2026-03-18T09:43:19.785487"
 }
