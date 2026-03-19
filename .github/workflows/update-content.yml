@@ -2,8 +2,6 @@ name: Update Content
 
 on:
   # Run daily at 7am UTC (morning UK time)
-  schedule:
-    - cron: '0 7 * * *'
 
   # Also allow manual trigger from GitHub Actions UI
   workflow_dispatch:
