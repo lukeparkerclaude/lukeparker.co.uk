@@ -820,10 +820,11 @@ def update_homepage_index(dry_run: bool = False) -> None:
     with open(INDEX_FILE, "r", encoding="utf-8") as f:
         index_content = f.read()
 
-    # Find and replace the articles grid
-    # Look for a div with id="articles-grid" or class="articles-grid"
-    pattern = r'(<div[^>]*(?:id|class)="?articles-grid"?[^>]*>)(.*?)(</div>)'
-    replacement = r"\1\n" + article_cards + r"\n    \3"
+    # Find and replace the articles grid content
+    # The grid is: <div id="articles-grid">...articles...</div>\n            </section>
+    # We need to match everything between the opening div and the </div> that precedes </section>
+    pattern = r'(<div\s+id="articles-grid">).*?(</div>\s*</section>)'
+    replacement = r"\1\n" + article_cards + r"\n            \2"
 
     new_content = re.sub(pattern, replacement, index_content, flags=re.DOTALL)
 
