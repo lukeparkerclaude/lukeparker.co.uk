@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OECD Slashes UK Growth Forecast as Labour's Economic Plan Unravels | Luke Parker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #12B0B0;
+            --dark-bg: #0a0e27;
+            --card-bg: #131d3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border: #1f2d4d;
+            --accent: #12B0B0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.8; }
+        a { color: var(--accent); text-decoration: none; }
+        header { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-bottom: 1px solid var(--border); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); letter-spacing: -1px; }
+        .logo span { color: var(--accent); }
+        .nav-links { list-style: none; display: flex; gap: 2rem; }
+        .nav-links a { color: var(--text-secondary); font-size: 0.9rem; font-weight: 500; transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--accent); }
+        .article-hero { background: linear-gradient(135deg, #0a0e27 0%, #0d1a3a 50%, #131d3a 100%); padding: 4rem 2rem; border-bottom: 1px solid var(--border); }
+        .hero-container { max-width: 800px; margin: 0 auto; }
+        .article-meta { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .category-badge { background: var(--accent); color: #000; padding: 0.25rem 0.75rem; border-radius: 2px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .article-meta-info { display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); font-size: 0.85rem; }
+        .meta-separator { color: var(--border); }
+        h1 { font-family: 'Barlow Condensed', sans-serif; font-size: 2.8rem; font-weight: 700; line-height: 1.1; letter-spacing: -1.5px; margin-bottom: 1.5rem; }
+        .article-excerpt { font-size: 1.15rem; color: var(--text-secondary); line-height: 1.6; max-width: 700px; }
+        .article-container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .article-body { font-size: 1.05rem; line-height: 1.8; }
+        .article-body p { margin-bottom: 1.5rem; color: var(--text-secondary); }
+        .article-body h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.8rem; font-weight: 700; color: var(--text-primary); margin: 2.5rem 0 1rem 0; letter-spacing: -0.5px; }
+        .article-body strong { color: var(--text-primary); }
+        .article-body blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(18, 176, 176, 0.05); border-radius: 0 4px 4px 0; }
+        .article-body blockquote p { color: var(--text-secondary); font-style: italic; margin-bottom: 0; }
+        .source-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-top: 3rem; }
+        .source-box p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0; }
+        .share-container { max-width: 800px; margin: 0 auto; padding: 2rem; border-top: 1px solid var(--border); }
+        .share-label { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+        .share-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .share-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 4px; color: var(--text-secondary); font-size: 0.85rem; transition: all 0.3s ease; cursor: pointer; }
+        .share-btn:hover { border-color: var(--accent); color: var(--accent); }
+        footer { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-top: 1px solid var(--border); margin-top: 4rem; padding: 3rem 2rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+        .footer-section h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.5px; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; margin: 0.5rem 0; display: inline-block; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent); }
+        .footer-bottom { border-top: 1px solid var(--border); padding-top: 2rem; text-align: center; color: var(--text-secondary); font-size: 0.9rem; }
+        .footer-bottom p { margin: 0.5rem 0; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .article-hero { padding: 2rem 1.5rem; }
+            .article-container { padding: 2rem 1.5rem; }
+            footer { padding: 2rem 1.5rem; }
+            .footer-container { grid-template-columns: 1fr; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">Economy</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">30 March 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">6 min read</span>
+                    </div>
+                </div>
+                <h1>OECD Slashes UK Growth Forecast as Labour's Economic Plan Unravels</h1>
+                <p class="article-excerpt">The OECD has drastically downgraded its UK growth forecast from 1.2% to just 0.7%âa staggering 42% cut that exposes the failure of Labour's economic strategy. Meanwhile, inflation forecasts have doubled from 2.5% to 4.0%, and consumer confidence has collapsed to its lowest level in over two years.</p>
+            </div>
+        </section>
+
+        <div class="article-container">
+            <div class="article-body">
+                <p>When the Labour government took office, they promised stability. They promised "no surprises," economic competence, and a clear path to prosperity. Fourteen months later, the OECD's latest economic assessment has exposed these promises as hollow political rhetoric. The numbers don't lieâand they tell a damning story about the state of our economy under Sir Keir Starmer's watch.</p>
+
+                <h2>The Verdict is Clear</h2>
+
+                <p>The Organisation for Economic Co-operation and Development, hardly a partisan organisation, has slashed its UK GDP growth forecast for 2026 from 1.2% to just 0.7%. This isn't a minor adjustment or a technical recalibration. This is a downgrade of 42 percentâa seismic shift that reflects a fundamental deterioration in economic prospects. For context, this growth rate would place the UK at the bottom of the G7 nations, trailing even countries facing far more serious structural challenges.</p>
+
+                <p>More alarming still, the OECD simultaneously raised its inflation forecast from 2.5% to 4.0%âdoubling the expected rate of price growth. This is stagflation in the making: slow growth, rapid price increases, and a declining standard of living for ordinary working people. This combination is the economist's nightmare, and it's exactly what Labour's policies have delivered.</p>
+
+                <h2>Consumer Confidence Tells the Real Story</h2>
+
+                <p>Economic forecasts are important, but they tell only part of the story. The real measure of Labour's failure can be seen in consumer confidence, which has collapsed to its lowest level in more than two years. British families aren't confused by technical economic indicatorsâthey understand what's happening in their own lives. They're seeing prices rising at every supermarket checkout, energy bills climbing, and wages failing to keep pace.</p>
+
+                <p><strong>This lack of confidence isn't pessimism; it's realism.</strong> Households across Britain are tightening their belts because they can see the direction the economy is heading. They're saving less, spending less, and making harder choices about basics. This lack of consumer spending is a direct drag on economic growth, creating a vicious cycle: weaker growth leads to more caution, which leads to even weaker growth.</p>
+
+                <h2>The Bank of England's Difficult Position</h2>
+
+                <p>Caught in the middle of this economic deterioration, the Bank of England held interest rates at 3.75% at its latest meeting. The central bank faces an impossible choice: raising rates further to combat inflation risks tipping the economy into recession, while keeping rates at current levels allows price pressures to persist. This is the precise position any government wants to avoid, yet it's where Labour's policies have left us.</p>
+
+                <p>The Bank of England cannot fix the structural problems created by Labour's approach to energy policy, taxation, and regulation. These are government decisionsâand Labour has got them catastrophically wrong. Instead of creating the conditions for business investment and productivity growth, Labour has done the opposite, introducing a host of new costs and uncertainties that freeze business expansion.</p>
+
+                <h2>What We Should Have Done</h2>
+
+                <p>Reform UK has long advocated for an alternative economic strategy grounded in principles that actually work: competitive taxation, smart deregulation, and policies that encourage enterprise and investment. Rather than piling new taxes and burdens on business and working people, we should be creating an environment where productive activity flourishes.</p>
+
+                <p>The data from the OECD vindicate this approach. Countries with lower tax burdens, lighter regulatory touch, and pro-business policies consistently outperform those that take the opposite route. Labour's interventionist strategyâwith higher employer national insurance contributions, energy price policies that deter investment, and a general air of hostility toward the private sectorâhas produced exactly what economic theory predicts: weaker growth, higher inflation, and consumer caution.</p>
+
+                <h2>The Path Forward</h2>
+
+                <p>With growth forecasts slashed and inflation rising, the British economy faces genuine challenges in the period ahead. The government must act decisively to restore business confidence and improve growth prospects. This means tax relief for businesses investing in productivity, a genuine commitment to deregulation, and policies that make Britain attractive for investment rather than investment-proof.</p>
+
+                <p>The OECD's latest forecasts are not destinyâthey reflect current policy settings. Change course, embrace pro-growth policies, and Britain can still deliver the prosperity our people deserve. Continue down the current path, and those forecasts will likely prove optimistic.</p>
+
+                <blockquote>
+                    <p>"The OECD has spoken. Labour's economic plan is failing. The question now is whether they have the political will to change course, or whether pride will keep them committed to policies that are visibly harming working people up and down the country."</p>
+                </blockquote>
+            </div>
+
+            <div class="source-box">
+                <p><strong>Sources:</strong> OECD Economic Outlook, March 2026; Bank of England Interest Rate Decision, March 2026; Consumer Confidence Index</p>
+            </div>
+        </div>
+
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 009-5.5c4.75 2.25 7-7 7-7"/></svg>
+                    Twitter
+                </a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                    </svg>
+                    Copy Link
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/about">About Luke Parker</a></li>
+                    <li><a href="/contact">Get in Touch</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Topics</h3>
+                <ul>
+                    <li><a href="/articles?category=immigration">Immigration</a></li>
+                    <li><a href="/articles?category=economy">Economy</a></li>
+                    <li><a href="/articles?category=nhs">NHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://twitter.com" target="_blank">Twitter/X</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function shareOnTwitter(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const title = document.querySelector('h1').textContent;
+            const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title + ' - ')}&url=${encodeURIComponent(url)}`;
+            window.open(twitterUrl, 'twitter-share', 'width=600,height=400');
+        }
+
+        function shareOnFacebook(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+            window.open(facebookUrl, 'facebook-share', 'width=600,height=400');
+        }
+
+        function copyLink(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = e.currentTarget;
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
