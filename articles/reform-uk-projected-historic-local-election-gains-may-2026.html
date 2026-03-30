@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reform UK Projected for Historic Local Election Gains This May | Luke Parker</title>
+    <meta name="description" content="With polling at 27% and growing, Reform UK is projected to make historic gains in the May 2026 local elections, potentially taking control of county councils across England for the first time.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #12B0B0;
+            --dark-bg: #0a0e27;
+            --card-bg: #131d3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border: #1f2d4d;
+            --accent: #12B0B0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        header {
+            background: rgba(10, 14, 39, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span { color: var(--accent); }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover { color: var(--accent); }
+
+        .article-hero {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem 2rem;
+        }
+
+        .hero-container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: rgba(18, 176, 176, 0.15);
+            color: var(--accent);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-radius: 4px;
+            border: 1px solid rgba(18, 176, 176, 0.3);
+        }
+
+        .article-meta-info {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .meta-separator { color: var(--accent); }
+
+        h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2.75rem;
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -1.5px;
+        }
+
+        .article-excerpt {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-top: 1.5rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .article-hero { padding: 2rem 1.5rem; }
+            h1 { font-size: 1.75rem; }
+            .article-meta { flex-direction: column; align-items: flex-start; }
+        }
+
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 2rem;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .article-body {
+            max-width: 720px;
+            margin: 0 auto 3rem;
+        }
+
+        .article-body h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 2rem 0 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .article-body h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 1.5rem 0 0.75rem;
+            letter-spacing: -0.3px;
+        }
+
+        .article-body p {
+            margin: 1.5rem 0;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+
+        .article-body ul, .article-body ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+            line-height: 1.8;
+        }
+
+        .article-body li { margin: 0.75rem 0; }
+
+        .article-body strong {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .article-body em {
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .article-body blockquote {
+            border-left: 4px solid var(--accent);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .article-body a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .article-body a:hover { border-bottom-color: var(--accent); }
+
+        @media (max-width: 768px) {
+            .article-container { padding: 2rem 1.5rem; }
+            .article-body h2 { font-size: 1.4rem; }
+        }
+
+        .source-box {
+            max-width: 720px;
+            margin: 3rem auto 3rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 6px;
+        }
+
+        .source-box p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .source-box a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .source-box a:hover { text-decoration: underline; }
+
+        .share-container {
+            max-width: 720px;
+            margin: 3rem auto;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .share-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .share-btn:hover {
+            background: var(--accent);
+            color: var(--dark-bg);
+            border-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .share-buttons { flex-direction: column; }
+            .share-btn { justify-content: center; }
+        }
+
+        .more-articles {
+            max-width: 1200px;
+            margin: 4rem auto 0;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .more-articles h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            letter-spacing: -0.75px;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .article-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--text-primary);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #12B0B0 0%, #0a8a8a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-category {
+            color: var(--accent);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
+        }
+
+        .card-excerpt {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .card-meta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .more-articles h2 { font-size: 1.5rem; }
+            .articles-grid { grid-template-columns: 1fr; }
+        }
+
+        footer {
+            background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%);
+            border-top: 1px solid var(--border);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-section ul { list-style: none; }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover { color: var(--accent); }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom p { margin: 0.5rem 0; }
+
+        @media (max-width: 768px) {
+            footer { padding: 2rem 1.5rem; }
+            .footer-container { grid-template-columns: 1fr; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ARTICLE HERO -->
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">General</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">30 March 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">6 min read</span>
+                    </div>
+                </div>
+                <h1>Reform UK Projected for Historic Local Election Gains This May</h1>
+                <p class="article-excerpt">With polling at 27% and growing, Reform UK is projected to make historic gains in the May 2026 local elections, potentially taking control of county councils across England for the first time.</p>
+            </div>
+        </section>
+
+        <!-- ARTICLE BODY -->
+        <div class="article-container">
+            <div class="article-body">
+                <p>Something remarkable is happening in British politics, and the establishment parties are only just beginning to understand it. Reform UK, a party that barely existed at local level five years ago, is now projected to make historic gains in the May 2026 county council elections. This isn't a protest vote. This is a political movement that's putting down roots in communities across the country.</p>
+
+                <h2>The Numbers Tell the Story</h2>
+
+                <p><strong>Reform UK is polling at 27% nationallyâand in many county council areas, that figure is even higher.</strong> Projections from Electoral Calculus and other respected forecasters suggest Reform could take overall control of county councils in Essex, Norfolk, and Suffolk, while making substantial gains across the Midlands, the North West, and the South East.</p>
+
+                <p>These projections build on what was already an extraordinary 2025 for the party. In last year's local elections, Reform UK won 677 council seatsâa result that shattered expectations and established the party as a serious force in local government. The May 2026 elections, with their larger county council divisions, represent an even bigger opportunity to translate national polling into real democratic power.</p>
+
+                <p>The elections on 7 May will cover county councils across England, and Reform UK is standing candidates in virtually every division. This isn't a party cherry-picking winnable seats. This is a party that's built the ground-level organisation to compete everywhere.</p>
+
+                <h2>Why Voters Are Turning to Reform</h2>
+
+                <p>The shift towards Reform UK isn't happening in a vacuum. It's a direct response to the failures of the two main parties. Labour, having won a commanding majority in 2024, has managed to disappoint on virtually every metric that matters to working people. Wage growth is at five-year lows. Immigration remains at record levels. Public services are stretched beyond breaking point.</p>
+
+                <p>The Conservatives, meanwhile, have failed to offer a credible alternative. Their leadership has been consumed by internal disputes rather than presenting a clear vision for the country. Voters who once held their noses and voted Tory because they had no alternative now have oneâand they're taking it.</p>
+
+                <p><strong>What makes Reform's growth particularly significant is that it's happening at the local level.</strong> National polling is one thing, but building a base of elected councillors who deliver for their communities is what transforms a political movement into a permanent fixture of British politics. That process is well underway.</p>
+
+                <h2>What Reform Councillors Will Do Differently</h2>
+
+                <p>Reform UK councillors aren't just there to fill seats. They're elected with a mandate to challenge the cosy consensus that has dominated local government for decades. That means demanding better value for money from council spending, opposing vanity projects that benefit nobody, and ensuring that local services actually serve local people.</p>
+
+                <p>In county councils, Reform UK councillors will push for transparency in spending, challenge wasteful diversity and inclusion bureaucracies, and ensure that core servicesâroads, social care, education support, waste collectionâare properly funded and efficiently delivered. Too many councils have spent years prioritising fashionable causes while potholes go unfilled and waiting lists grow.</p>
+
+                <p>Reform UK also brings a fresh approach to planning and development. Communities deserve a say in what gets built and where. The current system, where developers ride roughshod over local objections with the blessing of central government, isn't working. Reform councillors will fight for genuine community input into planning decisions.</p>
+
+                <h2>The Bigger Picture</h2>
+
+                <p>The May elections matter beyond local government. A strong performance for Reform UK sends a powerful message to Westminster that the political landscape has fundamentally changed. <strong>If Reform takes control of county councils, it demonstrates that the party can governânot just protestâand that opens the door to even greater success in future general elections.</strong></p>
+
+                <p>Labour and the Conservatives have both tried to dismiss Reform as a flash in the pan. The evidence says otherwise. A party that goes from zero councillors to potentially running county councils in the space of a few years isn't a protest movementâit's a revolution in British politics. And it's one that's built on a simple proposition: ordinary people deserve a government that actually listens to them.</p>
+
+                <p>The 7th of May will be a historic day for Reform UK and for the millions of voters who have been let down by the political establishment. Whether you're in Essex, Lancashire, Norfolk, or anywhere else where elections are taking place, your vote matters. Reform UK is ready to govern. The question is whether the old parties are ready for what's coming.</p>
+            </div>
+
+            <!-- SOURCE ATTRIBUTION -->
+            <div class="source-box">
+                <p><strong>Source:</strong> Electoral Calculus local election projections, March 2026. Reform UK local election candidate data and 2025 local election results from the Electoral Commission.</p>
+            </div>
+        </div>
+
+        <!-- SHARE BUTTONS -->
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"/>
+                    </svg>
+                    Twitter
+                </a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                    </svg>
+                    Copy Link
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/about">About Luke Parker</a></li>
+                    <li><a href="/contact">Get in Touch</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Topics</h3>
+                <ul>
+                    <li><a href="/articles?category=immigration">Immigration</a></li>
+                    <li><a href="/articles?category=economy">Economy</a></li>
+                    <li><a href="/articles?category=nhs">NHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://twitter.com" target="_blank">Twitter/X</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function shareOnTwitter(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const title = document.querySelector('h1').textContent;
+            const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title + ' - ')}&url=${encodeURIComponent(url)}`;
+            window.open(twitterUrl, 'twitter-share', 'width=600,height=400');
+        }
+
+        function shareOnFacebook(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+            window.open(facebookUrl, 'facebook-share', 'width=600,height=400');
+        }
+
+        function copyLink(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = e.currentTarget;
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
