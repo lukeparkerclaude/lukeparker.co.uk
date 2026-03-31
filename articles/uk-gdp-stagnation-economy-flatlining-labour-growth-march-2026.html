@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDP Data Confirms What Everyone Already Knew: Britain's Economy Is Flatlining Under Labour | Luke Parker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #12B0B0;
+            --dark-bg: #0a0e27;
+            --card-bg: #131d3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border: #1f2d4d;
+            --accent: #12B0B0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.8; }
+        a { color: var(--accent); text-decoration: none; }
+        header { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-bottom: 1px solid var(--border); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); letter-spacing: -1px; }
+        .logo span { color: var(--accent); }
+        .nav-links { list-style: none; display: flex; gap: 2rem; }
+        .nav-links a { color: var(--text-secondary); font-size: 0.9rem; font-weight: 500; transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--accent); }
+        .article-hero { background: linear-gradient(135deg, #0a0e27 0%, #0d1a3a 50%, #131d3a 100%); padding: 4rem 2rem; border-bottom: 1px solid var(--border); }
+        .hero-container { max-width: 800px; margin: 0 auto; }
+        .article-meta { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .category-badge { background: var(--accent); color: #000; padding: 0.25rem 0.75rem; border-radius: 2px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .article-meta-info { display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); font-size: 0.85rem; }
+        .meta-separator { color: var(--border); }
+        h1 { font-family: 'Barlow Condensed', sans-serif; font-size: 2.8rem; font-weight: 700; line-height: 1.1; letter-spacing: -1.5px; margin-bottom: 1.5rem; }
+        .article-excerpt { font-size: 1.15rem; color: var(--text-secondary); line-height: 1.6; max-width: 700px; }
+        .article-container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .article-body { font-size: 1.05rem; line-height: 1.8; }
+        .article-body p { margin-bottom: 1.5rem; color: var(--text-secondary); }
+        .article-body h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.8rem; font-weight: 700; color: var(--text-primary); margin: 2.5rem 0 1rem 0; letter-spacing: -0.5px; }
+        .article-body strong { color: var(--text-primary); }
+        .article-body blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(18, 176, 176, 0.05); border-radius: 0 4px 4px 0; }
+        .article-body blockquote p { color: var(--text-secondary); font-style: italic; margin-bottom: 0; }
+        .source-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-top: 3rem; }
+        .source-box p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0; }
+        .share-container { max-width: 800px; margin: 0 auto; padding: 2rem; border-top: 1px solid var(--border); }
+        .share-label { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+        .share-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .share-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 4px; color: var(--text-secondary); font-size: 0.85rem; transition: all 0.3s ease; cursor: pointer; }
+        .share-btn:hover { border-color: var(--accent); color: var(--accent); }
+        footer { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-top: 1px solid var(--border); margin-top: 4rem; padding: 3rem 2rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+        .footer-section h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.5px; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; margin: 0.5rem 0; display: inline-block; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent); }
+        .footer-bottom { border-top: 1px solid var(--border); padding-top: 2rem; text-align: center; color: var(--text-secondary); font-size: 0.9rem; }
+        .footer-bottom p { margin: 0.5rem 0; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .article-hero { padding: 2rem 1.5rem; }
+            .article-container { padding: 2rem 1.5rem; }
+            footer { padding: 2rem 1.5rem; }
+            .footer-container { grid-template-columns: 1fr; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">Economy</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">31 March 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">7 min read</span>
+                    </div>
+                </div>
+                <h1>GDP Data Confirms What Everyone Already Knew: Britain's Economy Is Flatlining Under Labour</h1>
+                <p class="article-excerpt">The latest economic figures reveal a government in denial about the scale of failure. Growth barely exists. Businesses aren't investing. Public confidence is collapsing. And Labour promised us growth was their priority.</p>
+            </div>
+        </section>
+
+        <div class="article-container">
+            <div class="article-body">
+                <p>When Keir Starmer declared that growth would be Labour's "number one mission," he set a clear benchmark for success. By that measure, his government has catastrophically failed. The data released today shows a nation in economic stagnation, with growth rates that barely register and a trajectory that should alarm every household in Britain.</p>
+
+                <p>The headline figures are damning. Fourth quarter 2025 GDP grew by just 0.1%. The services sector â which represents 80% of the British economy â recorded zero growth. Construction contracted by 2.1%. For the full year 2025, the economy managed just 1.3% growth, which in historical terms is anaemic. But the forward guidance is worse: the OECD has cut its growth forecast for 2026 to 0.7%, down from 1.2%. Britain now faces the biggest downgrade of any major advanced economy.</p>
+
+                <p>This isn't just a statistical disappointment. It has real consequences for real people. When the economy stagnates, wages grow slower than inflation. Employment becomes precarious. Small businesses struggle. And living standards fall.</p>
+
+                <h2>A Government That Promised Change, Delivered Decline</h2>
+
+                <p>Labour came to office promising to be different â more dynamic, more pro-business, more focused on delivery than the previous government. They told us they understood business and would create the conditions for growth. Eighteen months in, the economic data suggests otherwise.</p>
+
+                <p>The construction sector's 2.1% contraction is particularly revealing. Construction is the canary in the coal mine of the economy â it's where business confidence translates into actual investment and activity. A sector in contraction suggests that businesses aren't confident about the future and aren't willing to invest in expansion, new facilities, or long-term projects. That's not a sign of an economy about to boom. It's a warning sign.</p>
+
+                <p>The services sector stalling is equally concerning. Services are where Britain has comparative advantage globally. Financial services, professional services, digital services â these are where Britain competes and wins on the world stage. When this sector records zero growth, it suggests that domestic uncertainty and external factors are both weighing heavily on activity.</p>
+
+                <h2>The Confidence Collapse</h2>
+
+                <p>You don't need detailed economic models to understand what's happening. Look at the polling data: 74% of voters now believe "things are getting worse." The Prime Minister's approval rating has hit lows not seen for fifty years. That collapse in public confidence isn't random â it reflects lived experience. People are paying higher energy bills, higher taxes, and seeing slower wage growth.</p>
+
+                <p>Businesses feel the same pressure. When companies don't expect growth, they don't hire, they don't invest, they conserve cash. That cautiousness spreads and becomes self-fulfilling. The economy slows because businesses have correctly read the government's signal that this administration isn't going to create an environment for enterprise and growth.</p>
+
+                <p>Labour has made a series of policy choices that have consistently signalled anti-business sentiment. Employment law changes that make hiring riskier. National insurance contributions that raise employment costs. Increased minimum wage without corresponding productivity growth. Environmental regulations introduced at pace. None of these things are disastrous in isolation, but together they add up to an environment where business looks at prospects and decides to wait and see rather than invest.</p>
+
+                <h2>Where Is the Growth Going to Come From?</h2>
+
+                <p>This is the question that should keep ministers awake at night. If the services sector isn't growing, construction is shrinking, and manufacturing has been struggling for years, where exactly is growth supposed to come from? The government has failed to answer this question coherently.</p>
+
+                <p>Reform UK's answer has always been clear: growth comes from businesses that can invest, hire, and expand. That requires a business environment where regulation is proportionate, costs are under control, and there's a sense that government is working with business, not against it. It requires energy security and stable costs. It requires an immigration system that serves the economy rather than simply expanding the working-age population without regard to skills or integration.</p>
+
+                <p>The government seems to believe growth will arrive through government spending and central planning. But government doesn't create growth â businesses create growth. The role of government is to create conditions where businesses want to invest. Labour has failed at this fundamental task.</p>
+
+                <h2>The Broader Problem: A Government Out of Its Depth</h2>
+
+                <p>These economic figures reflect something deeper than policy mistakes. They reflect a government that doesn't understand what drives economic growth and is repeating the mistakes of previous administrations while being convinced they're charting a new path.</p>
+
+                <p>Growth requires business confidence. It requires certainty about the policy environment. It requires productivity improvements and investment in skills and technology. It requires competitive costs and access to markets. Labour has delivered on none of these fronts. Instead, we have a government focused on managing decline while telling itself it's managing growth.</p>
+
+                <p>The irony is that Labour has had the opportunity to be bold â to genuinely break with the failed policies of recent years and create a new framework for growth. Instead, they've taken the existing system, added more regulation and higher taxes, and hoped for different results.</p>
+
+                <h2>What Needs to Change</h2>
+
+                <p>Real growth requires a genuine pro-growth agenda: competitive corporate taxation, streamlined regulation, energy independence, skills investment, and immigration policy that serves the economy rather than displacing native workers. It requires a government that genuinely believes in enterprise and is willing to get out of the way of those who create jobs and wealth.</p>
+
+                <p>The longer Labour continues with its current approach, the deeper the economic stagnation will become. Confidence doesn't recover from where it currently sits if government continues to signal that it doesn't understand or support enterprise.</p>
+
+                <blockquote>
+                    <p>"You cannot tax and regulate your way to growth. You can only create growth by unleashing the enterprise and ambition of the British people."</p>
+                </blockquote>
+
+                <p>Today's economic data confirms what voters already sense: Britain is stagnating under a government that promised growth but has delivered managed decline. That's not good enough. The nation deserves better â and it's time for a government that understands how to deliver it.</p>
+            </div>
+
+            <div class="source-box">
+                <p><strong>Sources:</strong> Office for National Statistics (GDP data Q4 2025), OECD Economic Outlook (March 2026), Financial Times, BBC News, UK Office for Budget Responsibility, polling data from major UK polling organisations</p>
+            </div>
+        </div>
+
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 009-5.5c4.75 2.25 7-7 7-7"/></svg>
+                    Twitter
+                </a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/></svg>
+                    Facebook
+                </a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                    Copy Link
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/about">About Luke Parker</a></li>
+                    <li><a href="/contact">Get in Touch</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Topics</h3>
+                <ul>
+                    <li><a href="/articles?category=immigration">Immigration</a></li>
+                    <li><a href="/articles?category=economy">Economy</a></li>
+                    <li><a href="/articles?category=nhs">NHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://twitter.com" target="_blank">Twitter/X</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor for Preston East.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function shareOnTwitter(e) { e.preventDefault(); const url = window.location.href; const title = document.querySelector('h1').textContent; window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' - ') + '&url=' + encodeURIComponent(url), 'twitter-share', 'width=600,height=400'); }
+        function shareOnFacebook(e) { e.preventDefault(); window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), 'facebook-share', 'width=600,height=400'); }
+        function copyLink(e) { e.preventDefault(); navigator.clipboard.writeText(window.location.href).then(() => { const btn = e.currentTarget; const orig = btn.textContent; btn.textContent = 'Copied!'; setTimeout(() => btn.textContent = orig, 2000); }); }
+    </script>
+</body>
+</html>
