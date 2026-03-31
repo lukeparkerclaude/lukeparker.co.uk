@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Weeks Out: Why the May Local Elections Could Reshape British Politics | Luke Parker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #12B0B0;
+            --dark-bg: #0a0e27;
+            --card-bg: #131d3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border: #1f2d4d;
+            --accent: #12B0B0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.8; }
+        a { color: var(--accent); text-decoration: none; }
+        header { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-bottom: 1px solid var(--border); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); letter-spacing: -1px; }
+        .logo span { color: var(--accent); }
+        .nav-links { list-style: none; display: flex; gap: 2rem; }
+        .nav-links a { color: var(--text-secondary); font-size: 0.9rem; font-weight: 500; transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--accent); }
+        .article-hero { background: linear-gradient(135deg, #0a0e27 0%, #0d1a3a 50%, #131d3a 100%); padding: 4rem 2rem; border-bottom: 1px solid var(--border); }
+        .hero-container { max-width: 800px; margin: 0 auto; }
+        .article-meta { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .category-badge { background: var(--accent); color: #000; padding: 0.25rem 0.75rem; border-radius: 2px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .article-meta-info { display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); font-size: 0.85rem; }
+        .meta-separator { color: var(--border); }
+        h1 { font-family: 'Barlow Condensed', sans-serif; font-size: 2.8rem; font-weight: 700; line-height: 1.1; letter-spacing: -1.5px; margin-bottom: 1.5rem; }
+        .article-excerpt { font-size: 1.15rem; color: var(--text-secondary); line-height: 1.6; max-width: 700px; }
+        .article-container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .article-body { font-size: 1.05rem; line-height: 1.8; }
+        .article-body p { margin-bottom: 1.5rem; color: var(--text-secondary); }
+        .article-body h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.8rem; font-weight: 700; color: var(--text-primary); margin: 2.5rem 0 1rem 0; letter-spacing: -0.5px; }
+        .article-body strong { color: var(--text-primary); }
+        .article-body blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(18, 176, 176, 0.05); border-radius: 0 4px 4px 0; }
+        .article-body blockquote p { color: var(--text-secondary); font-style: italic; margin-bottom: 0; }
+        .source-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-top: 3rem; }
+        .source-box p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0; }
+        .share-container { max-width: 800px; margin: 0 auto; padding: 2rem; border-top: 1px solid var(--border); }
+        .share-label { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+        .share-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .share-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 4px; color: var(--text-secondary); font-size: 0.85rem; transition: all 0.3s ease; cursor: pointer; }
+        .share-btn:hover { border-color: var(--accent); color: var(--accent); }
+        footer { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-top: 1px solid var(--border); margin-top: 4rem; padding: 3rem 2rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+        .footer-section h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.5px; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; margin: 0.5rem 0; display: inline-block; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent); }
+        .footer-bottom { border-top: 1px solid var(--border); padding-top: 2rem; text-align: center; color: var(--text-secondary); font-size: 0.9rem; }
+        .footer-bottom p { margin: 0.5rem 0; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .article-hero { padding: 2rem 1.5rem; }
+            .article-container { padding: 2rem 1.5rem; }
+            footer { padding: 2rem 1.5rem; }
+            .footer-container { grid-template-columns: 1fr; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">General</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">31 March 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">8 min read</span>
+                    </div>
+                </div>
+                <h1>Five Weeks Out: Why the May Local Elections Could Reshape British Politics</h1>
+                <p class="article-excerpt">On May 7th, voters across England will go to the polls in what could be a defining moment for British politics. Reform UK is positioned to make historic gains. Here's why this moment matters.</p>
+            </div>
+        </section>
+
+        <div class="article-container">
+            <div class="article-body">
+                <p>Five weeks from today, British voters will have an opportunity to reshape local government in this country. The local elections on May 7th, 2026 represent something genuinely unprecedented in modern British politics: the real possibility of a third political force taking control of significant parts of the country's local governance structure.</p>
+
+                <p>Reform UK is currently polling at 27%+ nationally. Projections suggest the party is positioned to take control of multiple county councils â Essex, Norfolk, and Suffolk are among the most likely prospects. The data suggests that 37 councils could change control in these elections, an enormous churn in local political representation. Compare that to just four years ago, when Reform UK barely existed as an electoral presence. The movement from near-zero representation in 2022 to potential control of major councils in 2026 represents a genuine democratic realignment.</p>
+
+                <p>Nigel Farage has invested significantly in this campaign â over Â£5 million committed to the effort â and launched the campaign in March with a rally of 1,500 supporters in Newport. This is serious investment and serious ambition. What's being built isn't a protest movement that will fizzle in a few election cycles. It's the infrastructure of genuine political change.</p>
+
+                <h2>Why This Matters Beyond Council Chambers</h2>
+
+                <p>Local elections might seem distant from Westminster, but they matter profoundly for national politics. Councils employ hundreds of thousands of people. They control spending that directly affects people's daily lives â streets, waste collection, planning decisions, social services. When a political party moves from near-zero presence to controlling major councils, it's demonstrating real operational capacity and the ability to deliver governance on a significant scale.</p>
+
+                <p>For Reform UK, this is crucial. Critics have argued that the party is protest politics, that it can win votes at the ballot box but couldn't actually run things. May's elections will be an opportunity to prove otherwise. When Reform councillors take office and start delivering on promises of value for money, efficiency, and responsive local government, that builds credibility for national office. People will judge Reform not on words but on whether their bins get collected, whether planning decisions make sense, and whether councils are spending money wisely.</p>
+
+                <p>That practical test matters. It's the difference between a protest movement and a political force.</p>
+
+                <h2>A Genuine Democratic Choice</h2>
+
+                <p>What makes May's elections significant is that they represent genuine democratic choice. There's no establishment conspiracy here. Voters are actively choosing to switch their support from the traditional parties because they're tired of business as usual.</p>
+
+                <p>Labour and the Conservatives have dominated local government for decades. They've set the pattern of how councils operate, what they prioritize, how they spend money. Voters in many areas have concluded they want something different. Not because they're extremist or protest voters, but because the existing parties aren't delivering what they want from local government.</p>
+
+                <p>That's democracy in action. People trying something new because the old option isn't working for them.</p>
+
+                <h2>What Reform Councils Will Deliver</h2>
+
+                <p>Reform councillors won't come in and promise miracles. Local government is constrained by budget, by law, by inherited commitments. But there's still enormous scope for better management, better prioritization, and better value for money.</p>
+
+                <p>Councils waste money on bureaucracy, on vanity projects, on poor prioritization. Reform councils will focus on core services that matter to residents: clean streets, safe communities, responsive services, and value for money. We'll cut out the waste, the needless spending, the ideological pet projects that cost money without delivering results.</p>
+
+                <p>That's not revolutionary. It's basic competence. But competence is what voters are looking for when the existing parties promise grand plans and then fail to deliver on basics.</p>
+
+                <p>Reform councils will also be responsive to their communities in ways that traditional councils often aren't. We'll actually listen to what residents want, rather than imposing what officers or senior councillors think is good for them. That's a different approach to governance â less top-down, more bottom-up, more responsive.</p>
+
+                <h2>The Broader Realignment</h2>
+
+                <p>These elections are part of a broader political realignment happening across the country. The traditional two-party system has been fragmenting for years. Brexit accelerated the process. Labour's swing to metropolitan liberalism alienated traditional working-class voters. The Conservatives became the party of managed decline. In that vacuum, Reform UK has grown because it speaks to voters who feel abandoned by the establishment.</p>
+
+                <p>May's elections won't suddenly make Reform the dominant party in British politics. But they could establish it as a genuinely significant force in local government. That changes the political conversation. It means that after May, people will be talking about Reform councils, Reform's track record in local government, and Reform's practical ideas rather than just treating the party as a protest movement.</p>
+
+                <p>That's how third-force politics becomes normalised in British political life. It's not dramatic. It's building, council by council, showing that you can govern competently and deliver results for ordinary people.</p>
+
+                <h2>The Importance of Local Victory</h2>
+
+                <p>Here in Preston East, we're fighting hard for local representation that understands the area's specific challenges and opportunities. Local government is where real change for communities happens. National politics is important, but local councils determine whether your street is clean, whether potholes get fixed, whether planning decisions favour developers or residents, whether services are responsive to community needs.</p>
+
+                <p>Reform councils will bring that focus. Not Westminster politics or national ideology, but local people making local decisions about local priorities in a way that delivers value and results.</p>
+
+                <p>The May elections are significant because they'll show whether that message resonates with voters. The polling suggests it does. The investment from party leadership suggests serious confidence. And the stories we're hearing from communities across the country suggest real appetite for change.</p>
+
+                <h2>A Moment of Genuine Choice</h2>
+
+                <p>In five weeks, voters will have a clear choice. They can stick with the parties that have dominated local government for decades and produced what we see today â stagnant growth, wasted resources, and unresponsive councils. Or they can choose something different, something built on the principle that government should work for people, not against them.</p>
+
+                <p>This is democracy in its purest form. Not shadowy conspiracies or establishment manipulation, but ordinary people making a choice about what they want from their elected representatives. Everything Reform UK has built has been through persuasion and engagement. We've shown up in communities, made the case for why we're different, and let people decide.</p>
+
+                <p>May's elections will be a verdict on whether that case is persuasive. If the polling is right, it will be. And that will mark a significant moment in British politics â the point at which a third force moved from protest to real political power.</p>
+
+                <blockquote>
+                    <p>"Democracy works best when people have real choices. May's elections are about giving voters that choice â and trusting that they'll choose change."</p>
+                </blockquote>
+
+                <p>Five weeks remain. The campaign is building. The message is clear: there's a different way to do politics, a different way to run councils, and a different way to serve communities. On May 7th, voters will decide whether they agree. Everything suggests they will.</p>
+            </div>
+
+            <div class="source-box">
+                <p><strong>Sources:</strong> Reform UK campaign materials, Electoral polling data (March 2026), BBC News, Sky News, Campaign Finance reporting, Council election projection analysis, Farage Newport rally coverage (March 2026)</p>
+            </div>
+        </div>
+
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 009-5.5c4.75 2.25 7-7 7-7"/></svg>
+                    Twitter
+                </a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/></svg>
+                    Facebook
+                </a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                    Copy Link
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/about">About Luke Parker</a></li>
+                    <li><a href="/contact">Get in Touch</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Topics</h3>
+                <ul>
+                    <li><a href="/articles?category=immigration">Immigration</a></li>
+                    <li><a href="/articles?category=economy">Economy</a></li>
+                    <li><a href="/articles?category=nhs">NHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://twitter.com" target="_blank">Twitter/X</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor for Preston East.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function shareOnTwitter(e) { e.preventDefault(); const url = window.location.href; const title = document.querySelector('h1').textContent; window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' - ') + '&url=' + encodeURIComponent(url), 'twitter-share', 'width=600,height=400'); }
+        function shareOnFacebook(e) { e.preventDefault(); window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), 'facebook-share', 'width=600,height=400'); }
+        function copyLink(e) { e.preventDefault(); navigator.clipboard.writeText(window.location.href).then(() => { const btn = e.currentTarget; const orig = btn.textContent; btn.textContent = 'Copied!'; setTimeout(() => btn.textContent = orig, 2000); }); }
+    </script>
+</body>
+</html>
