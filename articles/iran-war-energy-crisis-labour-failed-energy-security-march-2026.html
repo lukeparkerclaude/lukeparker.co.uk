@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britain's Energy Crisis Exposes Labour's Failure to Secure Our Supply | Luke Parker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #12B0B0;
+            --dark-bg: #0a0e27;
+            --card-bg: #131d3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border: #1f2d4d;
+            --accent: #12B0B0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.8; }
+        a { color: var(--accent); text-decoration: none; }
+        header { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-bottom: 1px solid var(--border); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); letter-spacing: -1px; }
+        .logo span { color: var(--accent); }
+        .nav-links { list-style: none; display: flex; gap: 2rem; }
+        .nav-links a { color: var(--text-secondary); font-size: 0.9rem; font-weight: 500; transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--accent); }
+        .article-hero { background: linear-gradient(135deg, #0a0e27 0%, #0d1a3a 50%, #131d3a 100%); padding: 4rem 2rem; border-bottom: 1px solid var(--border); }
+        .hero-container { max-width: 800px; margin: 0 auto; }
+        .article-meta { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .category-badge { background: var(--accent); color: #000; padding: 0.25rem 0.75rem; border-radius: 2px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .article-meta-info { display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); font-size: 0.85rem; }
+        .meta-separator { color: var(--border); }
+        h1 { font-family: 'Barlow Condensed', sans-serif; font-size: 2.8rem; font-weight: 700; line-height: 1.1; letter-spacing: -1.5px; margin-bottom: 1.5rem; }
+        .article-excerpt { font-size: 1.15rem; color: var(--text-secondary); line-height: 1.6; max-width: 700px; }
+        .article-container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .article-body { font-size: 1.05rem; line-height: 1.8; }
+        .article-body p { margin-bottom: 1.5rem; color: var(--text-secondary); }
+        .article-body h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.8rem; font-weight: 700; color: var(--text-primary); margin: 2.5rem 0 1rem 0; letter-spacing: -0.5px; }
+        .article-body strong { color: var(--text-primary); }
+        .article-body blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(18, 176, 176, 0.05); border-radius: 0 4px 4px 0; }
+        .article-body blockquote p { color: var(--text-secondary); font-style: italic; margin-bottom: 0; }
+        .source-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-top: 3rem; }
+        .source-box p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0; }
+        .share-container { max-width: 800px; margin: 0 auto; padding: 2rem; border-top: 1px solid var(--border); }
+        .share-label { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+        .share-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .share-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 4px; color: var(--text-secondary); font-size: 0.85rem; transition: all 0.3s ease; cursor: pointer; }
+        .share-btn:hover { border-color: var(--accent); color: var(--accent); }
+        footer { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-top: 1px solid var(--border); margin-top: 4rem; padding: 3rem 2rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+        .footer-section h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.5px; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; margin: 0.5rem 0; display: inline-block; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent); }
+        .footer-bottom { border-top: 1px solid var(--border); padding-top: 2rem; text-align: center; color: var(--text-secondary); font-size: 0.9rem; }
+        .footer-bottom p { margin: 0.5rem 0; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .article-hero { padding: 2rem 1.5rem; }
+            .article-container { padding: 2rem 1.5rem; }
+            footer { padding: 2rem 1.5rem; }
+            .footer-container { grid-template-columns: 1fr; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">Economy</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">31 March 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">7 min read</span>
+                    </div>
+                </div>
+                <h1>Britain's Energy Crisis Exposes Labour's Failure to Secure Our Supply</h1>
+                <p class="article-excerpt">As the Iranian blockade sends oil prices soaring and energy bills climbing, the government scrambles in damage control. But this crisis didn't appear overnight â it's the result of a decade of neglect and ideological hostility towards domestic energy security.</p>
+            </div>
+        </section>
+
+        <div class="article-container">
+            <div class="article-body">
+                <p>Yesterday's COBRA meeting told the full story. As Brent crude oil approached $120 per barrel and the Strait of Hormuz descended into chaos, Prime Minister Starmer and his team were forced to hold an emergency session with business leaders. It was reactive government at its most obvious â closing the stable door after the horse has bolted.</p>
+
+                <p>The numbers paint a grim picture. Diesel at the pump has surged 13% in recent weeks. Gilt yields have climbed to 5%, the highest level since 2008, signalling that markets have lost confidence in the government's economic direction. And the OECD, in its latest report, delivered perhaps the most damning assessment of all: it has cut the UK's growth forecast to just 0.7% for 2026, making Britain the worst-hit major economy in the world.</p>
+
+                <h2>A Decade of Energy Ideology</h2>
+
+                <p>This crisis didn't happen by accident. It's the culmination of years of policy choices that have systematically undermined Britain's energy independence. When Labour took office in 2024, they inherited a mixed energy portfolio that included both renewable investment and continued North Sea production. But rather than maintain a balanced approach to keeping energy costs down and supplies stable, they made a deliberate choice to turn against domestic energy production.</p>
+
+                <p>Reform UK has consistently argued for energy independence as a matter of national security. We've warned that relying on global energy markets without investing in our own natural resources leaves us vulnerable to exactly the kind of international shock we're experiencing now. The blockade of the Strait of Hormuz has demonstrated this vulnerability in the starkest possible terms.</p>
+
+                <p>Labour's ideological commitment to moving away from North Sea oil and gas, combined with their sluggish approach to renewable deployment and lack of investment in nuclear capacity, has left Britain dangerously exposed. When crisis hits â and in a complex world, crises are inevitable â we need the redundancy and security of multiple energy sources. Instead, we're almost entirely reliant on imports.</p>
+
+                <h2>The Economic Ripple Effect</h2>
+
+                <p>Higher energy prices don't just affect households at the petrol pump or heating bill time. They cascade through the entire economy. Businesses face higher operating costs. Transport companies pass those costs onto consumers. Manufacturers reduce production or move operations elsewhere. The signal markets are sending is clear: they doubt the government's ability to manage this.</p>
+
+                <p>Rachel Reeves has been urging the G7 to boost domestic energy production â which is sensible â but the irony seems lost on the government. Britain has the capability to boost its own domestic energy production through carefully managed North Sea operations and accelerated renewable investment. Instead, they've chosen the path of dependency and now they're scrambling to manage the consequences.</p>
+
+                <p>What's particularly telling is that markets are now pricing in Bank of England rate hikes rather than cuts. This suggests investors believe inflation will remain sticky and growth will remain anaemic â exactly the combination that destroys living standards. The government promised growth as their mission. What we're seeing instead is stagnation with inflation.</p>
+
+                <h2>Security and Sovereignty</h2>
+
+                <p>Energy security is national security. When you depend on global energy markets without control over your own supply, you're vulnerable to geopolitical shocks beyond your control. The Iranian blockade is a perfect example. Britain should be a net exporter of energy, not a supplicant in the global market. That would provide economic benefits, support our manufacturing base, and ensure we're not holding our breath every time there's a crisis in the Middle East.</p>
+
+                <p>Reform UK's position has always been that smart energy policy means maintaining a diverse portfolio: North Sea production managed responsibly, renewable investment accelerated, nuclear capacity expanded, and interconnection with reliable partners. This isn't ideology â it's pragmatism. It's what countries that want genuine energy independence actually do.</p>
+
+                <p>Instead, Labour has chosen to lecture other countries about needing to invest in renewables whilst they themselves have failed to maintain the balanced approach necessary for economic stability and affordable energy.</p>
+
+                <h2>The Deeper Problem</h2>
+
+                <p>This energy crisis is symptomatic of a broader problem: a government that doesn't understand business or economics. Energy companies invest in long-term projects. You can't flip a switch and suddenly have massive renewable capacity online. You can't replace decades of energy infrastructure in five years without enormous costs and dislocation. Smart government manages the transition â it doesn't lurch between ideological poles.</p>
+
+                <p>Labour promised competence. They promised they would fix the economy and deliver growth. Instead, they've delivered ideological purity at the cost of economic resilience. Households are paying more for energy. Businesses are facing higher costs. The pound is weaker. Growth forecasts have been slashed. And the government is holding emergency meetings because they didn't plan for what any sensible administration should have seen coming.</p>
+
+                <blockquote>
+                    <p>"Energy independence isn't luxury â it's necessity. A government that leaves the nation vulnerable to global shocks has failed its most basic responsibility to its citizens."</p>
+                </blockquote>
+
+                <p>The Iranian situation may resolve itself in weeks or months. But the underlying vulnerability will remain until Britain has a government willing to invest intelligently in domestic energy production across all sources. That's what Reform UK would deliver: a balanced, long-term energy strategy that secures our future, keeps costs manageable, and never again leaves the nation holding its breath because of events thousands of miles away.</p>
+            </div>
+
+            <div class="source-box">
+                <p><strong>Sources:</strong> BBC News, Financial Times, Reuters (Brent crude pricing), OECD Economic Outlook (March 2026), Bank of England gilt yield data, UK Department for Energy Security & Net Zero</p>
+            </div>
+        </div>
+
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 009-5.5c4.75 2.25 7-7 7-7"/></svg>
+                    Twitter
+                </a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/></svg>
+                    Facebook
+                </a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                    Copy Link
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/about">About Luke Parker</a></li>
+                    <li><a href="/contact">Get in Touch</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Topics</h3>
+                <ul>
+                    <li><a href="/articles?category=immigration">Immigration</a></li>
+                    <li><a href="/articles?category=economy">Economy</a></li>
+                    <li><a href="/articles?category=nhs">NHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://twitter.com" target="_blank">Twitter/X</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor for Preston East.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function shareOnTwitter(e) { e.preventDefault(); const url = window.location.href; const title = document.querySelector('h1').textContent; window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' - ') + '&url=' + encodeURIComponent(url), 'twitter-share', 'width=600,height=400'); }
+        function shareOnFacebook(e) { e.preventDefault(); window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), 'facebook-share', 'width=600,height=400'); }
+        function copyLink(e) { e.preventDefault(); navigator.clipboard.writeText(window.location.href).then(() => { const btn = e.currentTarget; const orig = btn.textContent; btn.textContent = 'Copied!'; setTimeout(() => btn.textContent = orig, 2000); }); }
+    </script>
+</body>
+</html>
