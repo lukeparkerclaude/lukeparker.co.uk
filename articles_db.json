@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "slug": "labour-funding-cap-reform-uk-crypto-ban-political-donations-april-2026",
+      "title": "Labour’s Funding Cap Is a Naked Attempt to Silence Reform UK",
+      "excerpt": "The government’s plan to cap overseas donations and ban cryptocurrency contributions isn’t about transparency. It’s about cutting off the opposition’s resources while Labour’s own union funding remains untouched.",
+      "category": "general",
+      "date": "2026-04-01",
+      "readTime": "7 min read",
+      "url": "/articles/labour-funding-cap-reform-uk-crypto-ban-political-donations-april-2026.html"
+    },
+    {
+      "slug": "uk-immigration-fees-rise-visa-brake-april-2026",
+      "title": "Immigration Fees Soar While the Borders Stay Open — Labour’s Two-Faced Immigration Policy",
+      "excerpt": "From today, visa and immigration fees rise by up to 7%. But the government isn’t reducing numbers — it’s just making legal migrants pay more while doing nothing about the real crisis.",
+      "category": "immigration",
+      "date": "2026-04-01",
+      "readTime": "7 min read",
+      "url": "/articles/uk-immigration-fees-rise-visa-brake-april-2026.html"
+    },
+    {
+      "slug": "minimum-wage-rise-uk-economy-weak-growth-april-2026",
+      "title": "The Minimum Wage Rise Won’t Save Workers From Labour’s Economic Mess",
+      "excerpt": "Today’s 4.1% wage increase sounds generous. But with growth forecast at just 0.9%, unemployment heading for an 11-year high, and businesses buckling under new costs, workers are being handed a pay rise the economy can’t afford.",
+      "category": "economy",
+      "date": "2026-04-01",
+      "readTime": "6 min read",
+      "url": "/articles/minimum-wage-rise-uk-economy-weak-growth-april-2026.html"
+    },
+    {
+      "slug": "middle-east-war-second-month-uk-energy-security-april-2026",
+      "title": "One Month Into the Middle East Crisis, Starmer Still Has No Plan",
+      "excerpt": "The Prime Minister addressed the nation today as the conflict enters its second month. But behind the diplomatic language and coalition-building, there’s no strategy to protect Britain from the economic fallout — just damage control and empty reassurance.",
+      "category": "general",
+      "date": "2026-04-01",
+      "readTime": "7 min read",
+      "url": "/articles/middle-east-war-second-month-uk-energy-security-april-2026.html"
+    },
+    {
       "slug": "iran-war-energy-crisis-labour-failed-energy-security-march-2026",
       "title": "Britain's Energy Crisis Exposes Labour's Failure to Secure Our Supply",
       "category": "Economy",
