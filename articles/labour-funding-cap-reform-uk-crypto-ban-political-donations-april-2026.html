@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labour's Funding Cap Is a Naked Attempt to Silence Reform UK | Luke Parker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #12B0B0; --dark-bg: #0a0e27; --card-bg: #131d3a; --text-primary: #ffffff; --text-secondary: #a8b2d1; --border: #1f2d4d; --accent: #12B0B0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.8; }
+        a { color: var(--accent); text-decoration: none; }
+        header { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-bottom: 1px solid var(--border); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); letter-spacing: -1px; }
+        .logo span { color: var(--accent); }
+        .nav-links { list-style: none; display: flex; gap: 2rem; }
+        .nav-links a { color: var(--text-secondary); font-size: 0.9rem; font-weight: 500; transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--accent); }
+        .article-hero { background: linear-gradient(135deg, #0a0e27 0%, #0d1a3a 50%, #131d3a 100%); padding: 4rem 2rem; border-bottom: 1px solid var(--border); }
+        .hero-container { max-width: 800px; margin: 0 auto; }
+        .article-meta { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .category-badge { background: var(--accent); color: #000; padding: 0.25rem 0.75rem; border-radius: 2px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .article-meta-info { display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); font-size: 0.85rem; }
+        .meta-separator { color: var(--border); }
+        h1 { font-family: 'Barlow Condensed', sans-serif; font-size: 2.8rem; font-weight: 700; line-height: 1.1; letter-spacing: -1.5px; margin-bottom: 1.5rem; }
+        .article-excerpt { font-size: 1.15rem; color: var(--text-secondary); line-height: 1.6; max-width: 700px; }
+        .article-container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .article-body { font-size: 1.05rem; line-height: 1.8; }
+        .article-body p { margin-bottom: 1.5rem; color: var(--text-secondary); }
+        .article-body h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.8rem; font-weight: 700; color: var(--text-primary); margin: 2.5rem 0 1rem 0; letter-spacing: -0.5px; }
+        .article-body strong { color: var(--text-primary); }
+        .article-body blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(18, 176, 176, 0.05); border-radius: 0 4px 4px 0; }
+        .article-body blockquote p { color: var(--text-secondary); font-style: italic; margin-bottom: 0; }
+        .source-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-top: 3rem; }
+        .source-box p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0; }
+        .share-container { max-width: 800px; margin: 0 auto; padding: 2rem; border-top: 1px solid var(--border); }
+        .share-label { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+        .share-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .share-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 4px; color: var(--text-secondary); font-size: 0.85rem; transition: all 0.3s ease; cursor: pointer; }
+        .share-btn:hover { border-color: var(--accent); color: var(--accent); }
+        footer { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-top: 1px solid var(--border); margin-top: 4rem; padding: 3rem 2rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+        .footer-section h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.5px; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; margin: 0.5rem 0; display: inline-block; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent); }
+        .footer-bottom { border-top: 1px solid var(--border); padding-top: 2rem; text-align: center; color: var(--text-secondary); font-size: 0.9rem; }
+        .footer-bottom p { margin: 0.5rem 0; }
+        @media (max-width: 768px) { h1 { font-size: 2rem; } .article-hero { padding: 2rem 1.5rem; } .article-container { padding: 2rem 1.5rem; } footer { padding: 2rem 1.5rem; } .footer-container { grid-template-columns: 1fr; gap: 1.5rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">General</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">1 April 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">7 min read</span>
+                    </div>
+                </div>
+                <h1>Labour&rsquo;s Funding Cap Is a Naked Attempt to Silence Reform UK</h1>
+                <p class="article-excerpt">The government&rsquo;s plan to cap overseas donations and ban cryptocurrency contributions isn&rsquo;t about transparency. It&rsquo;s about cutting off the opposition&rsquo;s resources while Labour&rsquo;s own union funding remains untouched.</p>
+            </div>
+        </section>
+        <div class="article-container">
+            <div class="article-body">
+                <p>When a government starts rewriting the rules of political funding, the first question should always be: who does this benefit? Labour&rsquo;s announcement that it intends to cap donations from British citizens living overseas at &pound;100,000 and ban cryptocurrency contributions entirely isn&rsquo;t some high-minded reform. It&rsquo;s a targeted political strike aimed squarely at Reform UK.</p>
+
+                <p>The timing tells you everything you need to know. With Reform polling ahead of both legacy parties and projected to win a commanding majority at the next general election, Labour has decided that if it can&rsquo;t beat the opposition in the battle of ideas, it will try to starve it of resources instead.</p>
+
+                <h2>Following the Money</h2>
+
+                <p>Reform UK received &pound;12 million from entrepreneur Christopher Harborne, a British citizen based in Thailand, much of it in cryptocurrency donations. Under Labour&rsquo;s proposals, that funding stream would be almost entirely eliminated. The &pound;100,000 cap on overseas donations would reduce it by over 99%, and the crypto ban would close the door on the method of transfer entirely.</p>
+
+                <p>Meanwhile, Labour&rsquo;s own funding model &mdash; dominated by trade union contributions that run into tens of millions &mdash; remains completely untouched. The Unite union alone donated over &pound;3 million to Labour in the last reporting period. Unison, GMB, and others contributed millions more. None of this is affected by the new rules. It&rsquo;s one rule for Labour, another rule for everyone else.</p>
+
+                <p>This isn&rsquo;t about cleaning up politics. It&rsquo;s about rigging the system in favour of the incumbents. If Labour were serious about funding transparency, they&rsquo;d apply the same caps and restrictions to union donations. They&rsquo;d address the revolving door between union leadership and Labour&rsquo;s front bench. But of course, they won&rsquo;t &mdash; because that would hurt them.</p>
+
+                <h2>The Democratic Deficit</h2>
+
+                <p>What makes this particularly troubling is what it says about Labour&rsquo;s attitude towards democratic competition. In a healthy democracy, parties compete on ideas, policies, and their record in government. Voters decide who they trust to run the country. That&rsquo;s how it should work.</p>
+
+                <p>But Labour isn&rsquo;t competing on ideas anymore. Their economic record is dismal. Growth has stalled. Energy costs have soared. Public services are deteriorating. Immigration remains out of control. Voters are turning away from them in historic numbers. Rather than asking why millions of people are choosing to support Reform UK, Labour has decided the problem is that Reform has the resources to make its case.</p>
+
+                <p>British citizens who live abroad are still British citizens. They still have family here, businesses here, property here. Many of them care deeply about the direction of the country. The idea that their political donations should be capped at a fraction of what domestic donors can give is fundamentally anti-democratic. It creates two tiers of citizenship based on geography.</p>
+
+                <h2>Cryptocurrency and the Future</h2>
+
+                <p>The cryptocurrency ban is equally telling. Labour&rsquo;s hostility to crypto is well documented, and banning it as a method of political donation is consistent with their broader suspicion of financial innovation. But it&rsquo;s also conveniently targeted at Reform&rsquo;s specific funding model.</p>
+
+                <p>Cryptocurrency donations are transparent &mdash; every transaction is recorded on a public blockchain. They&rsquo;re arguably more traceable than cash donations or complex trust structures that established parties have used for decades. The argument that crypto donations are somehow less transparent than traditional funding doesn&rsquo;t survive basic scrutiny.</p>
+
+                <p>What Labour really objects to is that cryptocurrency enables political funding outside the traditional channels they control. It&rsquo;s the same instinct that drives their approach to media regulation, online speech, and protest: if they can&rsquo;t control it, they want to ban it.</p>
+
+                <h2>The Bigger Picture</h2>
+
+                <p>This funding proposal sits alongside a pattern of behaviour from a government that increasingly sees democratic opposition as a problem to be managed rather than a healthy feature of political life. From the use of inflammatory language about Reform and its supporters, to attempts to de-platform and delegitimise legitimate political voices, Labour is demonstrating that it&rsquo;s more comfortable suppressing competition than engaging with it.</p>
+
+                <p>Reform UK&rsquo;s response should be straightforward: diversify funding, build the grassroots donor base even further, and make the case to voters that a government trying to silence the opposition is a government that knows it&rsquo;s losing. The British public can see through these tactics. They understand that when politicians change the rules mid-game, it&rsquo;s because they&rsquo;re losing the game.</p>
+
+                <blockquote>
+                    <p>&ldquo;A government that tries to defund its opposition rather than defeat it with better ideas has already admitted it has no ideas left.&rdquo;</p>
+                </blockquote>
+
+                <p>Labour should be asking itself why millions of British voters are turning to Reform UK. Instead, they&rsquo;re trying to make sure Reform can&rsquo;t afford to compete. That tells you everything about where the real confidence lies in British politics right now &mdash; and it isn&rsquo;t on the Labour benches.</p>
+            </div>
+            <div class="source-box">
+                <p><strong>Sources:</strong> Socialist Party, Electoral Commission donation records, UK Parliament records, The Guardian, Financial Times</p>
+            </div>
+        </div>
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 009-5.5c4.75 2.25 7-7 7-7"/></svg> Twitter</a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/></svg> Facebook</a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> Copy Link</a>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section"><h3>Navigation</h3><ul><li><a href="/articles">Articles</a></li><li><a href="/about">About Luke Parker</a></li><li><a href="/contact">Get in Touch</a></li></ul></div>
+            <div class="footer-section"><h3>Topics</h3><ul><li><a href="/articles?category=immigration">Immigration</a></li><li><a href="/articles?category=economy">Economy</a></li><li><a href="/articles?category=nhs">NHS</a></li></ul></div>
+            <div class="footer-section"><h3>Follow</h3><ul><li><a href="https://twitter.com" target="_blank">Twitter/X</a></li><li><a href="https://facebook.com" target="_blank">Facebook</a></li><li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li></ul></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor for Preston East.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+    <script>
+        function shareOnTwitter(e) { e.preventDefault(); window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.querySelector('h1').textContent + ' - ') + '&url=' + encodeURIComponent(window.location.href), 'twitter-share', 'width=600,height=400'); }
+        function shareOnFacebook(e) { e.preventDefault(); window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), 'facebook-share', 'width=600,height=400'); }
+        function copyLink(e) { e.preventDefault(); navigator.clipboard.writeText(window.location.href).then(() => { const btn = e.currentTarget; const orig = btn.textContent; btn.textContent = 'Copied!'; setTimeout(() => btn.textContent = orig, 2000); }); }
+    </script>
+</body>
+</html>
