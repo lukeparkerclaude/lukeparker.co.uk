@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reform UK's Triple Lock Commitment Shows What a Serious Government Would Look Like | Luke Parker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #12B0B0; --dark-bg: #0a0e27; --card-bg: #131d3a; --text-primary: #ffffff; --text-secondary: #a8b2d1; --border: #1f2d4d; --accent: #12B0B0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--dark-bg); color: var(--text-primary); line-height: 1.8; }
+        a { color: var(--accent); text-decoration: none; }
+        header { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-bottom: 1px solid var(--border); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Barlow Condensed', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); letter-spacing: -1px; }
+        .logo span { color: var(--accent); }
+        .nav-links { list-style: none; display: flex; gap: 2rem; }
+        .nav-links a { color: var(--text-secondary); font-size: 0.9rem; font-weight: 500; transition: color 0.3s ease; }
+        .nav-links a:hover { color: var(--accent); }
+        .article-hero { background: linear-gradient(135deg, #0a0e27 0%, #0d1a3a 50%, #131d3a 100%); padding: 4rem 2rem; border-bottom: 1px solid var(--border); }
+        .hero-container { max-width: 800px; margin: 0 auto; }
+        .article-meta { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .category-badge { background: var(--accent); color: #000; padding: 0.25rem 0.75rem; border-radius: 2px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .article-meta-info { display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); font-size: 0.85rem; }
+        .meta-separator { color: var(--border); }
+        h1 { font-family: 'Barlow Condensed', sans-serif; font-size: 2.8rem; font-weight: 700; line-height: 1.1; letter-spacing: -1.5px; margin-bottom: 1.5rem; }
+        .article-excerpt { font-size: 1.15rem; color: var(--text-secondary); line-height: 1.6; max-width: 700px; }
+        .article-container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .article-body { font-size: 1.05rem; line-height: 1.8; }
+        .article-body p { margin-bottom: 1.5rem; color: var(--text-secondary); }
+        .article-body h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.8rem; font-weight: 700; color: var(--text-primary); margin: 2.5rem 0 1rem 0; letter-spacing: -0.5px; }
+        .article-body strong { color: var(--text-primary); }
+        .article-body blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(18, 176, 176, 0.05); border-radius: 0 4px 4px 0; }
+        .article-body blockquote p { color: var(--text-secondary); font-style: italic; margin-bottom: 0; }
+        .source-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin-top: 3rem; }
+        .source-box p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0; }
+        .share-container { max-width: 800px; margin: 0 auto; padding: 2rem; border-top: 1px solid var(--border); }
+        .share-label { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+        .share-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .share-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 4px; color: var(--text-secondary); font-size: 0.85rem; transition: all 0.3s ease; cursor: pointer; }
+        .share-btn:hover { border-color: var(--accent); color: var(--accent); }
+        footer { background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%); border-top: 1px solid var(--border); margin-top: 4rem; padding: 3rem 2rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+        .footer-section h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -0.5px; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; margin: 0.5rem 0; display: inline-block; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent); }
+        .footer-bottom { border-top: 1px solid var(--border); padding-top: 2rem; text-align: center; color: var(--text-secondary); font-size: 0.9rem; }
+        .footer-bottom p { margin: 0.5rem 0; }
+        @media (max-width: 768px) { h1 { font-size: 2rem; } .article-hero { padding: 2rem 1.5rem; } .article-container { padding: 2rem 1.5rem; } footer { padding: 2rem 1.5rem; } .footer-container { grid-template-columns: 1fr; gap: 1.5rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">General</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">3 April 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">6 min read</span>
+                    </div>
+                </div>
+                <h1>Reform UK&rsquo;s Triple Lock Commitment Shows What a Serious Government Would Look Like</h1>
+                <p class="article-excerpt">Nigel Farage has pledged that Reform UK will maintain and protect the state pension triple lock, funded by Â£40 billion in welfare system reform. It&rsquo;s decisive, fiscally responsible policy-making that stands in sharp contrast to Labour&rsquo;s equivocation. This is how you show you respect pensioners and your country&rsquo;s finances simultaneously.</p>
+            </div>
+        </section>
+        <div class="article-container">
+            <div class="article-body">
+                <p>Politics often comes down to choices. You can have a policy that looks good to everyone and satisfies no one, or you can make clear, defensible choices and stick to them. Reform UK has chosen the latter approach on the triple lock&mdash;and it deserves serious consideration from anyone who believes in both fiscal responsibility and honouring the social contract with those who have worked all their lives.</p>
+
+                <p>The state pension triple lock guarantees that pensions rise each year by whichever is highest: 2.5%, wage inflation, or price inflation. It was introduced in 2010 as a way to protect pensioners from being slowly eroded by inflation, and it remains hugely popular. Pensioners have paid into the system their entire working lives; they deserve security in retirement. Reform UK recognises this. We won&rsquo;t tinker with the promise we make to those who have built this country. But we also recognise that Britain&rsquo;s welfare spending is unsustainable without fundamental reform. So we&rsquo;ve identified the solution: reform the parts of the welfare system that have become bloated, dependent, and economically counterproductive. Fund the triple lock through that reform. Protect pensioners while establishing a welfare system based on work and responsibility.</p>
+
+                <p>The Â£40 billion in welfare savings isn&rsquo;t a arbitrary figure pulled from thin air. It comes from genuine analysis of where British welfare spending is broken. Too many working-age people are on out-of-work benefits when they should be working. Too many people are trapped in systems that penalise employment and reward idleness. Too many benefits have become inherited&mdash;passed from generation to generation with no expectation that recipients will contribute economically. Reform UK would change that. We would introduce rigorous work requirements. We would require job-seeking activity from working-age benefit claimants. We would make work more rewarding than welfare. And those reforms would free up substantial resources that can be directed toward ensuring pensioners&mdash;who have already contributed&mdash;receive the security they&rsquo;ve earned.</p>
+
+                <h2>The Contrast with Labour&rsquo;s Incoherence</h2>
+
+                <p>Labour, by contrast, offers incoherence. They won&rsquo;t commit to the triple lock. They&rsquo;ve suggested it might need &ldquo;review&rdquo; or reform, which is Westminster-speak for &ldquo;we might cut it, but we&rsquo;re not being honest about it.&rdquo; At the same time, they won&rsquo;t make serious decisions about welfare reform, which means the system continues to expand unsustainably. They want to protect pensions but won&rsquo;t say how they&rsquo;ll fund it. They want to control welfare spending but won&rsquo;t implement the difficult policy changes necessary. It&rsquo;s neither fiscally sound nor politically honest.</p>
+
+                <blockquote>
+                    <p>&ldquo;A government shows respect for its people by making clear choices and defending them. Reform UK respects pensioners enough to guarantee their pensions. We respect taxpayers enough to reform a welfare system that has become a trap.&rdquo;</p>
+                </blockquote>
+
+                <h2>Compassion and Responsibility Go Together</h2>
+
+                <p>There&rsquo;s a false dichotomy presented by some in politics: you can either be compassionate or fiscally responsible, but not both. Reform UK rejects this entirely. Real compassion means creating a system where people can live with dignity in retirement after a lifetime of work. Real compassion also means not condemning future generations to unsustainable welfare bills and exploding national debt. The two aren&rsquo;t in tension; they&rsquo;re aligned when you make clear policy choices and stand by them.</p>
+
+                <p>Maintaining the triple lock while reforming welfare to make it sustainable is precisely what serious government looks like. It&rsquo;s not populist&mdash;populism would promise everything to everyone. It&rsquo;s not mean-spirited&mdash;it protects those most vulnerable while requiring contribution from those who can work. It&rsquo;s radical in the truest sense: it goes to the root of the problem and fixes it properly, rather than managing symptoms and hoping the public doesn&rsquo;t notice the decline. This is the kind of clear-eyed, decisive governance that Britain needs. Reform UK offers it. The question is whether voters will choose it.</p>
+            </div>
+            <div class="source-box">
+                <p><strong>Sources:</strong> Bloomberg, The London Economic, Britpanorama, Centre for Policy Studies (April 2026)</p>
+            </div>
+        </div>
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 009-5.5c4.75 2.25 7-7 7-7"/></svg> Twitter</a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/></svg> Facebook</a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> Copy Link</a>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section"><h3>Navigation</h3><ul><li><a href="/articles">Articles</a></li><li><a href="/about">About Luke Parker</a></li><li><a href="/contact">Get in Touch</a></li></ul></div>
+            <div class="footer-section"><h3>Topics</h3><ul><li><a href="/articles?category=immigration">Immigration</a></li><li><a href="/articles?category=economy">Economy</a></li><li><a href="/articles?category=nhs">NHS</a></li></ul></div>
+            <div class="footer-section"><h3>Follow</h3><ul><li><a href="https://twitter.com" target="_blank">Twitter/X</a></li><li><a href="https://facebook.com" target="_blank">Facebook</a></li><li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li></ul></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor for Preston East.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+    <script>
+        function shareOnTwitter(e) { e.preventDefault(); window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.querySelector('h1').textContent + ' - ') + '&url=' + encodeURIComponent(window.location.href), 'twitter-share', 'width=600,height=400'); }
+        function shareOnFacebook(e) { e.preventDefault(); window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), 'facebook-share', 'width=600,height=400'); }
+        function copyLink(e) { e.preventDefault(); navigator.clipboard.writeText(window.location.href).then(() => { const btn = e.currentTarget; const orig = btn.textContent; btn.textContent = 'Copied!'; setTimeout(() => btn.textContent = orig, 2000); }); }
+    </script>
+</body>
+</html>
