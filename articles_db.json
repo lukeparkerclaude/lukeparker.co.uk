@@ -1,6 +1,46 @@
 {
   "articles": [
     {
+      "id": 64,
+      "title": "Trump's 100% Pharma Tariffs Expose Britain's Trade Weakness — And Labour's Desperate Scramble to Avoid Disaster",
+      "slug": "trump-pharma-tariffs-uk-trade-weakness-april-2026",
+      "date": "2026-04-03",
+      "category": "economy",
+      "excerpt": "When the Trump administration imposed 100% tariffs on pharmaceutical imports last week, the British government scrambled for a special exemption that never came. Britain's trade negotiating position has never looked weaker.",
+      "readTime": "7 min read",
+      "url": "/articles/trump-pharma-tariffs-uk-trade-weakness-april-2026.html"
+    },
+    {
+      "id": 65,
+      "title": "Energy Bills Fall — But Labour's Broken Promise Still Costs Families Hundreds",
+      "slug": "energy-bills-fall-labour-broken-promise-april-2026",
+      "date": "2026-04-03",
+      "category": "economy",
+      "excerpt": "Ofgem announced the price cap will drop to £1,641 per year on 1 April 2026. But Labour promised bills would fall by £300 — and families are still paying far more than they should be.",
+      "readTime": "6 min read",
+      "url": "/articles/energy-bills-fall-labour-broken-promise-april-2026.html"
+    },
+    {
+      "id": 66,
+      "title": "Reform UK's Triple Lock Commitment Shows What a Serious Government Would Look Like",
+      "slug": "reform-uk-triple-lock-commitment-april-2026",
+      "date": "2026-04-03",
+      "category": "general",
+      "excerpt": "Nigel Farage has pledged that Reform UK will maintain and protect the state pension triple lock. In a political landscape where pensioners are increasingly squeezed, this commitment matters.",
+      "readTime": "6 min read",
+      "url": "/articles/reform-uk-triple-lock-commitment-april-2026.html"
+    },
+    {
+      "id": 67,
+      "title": "Immigration Fees Rise Again on April 8 — But the Government Still Won't Control the Numbers",
+      "slug": "immigration-fees-rise-april-2026",
+      "date": "2026-04-03",
+      "category": "immigration",
+      "excerpt": "The Home Office is hiking visa fees again on 8 April, with Skilled Worker visas rising to £719 and Indefinite Leave to Remain now costing £3,226. But higher fees are not immigration control. They're revenue raising.",
+      "readTime": "7 min read",
+      "url": "/articles/immigration-fees-rise-april-2026.html"
+    },
+    {
       "title": "Britain Gets the Biggest Growth Downgrade in the G20 — And Labour Still Has No Answer",
       "slug": "oecd-uk-growth-downgrade-worst-g20-economy-april-2026",
       "date": "2 April 2026",
