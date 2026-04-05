@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="74% of British voters say things are getting worse under Labour. Just 8% think things are improving. After eighteen months in power, the verdict is damning.">
+    <meta property="og:title" content="Three Quarters of Voters Say Things Are Getting Worse: Labour's Doom Loop Is Real">
+    <meta property="og:description" content="74% of British voters say things are getting worse under Labour. Just 8% think things are improving. After eighteen months in power, the verdict is damning.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://lukeparker.co.uk/articles/labour-doom-loop-voters-things-getting-worse-april-2026.html">
+    <meta property="og:image" content="https://lukeparker.co.uk/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Three Quarters of Voters Say Things Are Getting Worse: Labour's Doom Loop Is Real">
+    <meta name="twitter:description" content="74% of British voters say things are getting worse under Labour. Just 8% think things are improving. After eighteen months in power, the verdict is damning.">
+    <meta name="twitter:image" content="https://lukeparker.co.uk/og-image.jpg">
+    <title>Three Quarters of Voters Say Things Are Getting Worse: Labour's Doom Loop Is Real</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #12B0B0;
+            --dark-bg: #0a0e27;
+            --card-bg: #131d3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border: #1f2d4d;
+            --accent: #12B0B0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+
+        /* HERO SECTION */
+        .article-hero {
+            background: linear-gradient(135deg, #131d3a 0%, #0a0e27 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 4rem 2rem;
+        }
+
+        .hero-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .category-badge {
+            background: var(--accent);
+            color: var(--dark-bg);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .article-meta-info {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .meta-separator {
+            color: var(--border);
+        }
+
+        h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin: 1rem 0;
+            letter-spacing: -1.5px;
+        }
+
+        .article-excerpt {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-top: 1.5rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .article-hero {
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* ARTICLE CONTENT */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .article-body {
+            max-width: 720px;
+            margin: 0 auto 3rem;
+        }
+
+        .article-body h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 2rem 0 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .article-body h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 1.5rem 0 0.75rem;
+            letter-spacing: -0.3px;
+        }
+
+        .article-body p {
+            margin: 1.5rem 0;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+
+        .article-body ul, .article-body ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+            line-height: 1.8;
+        }
+
+        .article-body li {
+            margin: 0.75rem 0;
+        }
+
+        .article-body strong {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .article-body em {
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .article-body blockquote {
+            border-left: 4px solid var(--accent);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .article-body a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .article-body a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .article-container {
+                padding: 2rem 1.5rem;
+            }
+
+            .article-body h2 {
+                font-size: 1.4rem;
+            }
+        }
+
+        /* SOURCE ATTRIBUTION */
+        .source-box {
+            max-width: 720px;
+            margin: 3rem auto 3rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 6px;
+        }
+
+        .source-box p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .source-box a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .source-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* SHARE BUTTONS */
+        .share-container {
+            max-width: 720px;
+            margin: 3rem auto;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .share-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .share-btn:hover {
+            background: var(--accent);
+            color: var(--dark-bg);
+            border-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .share-buttons {
+                flex-direction: column;
+            }
+
+            .share-btn {
+                justify-content: center;
+            }
+        }
+
+        /* FOOTER */
+        footer {
+            background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%);
+            border-top: 1px solid var(--border);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom p {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                padding: 2rem 1.5rem;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ARTICLE HERO -->
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">Democracy</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">5 April 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">6 min read</span>
+                    </div>
+                </div>
+                <h1>Three Quarters of Voters Say Things Are Getting Worse: Labour's Doom Loop Is Real</h1>
+                <p class="article-excerpt">Three quarters of voters say things are getting worse. Just 8% think they're improving. Eighteen months in, Labour's own youth wing is in revolt. The doom loop is real.</p>
+            </div>
+        </section>
+
+        <!-- ARTICLE BODY -->
+        <div class="article-container">
+            <div class="article-body">
+                <p>Here is a number the government would rather you didn't focus on. According to polling from early 2026, <strong>nearly three-quarters of British voters believe things are getting worse</strong>. Just 8% think they are getting better. This is not a mid-term blip. This is a verdict. And it is being delivered by people who have watched two years of Labour government and concluded that the change they were promised is not coming.</p>
+
+                <h2>The Doom Loop Labour Can't Escape</h2>
+
+                <p>The phrase doing the rounds in political circles is "doom loop." It describes a government that is trapped: it can't deliver the growth it promised because it's spending political capital on culture war distractions and management failures. It can't cut the deficit because it has made spending commitments it can't walk back. It can't raise living standards because it's raising the tax burden at the same time. And it can't explain any of this credibly because its own messaging contradicts itself from month to month.</p>
+
+                <p>Labour's response to this polling has been to look for someone else to blame. Brexit. The previous government. Global headwinds. There is always a reason why it's not their fault. <strong>After eighteen months in power, the excuses are wearing thin.</strong> You are the government. You own the results.</p>
+
+                <h2>Young Labour Is Turning on Starmer</h2>
+
+                <p>The revolt isn't just among traditional Reform or Conservative voters. Young Labour itself is fracturing. In elections for the Young Labour and Labour Students executive committees, anti-leadership slates made significant gains. An administrative error forced a rerun of ballots - and still, candidates running against the Starmer direction of travel won seats. The Labour youth wing is rejecting the government. That is not a fringe story. That is a structural collapse of the coalition that brought Starmer to power.</p>
+
+                <p>The pattern is familiar. Governments that lose their own activists, who can't inspire their own base, and who are hemorrhaging ordinary voters to new parties don't usually turn it around. They entrench, they become defensive, and they become contemptuous of the voters they can't please. We can already see signs of that with Labour.</p>
+
+                <h2>The Promise of Change That Wasn't</h2>
+
+                <p>Labour's entire brand proposition in 2024 was "change." After fourteen years of Conservative government, the argument was simple: we can't do worse. Give us a chance. Britain gave them a massive majority. And the verdict, nearly two years in, is that millions of people feel nothing has changed - or that things have actually gotten worse.</p>
+
+                <p><strong>Household incomes are not expected to return to 2021 levels in real terms until 2027.</strong> Tax thresholds are frozen. Energy bills remain high. NHS waiting lists are at 7 million. Immigration continues at record levels. Crime statistics are not improving in the ways that matter to communities. And the government's response to criticism is to accuse critics of bad faith.</p>
+
+                <h2>What This Means for British Politics</h2>
+
+                <p>Reform UK was built precisely for this moment. When both major parties fail - when Conservatives spent fourteen years managing decline and Labour has now spent eighteen months proving they can't do better - there has to be somewhere for voters to go. We are that somewhere. Not a protest vote. A genuine alternative with real policies, real candidates, and real wins in council chambers across the country.</p>
+
+                <p>The 75% of voters who think things are getting worse aren't wrong. They're not being manipulated. They're looking at their energy bills, their GP appointment waiting time, and their local high street, and drawing entirely rational conclusions. <strong>Reform UK is the party that starts from the same place as those voters - and builds policy from there.</strong> Not from focus groups or donor interests. From the reality that most British people actually live in.</p>
+
+                <p>The doom loop is real. But for Labour, not for Britain. Britain can do better. Reform UK intends to prove it.</p>
+            </div>
+
+            <!-- SOURCE ATTRIBUTION -->
+            <div class="source-box">
+                <p><strong>Sources:</strong> The Conversation, 'How can Labour escape the doom loop in 2026?' New Statesman, 'Is Labour's youth wing rejecting the government?' April 2026. Briefings for Britain analysis. Brookings Institution UK political analysis 2026.</p>
+            </div>
+        </div>
+
+        <!-- SHARE BUTTONS -->
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"/>
+                    </svg>
+                    Twitter
+                </a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                    </svg>
+                    Copy Link
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/about">About Luke Parker</a></li>
+                    <li><a href="/contact">Get in Touch</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Topics</h3>
+                <ul>
+                    <li><a href="/articles?category=immigration">Immigration</a></li>
+                    <li><a href="/articles?category=economy">Economy</a></li>
+                    <li><a href="/articles?category=nhs">NHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://twitter.com" target="_blank">Twitter/X</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function shareOnTwitter(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const title = document.querySelector('h1').textContent;
+            const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title + ' - ')}&url=${encodeURIComponent(url)}`;
+            window.open(twitterUrl, 'twitter-share', 'width=600,height=400');
+        }
+
+        function shareOnFacebook(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+            window.open(facebookUrl, 'facebook-share', 'width=600,height=400');
+        }
+
+        function copyLink(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = e.currentTarget;
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
