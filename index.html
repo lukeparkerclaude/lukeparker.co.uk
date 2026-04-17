@@ -622,7 +622,7 @@
                         <span>2 Apr 2026</span>
                         <span>6 min read</span>
                     </div>
-                </a>
+                </a
             </article>
             <article class="article-card">
                 <a href="/articles/uk-car-production-collapses-smmt-february-2026.html">
@@ -1177,9 +1177,9 @@
 
             <div class="sidebar-widget">
                 <h3 class="widget-title">Stay Updated</h3>
-                <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed!'; this.querySelector('button').style.background='#0e8e8e';">
+                <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" action="/thank-you.html">
                     <p>Get my latest commentary and reform updates delivered straight to your inbox.</p>
-                    <input type="email" placeholder="Your email address" required>
+                    <input type="email" name="email" placeholder="Your email address" required>
                     <button type="submit">Subscribe</button>
                 </form>
             </div>
