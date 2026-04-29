@@ -14,9 +14,16 @@ Usage:
     python scripts/regenerate_homepage.py [--repo-root PATH]
 
 If --repo-root is omitted, assumes script is run from repo root or scripts/.
+
+Date detection (in order, first hit wins):
+  1. <span class="meta-item">D Month YYYY</span>  (used by the modern article template)
+  2. Any "DD Month YYYY" or "Month YYYY" date string anywhere in the HTML body
+  3. Filename slug ending in "-month-year" (e.g. "...-april-2026.html") -> 28th of that month
+  4. Git log first-commit date for the file (if git available)
+  5. File mtime (least preferred - all new clones have today's mtime)
 """
-import argparse, json, os, re, sys, html
-from datetime import datetime, timezone
+import argparse, json, os, re, sys, html, subprocess
+from datetime import datetime, timezone, date
 from pathlib import Path
 
 CATEGORY_SLUGS = {
@@ -26,9 +33,78 @@ CATEGORY_SLUGS = {
     "education": "education",
 }
 
+MONTHS = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
+}
+
 CARD_INDENT = "                        "
 
-def parse_article(path: Path):
+def parse_date_from_text(text):
+    """Try to find a date string in text. Supports several common formats."""
+    months_alt = '|'.join(MONTHS.keys())
+    # 'D Month YYYY' or 'DD Month YYYY'  (e.g. '19 March 2026')
+    m = re.search(rf'\b(\d{{1,2}})\s+({months_alt})\s+(\d{{4}})\b', text, re.IGNORECASE)
+    if m:
+        try:
+            return date(int(m.group(3)), MONTHS[m.group(2).lower()], int(m.group(1)))
+        except ValueError:
+            pass
+    # 'Month D, YYYY' or 'Month DD, YYYY'  (e.g. 'March 19, 2026')
+    m = re.search(rf'\b({months_alt})\s+(\d{{1,2}}),?\s+(\d{{4}})\b', text, re.IGNORECASE)
+    if m:
+        try:
+            return date(int(m.group(3)), MONTHS[m.group(1).lower()], int(m.group(2)))
+        except ValueError:
+            pass
+    # 'YYYY-MM-DD' ISO
+    m = re.search(r'\b(\d{4})-(\d{2})-(\d{2})\b', text)
+    if m:
+        try:
+            return date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            pass
+    # 'Month YYYY' (no day) — last resort, low priority because too coarse
+    m = re.search(rf'\b({months_alt})\s+(\d{{4}})\b', text, re.IGNORECASE)
+    if m:
+        try:
+            return date(int(m.group(2)), MONTHS[m.group(1).lower()], 28)
+        except ValueError:
+            pass
+    return None
+
+def parse_date_from_slug(slug):
+    """Slug like 'foo-bar-april-2026' -> April 28, 2026."""
+    m = re.search(r'(?:^|-)(' + '|'.join(MONTHS.keys()) + r')-(\d{4})(?:-|$)', slug, re.IGNORECASE)
+    if m:
+        try:
+            return date(int(m.group(2)), MONTHS[m.group(1).lower()], 28)
+        except ValueError:
+            pass
+    return None
+
+_GIT_DATE_CACHE = {}
+def parse_date_from_git(path: Path, repo_root: Path):
+    """Use git log to find the first commit date for this file."""
+    if path in _GIT_DATE_CACHE:
+        return _GIT_DATE_CACHE[path]
+    try:
+        out = subprocess.run(
+            ["git", "log", "--diff-filter=A", "--follow", "--format=%aI", "--", str(path.relative_to(repo_root))],
+            capture_output=True, text=True, cwd=str(repo_root), timeout=10,
+        )
+        lines = [ln.strip() for ln in out.stdout.splitlines() if ln.strip()]
+        if lines:
+            iso = lines[-1]  # Last line in the log is the first commit (oldest)
+            d = datetime.fromisoformat(iso).date()
+            _GIT_DATE_CACHE[path] = d
+            return d
+    except (subprocess.SubprocessError, ValueError, OSError):
+        pass
+    _GIT_DATE_CACHE[path] = None
+    return None
+
+def parse_article(path: Path, repo_root: Path):
     """Extract metadata from a generated article HTML file."""
     text = path.read_text(encoding="utf-8", errors="replace")
 
@@ -42,43 +118,52 @@ def parse_article(path: Path):
     if not title:
         t = first_match(r'<title>(.*?)</title>')
         title = re.sub(r'<[^>]+>', '', t).strip() if t else path.stem
+    title = html.unescape(title)
 
-    # Excerpt
+    # Excerpt — prefer .article-excerpt, then meta description, then empty
     excerpt_html = first_match(r'<p class="article-excerpt">(.*?)</p>')
-    excerpt = re.sub(r'<[^>]+>', '', excerpt_html).strip() if excerpt_html else ""
+    if excerpt_html:
+        excerpt = re.sub(r'<[^>]+>', '', excerpt_html).strip()
+    else:
+        meta = first_match(r'<meta name="description" content="([^"]*)"', flags=0)
+        excerpt = meta or ""
     excerpt = html.unescape(excerpt)
+    # Strip leading markdown headers for legacy articles
+    excerpt = re.sub(r'^#+\s*', '', excerpt).strip()
 
     # Category
-    cat = first_match(r'<span class="category-badge">([^<]*)</span>', "Democracy")
-    cat_slug = CATEGORY_SLUGS.get(cat.lower(), cat.lower())
+    cat = first_match(r'<span class="category-badge[^"]*">([^<]*)</span>', "Democracy")
+    cat_slug_raw = cat.lower().strip()
+    cat_slug = CATEGORY_SLUGS.get(cat_slug_raw, cat_slug_raw.split()[0] if cat_slug_raw else "democracy")
 
-    # Date — find first .meta-item that looks like a date
-    meta_items = re.findall(r'<span class="meta-item">([^<]*)</span>', text)
-    date_str = None
+    # Read time
     read_time_str = "5 min read"
-    for item in meta_items:
-        item = item.strip()
+    for item in re.findall(r'<span class="meta-item">([^<]*)</span>', text):
         if "min read" in item.lower():
-            read_time_str = item
-        elif re.match(r'\d{1,2}\s+\w+\s+\d{4}', item):
-            date_str = item
+            read_time_str = item.strip()
+            break
 
-    date_iso = None
-    date_card = None
-    if date_str:
-        try:
-            dt = datetime.strptime(date_str, "%d %B %Y")
-            date_iso = dt.strftime("%Y-%m-%d")
-            date_card = dt.strftime("%-d %b %Y")
-        except ValueError:
-            pass
-    if not date_iso:
-        # Fall back to file mtime
-        ts = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
-        date_iso = ts.strftime("%Y-%m-%d")
-        date_card = ts.strftime("%-d %b %Y")
-
-    title = html.unescape(title)
+    # Date detection — try meta-item first
+    parsed_date = None
+    for item in re.findall(r'<span class="meta-item">([^<]*)</span>', text):
+        d = parse_date_from_text(item)
+        if d:
+            parsed_date = d
+            break
+    # Then anywhere in the article body
+    if not parsed_date:
+        body = first_match(r'<article[^>]*>(.*?)</article>', "")
+        if body:
+            parsed_date = parse_date_from_text(body)
+    # Then filename slug
+    if not parsed_date:
+        parsed_date = parse_date_from_slug(path.stem)
+    # Then git history
+    if not parsed_date:
+        parsed_date = parse_date_from_git(path, repo_root)
+    # Then mtime fallback
+    if not parsed_date:
+        parsed_date = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc).date()
 
     return {
         "slug": path.stem,
@@ -86,8 +171,8 @@ def parse_article(path: Path):
         "excerpt": excerpt,
         "category": cat,
         "category_slug": cat_slug,
-        "date_iso": date_iso,
-        "date_card": date_card,
+        "date_iso": parsed_date.strftime("%Y-%m-%d"),
+        "date_card": parsed_date.strftime("%-d %b %Y"),
         "read_time": read_time_str,
         "filename": path.name,
     }
@@ -107,8 +192,6 @@ def render_card(a):
 def regenerate_index_html(index_path: Path, articles):
     text = index_path.read_text(encoding="utf-8")
     cards = "\n".join(render_card(a) for a in articles)
-
-    # Replace whole content between <div id="articles-grid"> and the matching </div></section>
     pattern = re.compile(
         r'(<div id="articles-grid">)(.*?)(\s*</div>\s*</section>)',
         re.DOTALL,
@@ -143,8 +226,6 @@ def regenerate_articles_db(db_path: Path, articles):
     }
     new_text = json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
     old_text = db_path.read_text(encoding="utf-8") if db_path.exists() else ""
-
-    # Idempotency: ignore last_updated when comparing
     def strip_ts(t):
         return re.sub(r'"last_updated":\s*"[^"]*"', '', t)
     if strip_ts(new_text) != strip_ts(old_text):
@@ -188,7 +269,6 @@ def main():
     if args.repo_root:
         root = Path(args.repo_root).resolve()
     else:
-        # Try cwd, then parent (if running from scripts/)
         cwd = Path.cwd()
         if (cwd / "articles").is_dir() and (cwd / "index.html").is_file():
             root = cwd
@@ -204,8 +284,7 @@ def main():
         print("ERROR: no articles found", file=sys.stderr)
         sys.exit(1)
 
-    parsed = [parse_article(p) for p in paths]
-    # Sort newest first by date_iso, tie-broken by filename mtime
+    parsed = [parse_article(p, root) for p in paths]
     parsed.sort(key=lambda a: (a["date_iso"], a["filename"]), reverse=True)
 
     changed = []
