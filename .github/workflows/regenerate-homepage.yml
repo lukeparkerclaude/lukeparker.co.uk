@@ -1,0 +1,47 @@
+name: Regenerate Homepage
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'articles/**/*.html'
+      - 'scripts/regenerate_homepage.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regenerate-homepage
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.actor != 'github-actions[bot]' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run regenerator
+        run: python scripts/regenerate_homepage.py --repo-root .
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- index.html articles_db.json sitemap.xml; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add index.html articles_db.json sitemap.xml
+          git commit -m "chore: regenerate homepage, articles_db, sitemap [skip ci]"
+          git push
