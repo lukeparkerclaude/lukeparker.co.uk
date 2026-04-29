@@ -1,6 +1,66 @@
 {
   "articles": [
     {
+      "id": 73,
+      "title": "The 2026 UK-France Deal: Same Photo Opportunity, Same Failure",
+      "slug": "uk-france-enforcement-deal-april-2026-failed-labour-borders",
+      "date": "2026-04-29",
+      "category": "immigration",
+      "excerpt": "On 23 April Labour signed yet another 'landmark' UK-France deal on small boats. The boats kept coming. 325 in a single day. Just shy of 200,000 crossings since 2018. The British public has heard this song before, with the same words and the same outcome. The honest conversation is being avoided again.",
+      "readTime": "7 min read",
+      "url": "/articles/uk-france-enforcement-deal-april-2026-failed-labour-borders.html"
+    },
+    {
+      "id": 72,
+      "title": "Burnham's Mutiny: Labour's Civil War Erupts Before the Polls Even Open",
+      "slug": "burnham-labour-mutiny-starmer-leadership-crisis-april-2026",
+      "date": "2026-04-29",
+      "category": "democracy",
+      "excerpt": "Greater Manchester's Mayor has publicly demanded a 'new direction' for the Labour government - days before the council elections he is supposed to be helping it win. Sir Keir Starmer's silence in response is telling. A government that's been in office for less than two years is already imploding.",
+      "readTime": "6 min read",
+      "url": "/articles/burnham-labour-mutiny-starmer-leadership-crisis-april-2026.html"
+    },
+    {
+      "id": 71,
+      "title": "Reform UK on Course for Four-Figure Council Gains: The Map of England Is Being Redrawn",
+      "slug": "reform-uk-four-figure-council-gains-farage-barnsley-april-2026",
+      "date": "2026-04-29",
+      "category": "democracy",
+      "excerpt": "Nigel Farage's 'realistic' target for May - four-figure seat gains and councils won outright - was once dismissed as bluster. Today it is the central scenario. The map of British politics is being redrawn in real time, and the establishment is still arguing over who gets the bigger half of yesterday.",
+      "readTime": "6 min read",
+      "url": "/articles/reform-uk-four-figure-council-gains-farage-barnsley-april-2026.html"
+    },
+    {
+      "id": 70,
+      "title": "Labour's AIM Inheritance Tax Raid: Another Stealth Attack on British Investors",
+      "slug": "aim-shares-inheritance-tax-labour-raid-investors-april-2026",
+      "date": "2026-04-29",
+      "category": "economy",
+      "excerpt": "From April 2026, shares on London's growth market face a 20% inheritance tax for the first time. The result, entirely predictable, has been an exodus of capital from London to New York. Labour calls it closing a loophole. It is the latest assault on the people who back British enterprise with their own money.",
+      "readTime": "6 min read",
+      "url": "/articles/aim-shares-inheritance-tax-labour-raid-investors-april-2026.html"
+    },
+    {
+      "id": 69,
+      "title": "1.68 Million Waiting for an NHS Scan: The Diagnostic Crisis Labour Won't Talk About",
+      "slug": "nhs-diagnostic-waiting-list-168-million-labour-failure-april-2026",
+      "date": "2026-04-29",
+      "category": "nhs",
+      "excerpt": "The headline NHS waiting list grabs the front pages. The diagnostic queue - now 1.68 million strong - is where the real damage is being done. This is where cancers go undetected and lives are lost. And it is getting worse on Labour's watch.",
+      "readTime": "6 min read",
+      "url": "/articles/nhs-diagnostic-waiting-list-168-million-labour-failure-april-2026.html"
+    },
+    {
+      "id": 68,
+      "title": "Salford Mass Shoplifting Plot: Britain's Streets Have Been Surrendered",
+      "slug": "salford-mass-shoplifting-plot-organised-retail-crime-april-2026",
+      "date": "2026-04-29",
+      "category": "crime",
+      "excerpt": "Seven activists arrested in Salford were training for a coordinated mass shoplifting campaign. They were so confident in Labour's broken justice system they planned it openly. That should terrify every retailer and every honest citizen.",
+      "readTime": "6 min read",
+      "url": "/articles/salford-mass-shoplifting-plot-organised-retail-crime-april-2026.html"
+    },
+    {
       "id": 64,
       "title": "Trump's 100% Pharma Tariffs Expose Britain's Trade Weakness — And Labour's Desperate Scramble to Avoid Disaster",
       "slug": "trump-pharma-tariffs-uk-trade-weakness-april-2026",
@@ -605,5 +665,5 @@
       "original_title": "Reform UK Needs a Serious Foreign Policy — And We're Building One"
     }
   ],
-  "last_updated": "2026-03-30T12:00:00.000000"
+  "last_updated": "2026-04-29T18:29:10.721878"
 }
