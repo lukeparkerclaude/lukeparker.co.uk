@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/uk-france-662-million-deal-failing-channel-crossings-may-2026.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/streeting-leadership-coup-starmer-final-days-may-2026.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/operation-beaconport-grooming-gangs-1200-cases-reopened-may-2026.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/opec-output-rise-uk-petrol-prices-labour-energy-failure-may-2026.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/nhs-cancer-waiting-times-targets-missed-65-weeks-may-2026.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/farage-eve-of-poll-stunningly-well-local-elections-may-2026.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/uk-energy-debt-4-5-billion-record-ofgem-net-zero-may-2026.html</loc>
