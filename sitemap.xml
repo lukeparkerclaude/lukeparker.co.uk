@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-05-05</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/reform-uk-eastern-counties-essex-norfolk-suffolk-flip-may-2026.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/nhs-22-active-disputes-strikes-mount-labour-failure-may-2026.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/london-housebuilding-collapse-worst-since-wwii-labour-failure-may-2026.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/labour-pension-salary-sacrifice-2000-cap-stealth-raid-may-2026.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/labour-1-5-million-homes-target-collapse-housing-failure-may-2026.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/bank-of-england-inflation-warning-iran-war-energy-may-2026.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/uk-france-662-million-deal-failing-channel-crossings-may-2026.html</loc>
