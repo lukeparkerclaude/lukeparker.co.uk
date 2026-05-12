@@ -2,13 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/two-child-benefit-cap-13-billion-cost-welfare-explosion-may-2026.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/reform-uk-takes-control-lancashire-county-council-may-2026.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/labour-aides-mass-exodus-starmer-government-collapse-may-2026.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/farmer-inheritance-tax-judicial-review-labour-policy-may-2026.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/consumer-sentiment-crash-pwc-index-cost-of-living-may-2026.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/cabinet-ministers-starmer-resignation-timetable-may-2026.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/reform-uk-havering-first-london-council-historic-may-2026.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/neso-net-zero-4-5-trillion-cost-britain-may-2026.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/gordon-brown-harriet-harman-comeback-labour-desperation-may-2026.html</loc>
@@ -22,6 +62,11 @@
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/catherine-west-stalking-horse-labour-leadership-collapse-may-2026.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/asylum-hotels-closure-military-sites-labour-failure-may-2026.html</loc>
     <lastmod>2026-05-11</lastmod>
     <priority>0.8</priority>
   </url>
