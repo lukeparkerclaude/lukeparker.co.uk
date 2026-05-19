@@ -2,13 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-19</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-19</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/tiktok-censors-reform-immigration-policy-online-safety-act-may-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/reform-uk-immigration-reset-ilr-abolition-may-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/nhs-waiting-list-slips-60-percent-target-may-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/lancashire-withdraws-refugee-resettlement-scheme-may-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/frozen-thresholds-state-pension-tax-trap-may-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/reform-uk-foreign-flags-public-buildings-essex-may-2026.html</loc>
@@ -27,6 +52,11 @@
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/labour-asylum-30-year-settlement-reform-too-little-too-late-may-2026.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/dividend-tax-rise-work-from-home-relief-labour-stealth-raid-april-2026.html</loc>
     <lastmod>2026-05-18</lastmod>
     <priority>0.8</priority>
   </url>
