@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Three weeks after the Renters&#x27; Rights Act took effect on 1 May 2026, the landlord exodus is accelerating, rental supply is shrinking, and rents are forecast to rise 2.5% this year. The cure is making the disease worse.">
+    <meta property="og:title" content="Renters&#x27; Rights Act, Three Weeks In: Landlord Exodus, Supply Crashing, Rents Rising">
+    <meta property="og:description" content="Three weeks after the Renters&#x27; Rights Act took effect on 1 May 2026, the landlord exodus is accelerating, rental supply is shrinking, and rents are forecast to rise 2.5% this year. The cure is making the disease worse.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://lukeparker.co.uk/articles/renters-rights-act-rents-rising-tenants-worse-off-may-2026.html">
+    <meta property="og:image" content="https://lukeparker.co.uk/images/heroes/renters-rights-act-rents-rising-tenants-worse-off-may-2026.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Renters&#x27; Rights Act, Three Weeks In: Landlord Exodus, Supply Crashing, Rents Rising">
+    <meta name="twitter:description" content="Three weeks after the Renters&#x27; Rights Act took effect on 1 May 2026, the landlord exodus is accelerating, rental supply is shrinking, and rents are forecast to rise 2.5% this year. The cure is making the disease worse.">
+    <meta name="twitter:image" content="https://lukeparker.co.uk/images/heroes/renters-rights-act-rents-rising-tenants-worse-off-may-2026.jpg">
+    <title>Renters&#x27; Rights Act, Three Weeks In: Landlord Exodus, Supply Crashing, Rents Rising</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #12B0B0;
+            --dark-bg: #0a0e27;
+            --card-bg: #131d3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border: #1f2d4d;
+            --accent: #12B0B0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+
+        /* HERO SECTION */
+        .article-hero {
+            background: linear-gradient(135deg, #131d3a 0%, #0a0e27 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 4rem 2rem;
+        }
+
+        .hero-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .category-badge {
+            background: var(--accent);
+            color: var(--dark-bg);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .article-meta-info {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .meta-separator {
+            color: var(--border);
+        }
+
+        h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin: 1rem 0;
+            letter-spacing: -1.5px;
+        }
+
+        .article-excerpt {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-top: 1.5rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .article-hero {
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* HERO IMAGE */
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 2rem;
+            border-radius: 8px;
+            display: block;
+        }
+
+        /* ARTICLE CONTENT */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .article-body {
+            max-width: 720px;
+            margin: 0 auto 3rem;
+        }
+
+        .article-body h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 2rem 0 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .article-body h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 1.5rem 0 0.75rem;
+            letter-spacing: -0.3px;
+        }
+
+        .article-body p {
+            margin: 1.5rem 0;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+
+        .article-body ul, .article-body ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+            line-height: 1.8;
+        }
+
+        .article-body li {
+            margin: 0.75rem 0;
+        }
+
+        .article-body strong {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .article-body em {
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .article-body blockquote {
+            border-left: 4px solid var(--accent);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .article-body a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .article-body a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .article-container {
+                padding: 2rem 1.5rem;
+            }
+
+            .article-body h2 {
+                font-size: 1.4rem;
+            }
+        }
+
+        /* SOURCE ATTRIBUTION */
+        .source-box {
+            max-width: 720px;
+            margin: 3rem auto 3rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 6px;
+        }
+
+        .source-box p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .source-box a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .source-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* SHARE BUTTONS */
+        .share-container {
+            max-width: 720px;
+            margin: 3rem auto;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .share-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .share-btn:hover {
+            background: var(--accent);
+            color: var(--dark-bg);
+            border-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .share-buttons {
+                flex-direction: column;
+            }
+
+            .share-btn {
+                justify-content: center;
+            }
+        }
+
+        /* MORE ARTICLES */
+        .more-articles {
+            max-width: 1200px;
+            margin: 4rem auto 0;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .more-articles h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            letter-spacing: -0.75px;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .article-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--text-primary);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #12B0B0 0%, #0a8a8a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-category {
+            color: var(--accent);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
+        }
+
+        .card-excerpt {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .card-meta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .more-articles h2 {
+                font-size: 1.5rem;
+            }
+
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* FOOTER */
+        footer {
+            background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%);
+            border-top: 1px solid var(--border);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom p {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                padding: 2rem 1.5rem;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ARTICLE HERO -->
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">Housing</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">20 May 2026</span>
+                        <span class="meta-separator">â¢</span>
+                        <span class="meta-item">6 min read</span>
+                    </div>
+                </div>
+                <h1>Renters&#x27; Rights Act, Three Weeks In: Landlords Fleeing, Supply Crashing, Rents Climbing</h1>
+                <p class="article-excerpt">Three weeks after the Renters&#x27; Rights Act came into force, the landlord exodus is accelerating, supply is crashing, and rents are forecast to rise 2.5% in 2026. The cure is making the disease worse — exactly as critics warned.</p>
+            </div>
+        </section>
+
+        <!-- ARTICLE BODY -->
+        <div class="article-container">
+            <div class="article-body">
+<p>The Renters' Rights Act came into force on 1 May 2026. The Government called it the most significant overhaul of the rental market in decades. Three weeks in, the country has its first taste of what that overhaul actually means in practice. The landlord exodus is accelerating. Rental supply is shrinking faster than it was already shrinking. And rents are projected to rise by 2.5 per cent across the UK this year. The Act was sold as a tenant's charter. The tenants who needed it most are about to discover what unintended consequences look like.</p>
+
+<h2>What the Act Actually Does</h2>
+
+<p>The headline measures are familiar by now. All Assured Shorthold Tenancies have flipped to rolling, open-ended contracts. Section 21 — the so-called "no-fault eviction" — is gone. Rent increases are limited to once a year and must be notified by formal Section 13 notice with at least two months' written warning. Tenants now have stronger rights to keep pets and to refuse discrimination if they receive benefits or have children.</p>
+
+<p>On paper, every one of those provisions sounds like a step forward for renters. <strong>The problem isn't the headlines. The problem is what landlords do in response to those headlines.</strong> And what landlords are doing — as anyone who has spent five minutes in the buy-to-let market could have told you — is selling up.</p>
+
+<h2>The Landlord Exodus Is Real and It Is Accelerating</h2>
+
+<p>The National Residential Landlord Association has been warning for over a year that this Act, combined with the Section 24 mortgage interest deductibility changes, the rolling tightening of EPC requirements, and successive Stamp Duty surcharges, would push the marginal landlord out of the market. That warning has now landed. Estate agents in Preston, Lancaster, Blackpool and across Lancashire are reporting a surge in former buy-to-let properties coming onto the sales market.</p>
+
+<p>That sounds good if you are an aspiring first-time buyer. It is much less good if you are a tenant. Because every property that leaves the rental stock to be sold to a homeowner is a property no longer available to rent. Demand for rentals has not gone down. Supply has. Basic economics does the rest.</p>
+
+<h2>The Rents That Were Meant to Stabilise Are Climbing</h2>
+
+<p>Rightmove reported in April that private rents had stopped rising for the first time since 2017. That was the high-water mark of the Government's case. Since the Act came into force, the picture has shifted again. <strong>Industry forecasts now expect rents to rise by 2.5 per cent across the UK in 2026, with several regional markets — including Lancashire — expected to outpace that figure.</strong> The NRLA describes tenants as facing "the highest rents in history".</p>
+
+<p>This is not a coincidence. When you remove Section 21, the small portfolio landlord — the retired teacher with a single buy-to-let, the couple who own two flats — looks at the new risk profile and either sells up or prices the additional risk into the rent. The professional, well-capitalised, often institutional landlords stay in the market and raise rents to recover their compliance and management costs. The renters at the squeezed end pay for both effects.</p>
+
+<h2>A Policy Written for Headlines, Not for Outcomes</h2>
+
+<p>What is most telling about the Renters' Rights Act is how little of its design appears to have learned from the rest of the world's experience. Scotland's rent control experiment showed exactly this pattern — landlord exits, supply contraction, rising rents — and yet Westminster pressed ahead. Ireland, Berlin, parts of California: the same lesson, the same outcome, the same political surprise on the part of the politicians who signed the bill. <strong>Housing policy that ignores supply does not protect tenants. It punishes them while pretending to help them.</strong></p>
+
+<p>The Government will argue that more time is needed. That the Act has only been in force for three weeks. That headline rents always reset around major regulatory changes. Fine — let the data run. But everyone in the housing industry who is not on the Government's payroll already knows where it ends. Fewer landlords. Fewer rental properties. Higher rents. Longer waiting lists for social housing. And a generation of renters told to be grateful for a "tenant's charter" that has made their actual housing situation worse.</p>
+
+<h2>What Reform UK Would Do</h2>
+
+<p>Reform UK would treat the housing crisis as a supply crisis, which is what it is. We would unwind the most damaging tax penalties on private landlords — beginning with the restoration of full mortgage interest deductibility for small portfolio landlords — to keep rental supply in the market. We would unblock planning to deliver the genuinely affordable homes Britain is desperately short of, particularly outside London and the South East. We would protect tenants from genuine rogue landlords with targeted enforcement, not with sweeping regulation that pushes the good ones out alongside the bad. And we would tell the truth about the trade-off: there is no rent control on earth that has delivered more housing.</p>
+
+<p>The Renters' Rights Act will protect a small number of tenants who would otherwise have been evicted under Section 21. It will hurt a much larger number of tenants who will face higher rents and shrinking choice. Three weeks of evidence will become three months, then three years. By the time the consequences are undeniable, the ministers who wrote the Act will be on the speaking circuit. The renters will still be paying.</p>
+            
+            </div>
+
+            <!-- SOURCE ATTRIBUTION -->
+            <div class="source-box">
+                <p><strong>Source:</strong> Renters&#x27; Rights Act 2026 (in force 1 May 2026); National Residential Landlord Association statements (May 2026); Rightmove and Big Issue rental market analysis; Shelter England guidance for private renters.</p>
+            </div>
+        </div>
+
+        <!-- SHARE BUTTONS -->
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"/>
+                    </svg>
+                    Twitter
+                </a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                    </svg>
+                    Copy Link
+                </a>
+            </div>
+        </div>
+    </article>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/about">About Luke Parker</a></li>
+                    <li><a href="/contact">Get in Touch</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Topics</h3>
+                <ul>
+                    <li><a href="/articles?category=immigration">Immigration</a></li>
+                    <li><a href="/articles?category=economy">Economy</a></li>
+                    <li><a href="/articles?category=nhs">NHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://twitter.com" target="_blank">Twitter/X</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function shareOnTwitter(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const title = document.querySelector('h1').textContent;
+            const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title + ' - ')}&url=${encodeURIComponent(url)}`;
+            window.open(twitterUrl, 'twitter-share', 'width=600,height=400');
+        }
+
+        function shareOnFacebook(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+            window.open(facebookUrl, 'facebook-share', 'width=600,height=400');
+        }
+
+        function copyLink(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = e.currentTarget;
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
