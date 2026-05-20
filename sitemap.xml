@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/winter-fuel-payment-clawback-pensioners-hmrc-tax-may-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/renters-rights-act-rents-rising-tenants-worse-off-may-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/makerfield-by-election-burnham-coup-starmer-leadership-may-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/ehcp-send-eligibility-cuts-labour-betrays-families-may-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/defence-spending-nato-5-percent-target-russia-threat-may-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/citizenship-statutory-primary-schools-curriculum-reform-may-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/tiktok-censors-reform-immigration-policy-online-safety-act-may-2026.html</loc>
@@ -27,6 +57,11 @@
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/lancashire-withdraws-refugee-resettlement-scheme-may-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/labour-new-towns-greenbelt-concrete-countryside-may-2026.html</loc>
     <lastmod>2026-05-19</lastmod>
     <priority>0.8</priority>
   </url>
