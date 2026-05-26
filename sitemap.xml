@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/oecd-tax-wedge-uk-workers-burden-rise-may-2026.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/nhs-waiting-list-7-million-labour-spin-18-week-may-2026.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/making-tax-digital-income-tax-landlords-self-employed-may-2026.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/london-councils-planning-power-stripped-labour-housing-may-2026.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/crime-policing-act-2026-royal-assent-public-order-may-2026.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/article-8-serious-criminals-deportation-reform-may-2026.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/uk-gdp-q1-2026-0-6-percent-tax-raid-stalls-recovery-may-2026.html</loc>
