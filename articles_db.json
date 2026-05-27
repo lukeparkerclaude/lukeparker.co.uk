@@ -2,6 +2,66 @@
   "articles": [
     {
       "id": 1,
+      "title": "Sizewell C and the Net Zero Rip-Off — Why Your Energy Bill Will Keep Rising No Matter What Ofgem Says",
+      "slug": "sizewell-c-hidden-energy-bill-cost-net-zero-rip-off-may-2026",
+      "date": "2026-05-27",
+      "category": "energy",
+      "excerpt": "The April price cap fell — but bills are still 35% above pre-crisis levels and the medium-term outlook is brutal. Sizewell C, the Warm Home Discount and Net Zero subsidies are quietly being loaded onto every household.",
+      "readTime": "6 min read",
+      "url": "/articles/sizewell-c-hidden-energy-bill-cost-net-zero-rip-off-may-2026.html"
+    },
+    {
+      "id": 2,
+      "title": "Reform UK Open Seven-Point Lead in Ipsos Poll — Britain Has Made Its Mind Up About Labour",
+      "slug": "reform-uk-ipsos-poll-7-point-lead-labour-collapse-may-2026",
+      "date": "2026-05-27",
+      "category": "democracy",
+      "excerpt": "Ipsos has Reform UK on 27%, up two points, with a seven-point lead over Labour. After May's local election earthquake and a Cabinet in collapse, the verdict is in.",
+      "readTime": "5 min read",
+      "url": "/articles/reform-uk-ipsos-poll-7-point-lead-labour-collapse-may-2026.html"
+    },
+    {
+      "id": 3,
+      "title": "NHS Senior Doctors Ballot for Strikes — Labour's NHS Pay Chaos Reaches the Consultants",
+      "slug": "nhs-senior-doctors-strike-ballot-pay-failure-may-2026",
+      "date": "2026-05-27",
+      "category": "nhs",
+      "excerpt": "On 11 May 2026 senior doctors opened a strike ballot. After 22 separate disputes and 171,776 lost appointments, Labour has now lost the consultants too. The NHS is rudderless.",
+      "readTime": "6 min read",
+      "url": "/articles/nhs-senior-doctors-strike-ballot-pay-failure-may-2026.html"
+    },
+    {
+      "id": 4,
+      "title": "New Home Registrations Collapse — Labour's 1.5 Million Housing Pledge Now Mathematically Impossible",
+      "slug": "nhbc-q1-2026-home-registrations-fall-labour-housing-target-collapse-may-2026",
+      "date": "2026-05-27",
+      "category": "housing",
+      "excerpt": "Just 26,959 new homes registered in Q1 2026 — down 6% on last year. Residential starts are down 33% on 2025. Labour's flagship housing promise is finished.",
+      "readTime": "6 min read",
+      "url": "/articles/nhbc-q1-2026-home-registrations-fall-labour-housing-target-collapse-may-2026.html"
+    },
+    {
+      "id": 5,
+      "title": "Boy Stabbed to Death in Hackney — Labour's Knife Crime Failure Claims Another Young Life",
+      "slug": "hackney-teen-fatal-stabbing-knife-crime-london-may-2026",
+      "date": "2026-05-27",
+      "category": "crime",
+      "excerpt": "Another child killed with a blade on London's streets. The Met is appealing for information. The Government is appealing for time. Neither is what families need.",
+      "readTime": "5 min read",
+      "url": "/articles/hackney-teen-fatal-stabbing-knife-crime-london-may-2026.html"
+    },
+    {
+      "id": 6,
+      "title": "201,175 Channel Crossings — Labour's Border Promise in Tatters",
+      "slug": "channel-crossings-tracker-201175-borders-broken-may-2026",
+      "date": "2026-05-27",
+      "category": "immigration",
+      "excerpt": "As of 25 May 2026 the Home Office has recorded 201,175 small-boat crossings since 2018, with over 1,000 more this month. The borders are not under control.",
+      "readTime": "6 min read",
+      "url": "/articles/channel-crossings-tracker-201175-borders-broken-may-2026.html"
+    },
+    {
+      "id": 7,
       "title": "UK Workers Hand Over a Third of Their Earnings: OECD Confirms Labour's Tax Squeeze",
       "slug": "oecd-tax-wedge-uk-workers-burden-rise-may-2026",
       "date": "2026-05-26",
@@ -11,7 +71,7 @@
       "url": "/articles/oecd-tax-wedge-uk-workers-burden-rise-may-2026.html"
     },
     {
-      "id": 2,
+      "id": 8,
       "title": "7.11 Million Still Waiting: The Real NHS Numbers Labour Doesn't Want You to See",
       "slug": "nhs-waiting-list-7-million-labour-spin-18-week-may-2026",
       "date": "2026-05-26",
@@ -21,7 +81,7 @@
       "url": "/articles/nhs-waiting-list-7-million-labour-spin-18-week-may-2026.html"
     },
     {
-      "id": 3,
+      "id": 9,
       "title": "Making Tax Digital Goes Live: A Bureaucratic Hammer on Britain's Self-Employed",
       "slug": "making-tax-digital-income-tax-landlords-self-employed-may-2026",
       "date": "2026-05-26",
@@ -31,7 +91,7 @@
       "url": "/articles/making-tax-digital-income-tax-landlords-self-employed-may-2026.html"
     },
     {
-      "id": 4,
+      "id": 10,
       "title": "Labour Strips London Councils of Planning Power: Concrete First, Communities Last",
       "slug": "london-councils-planning-power-stripped-labour-housing-may-2026",
       "date": "2026-05-26",
@@ -41,7 +101,7 @@
       "url": "/articles/london-councils-planning-power-stripped-labour-housing-may-2026.html"
     },
     {
-      "id": 5,
+      "id": 11,
       "title": "Crime and Policing Act 2026: New Powers, Same Two-Tier Policing Problem",
       "slug": "crime-policing-act-2026-royal-assent-public-order-may-2026",
       "date": "2026-05-26",
@@ -51,7 +111,7 @@
       "url": "/articles/crime-policing-act-2026-royal-assent-public-order-may-2026.html"
     },
     {
-      "id": 6,
+      "id": 12,
       "title": "Labour Finally Admits the Truth on Article 8: Years After Reform UK Said It",
       "slug": "article-8-serious-criminals-deportation-reform-may-2026",
       "date": "2026-05-26",
@@ -61,7 +121,7 @@
       "url": "/articles/article-8-serious-criminals-deportation-reform-may-2026.html"
     },
     {
-      "id": 7,
+      "id": 13,
       "title": "UK GDP Grows 0.6% in Q1 — Then Labour’s Tax Raid Kicks In and the Lights Go Out",
       "slug": "uk-gdp-q1-2026-0-6-percent-tax-raid-stalls-recovery-may-2026",
       "date": "2026-05-25",
@@ -71,7 +131,7 @@
       "url": "/articles/uk-gdp-q1-2026-0-6-percent-tax-raid-stalls-recovery-may-2026.html"
     },
     {
-      "id": 8,
+      "id": 14,
       "title": "Reform UK Storm the Senedd: 34 Seats and a Welsh Earthquake Labour Didn’t See Coming",
       "slug": "reform-uk-welsh-senedd-34-seats-second-largest-party-may-2026",
       "date": "2026-05-25",
@@ -81,7 +141,7 @@
       "url": "/articles/reform-uk-welsh-senedd-34-seats-second-largest-party-may-2026.html"
     },
     {
-      "id": 9,
+      "id": 15,
       "title": "PIP Four-Point Rule Looms: Labour Half-Pretends to Reform a Welfare Bill That’s Eating Britain Alive",
       "slug": "pip-four-point-rule-welfare-reform-timms-review-may-2026",
       "date": "2026-05-25",
@@ -91,7 +151,7 @@
       "url": "/articles/pip-four-point-rule-welfare-reform-timms-review-may-2026.html"
     },
     {
-      "id": 10,
+      "id": 16,
       "title": "22 Arrests a Day for Speech: Labour’s Half-Reform of Non-Crime Hate Incidents Doesn’t Fix Two-Tier Policing",
       "slug": "non-crime-hate-incidents-half-reform-two-tier-policing-22-arrests-day-may-2026",
       "date": "2026-05-25",
@@ -101,7 +161,7 @@
       "url": "/articles/non-crime-hate-incidents-half-reform-two-tier-policing-22-arrests-day-may-2026.html"
     },
     {
-      "id": 11,
+      "id": 17,
       "title": "Streeting, Burnham, Rayner, Miliband: Labour’s Leadership Field Is a Continuity Disaster",
       "slug": "labour-leadership-contest-streeting-burnham-rayner-miliband-continuity-disaster-may-2026",
       "date": "2026-05-25",
@@ -111,7 +171,7 @@
       "url": "/articles/labour-leadership-contest-streeting-burnham-rayner-miliband-continuity-disaster-may-2026.html"
     },
     {
-      "id": 12,
+      "id": 18,
       "title": "Antisemitism Declared a National Emergency: Labour Throws £25 Million at the Symptoms and Ignores the Cause",
       "slug": "antisemitism-national-emergency-25-million-funding-may-2026",
       "date": "2026-05-25",
@@ -121,7 +181,7 @@
       "url": "/articles/antisemitism-national-emergency-25-million-funding-may-2026.html"
     },
     {
-      "id": 13,
+      "id": 19,
       "title": "NHS Rudderless: 22 Active Disputes, No Health Secretary, No Plan",
       "slug": "nhs-rudderless-streeting-gone-22-strikes-may-2026",
       "date": "2026-05-24",
@@ -131,7 +191,7 @@
       "url": "/articles/nhs-rudderless-streeting-gone-22-strikes-may-2026.html"
     },
     {
-      "id": 14,
+      "id": 20,
       "title": "Net Migration Falls to 171,000 — Still Four Times Higher Than Britain Voted For",
       "slug": "net-migration-171000-fall-still-too-high-ons-may-2026",
       "date": "2026-05-24",
@@ -141,7 +201,7 @@
       "url": "/articles/net-migration-171000-fall-still-too-high-ons-may-2026.html"
     },
     {
-      "id": 15,
+      "id": 21,
       "title": "Labour's Mansion Tax Is the Thin End of a Very Big Wedge",
       "slug": "mansion-tax-high-value-council-tax-surcharge-labour-property-raid-may-2026",
       "date": "2026-05-24",
@@ -151,7 +211,7 @@
       "url": "/articles/mansion-tax-high-value-council-tax-surcharge-labour-property-raid-may-2026.html"
     },
     {
-      "id": 16,
+      "id": 22,
       "title": "Great British Railways: Labour's 1970s Nationalisation Fantasy Rolls In",
       "slug": "great-british-railways-first-train-nationalisation-1970s-fantasy-may-2026",
       "date": "2026-05-24",
@@ -161,7 +221,7 @@
       "url": "/articles/great-british-railways-first-train-nationalisation-1970s-fantasy-may-2026.html"
     },
     {
-      "id": 17,
+      "id": 23,
       "title": "The Establishment Turns on Farage — Days After Reform's Historic Win",
       "slug": "farage-5-million-donation-inquiry-establishment-witch-hunt-may-2026",
       "date": "2026-05-24",
@@ -171,7 +231,7 @@
       "url": "/articles/farage-5-million-donation-inquiry-establishment-witch-hunt-may-2026.html"
     },
     {
-      "id": 18,
+      "id": 24,
       "title": "British Pubs Are Bleeding Customers — Labour Is Holding the Knife",
       "slug": "british-pubs-sales-decline-labour-tax-hospitality-crunch-may-2026",
       "date": "2026-05-24",
@@ -181,7 +241,7 @@
       "url": "/articles/british-pubs-sales-decline-labour-tax-hospitality-crunch-may-2026.html"
     },
     {
-      "id": 19,
+      "id": 25,
       "title": "\"Dishonourable and Unprincipled\": Streeting's Resignation Letter Should Bring Starmer Down",
       "slug": "streeting-dishonourable-unprincipled-resignation-letter-may-2026",
       "date": "2026-05-23",
@@ -191,7 +251,7 @@
       "url": "/articles/streeting-dishonourable-unprincipled-resignation-letter-may-2026.html"
     },
     {
-      "id": 20,
+      "id": 26,
       "title": "Reform UK Wins Calderdale Outright: 63% of Seats on 31% of the Vote",
       "slug": "reform-uk-calderdale-majority-63-percent-seats-may-2026",
       "date": "2026-05-23",
@@ -201,7 +261,7 @@
       "url": "/articles/reform-uk-calderdale-majority-63-percent-seats-may-2026.html"
     },
     {
-      "id": 21,
+      "id": 27,
       "title": "171,776 NHS Appointments Lost to Strikes: Labour's NHS Pledge in Tatters",
       "slug": "nhs-strikes-171776-appointments-lost-labour-failure-may-2026",
       "date": "2026-05-23",
@@ -211,7 +271,7 @@
       "url": "/articles/nhs-strikes-171776-appointments-lost-labour-failure-may-2026.html"
     },
     {
-      "id": 22,
+      "id": 28,
       "title": "Labour's £2.5m IHT Cap Will Destroy Family Firms and Farms — and They Know It",
       "slug": "inheritance-tax-business-property-relief-2-5m-cap-may-2026",
       "date": "2026-05-23",
@@ -221,7 +281,7 @@
       "url": "/articles/inheritance-tax-business-property-relief-2-5m-cap-may-2026.html"
     },
     {
-      "id": 23,
+      "id": 29,
       "title": "Labour's Dividend Tax Raid: Savers and Family Firms Pay the Price Again",
       "slug": "dividend-tax-rise-april-2026-savers-investors-punished-may-2026",
       "date": "2026-05-23",
@@ -231,7 +291,7 @@
       "url": "/articles/dividend-tax-rise-april-2026-savers-investors-punished-may-2026.html"
     },
     {
-      "id": 24,
+      "id": 30,
       "title": "Channel Crossings Season Has Returned. Labour's Borders Are Already Broken",
       "slug": "channel-crossings-season-2026-begins-borders-broken-may-2026",
       "date": "2026-05-23",
@@ -241,7 +301,7 @@
       "url": "/articles/channel-crossings-season-2026-begins-borders-broken-may-2026.html"
     },
     {
-      "id": 25,
+      "id": 31,
       "title": "Reform UK 25, Labour 18: The Polls Have Caught Up With The Country",
       "slug": "reform-uk-25-percent-poll-lead-britain-rejects-labour-may-2026",
       "date": "2026-05-22",
@@ -251,7 +311,7 @@
       "url": "/articles/reform-uk-25-percent-poll-lead-britain-rejects-labour-may-2026.html"
     },
     {
-      "id": 26,
+      "id": 32,
       "title": "7.31 Million on the NHS Waiting List: Labour's Pledge Is Officially Broken",
       "slug": "nhs-waiting-list-7-million-labour-pledge-broken-may-2026",
       "date": "2026-05-22",
@@ -261,7 +321,7 @@
       "url": "/articles/nhs-waiting-list-7-million-labour-pledge-broken-may-2026.html"
     },
     {
-      "id": 27,
+      "id": 33,
       "title": "Labour's Latest Trick: Tax Energy Producers, Shave Tariffs Off Biscuits, Call It a Cost-of-Living Plan",
       "slug": "energy-windfall-tax-food-tariff-cut-labour-shuffle-may-2026",
       "date": "2026-05-22",
@@ -271,7 +331,7 @@
       "url": "/articles/energy-windfall-tax-food-tariff-cut-labour-shuffle-may-2026.html"
     },
     {
-      "id": 28,
+      "id": 34,
       "title": "Energy Bills To Jump 13% in July: The Net Zero Bill Lands On Your Doormat",
       "slug": "energy-price-cap-july-rise-1850-net-zero-failure-may-2026",
       "date": "2026-05-22",
@@ -281,7 +341,7 @@
       "url": "/articles/energy-price-cap-july-rise-1850-net-zero-failure-may-2026.html"
     },
     {
-      "id": 29,
+      "id": 35,
       "title": "The Crime And Policing Act 2026: Sensible Measures, Six Years Too Late",
       "slug": "crime-policing-act-2026-shoplifting-knife-too-little-too-late-may-2026",
       "date": "2026-05-22",
@@ -291,7 +351,7 @@
       "url": "/articles/crime-policing-act-2026-shoplifting-knife-too-little-too-late-may-2026.html"
     },
     {
-      "id": 30,
+      "id": 36,
       "title": "200,000 And Counting: The Channel Crossings Milestone Labour Wanted Us to Forget",
       "slug": "channel-crossings-200000-milestone-shame-labour-borders-may-2026",
       "date": "2026-05-22",
@@ -301,7 +361,7 @@
       "url": "/articles/channel-crossings-200000-milestone-shame-labour-borders-may-2026.html"
     },
     {
-      "id": 31,
+      "id": 37,
       "title": "Labour's France Returns Pilot Ends in June — And Nothing Has Changed",
       "slug": "small-boats-pilot-failure-one-in-one-out-ends-june-2026",
       "date": "2026-05-21",
@@ -311,7 +371,7 @@
       "url": "/articles/small-boats-pilot-failure-one-in-one-out-ends-june-2026.html"
     },
     {
-      "id": 32,
+      "id": 38,
       "title": "Reform UK Hits 28%: A Record Lead, an Eleven-Point Gap, and a Verdict on the Old Parties",
       "slug": "reform-uk-28-percent-yougov-record-lead-may-2026",
       "date": "2026-05-21",
@@ -321,7 +381,7 @@
       "url": "/articles/reform-uk-28-percent-yougov-record-lead-may-2026.html"
     },
     {
-      "id": 33,
+      "id": 39,
       "title": "7.31 Million Still Waiting: The Real State of Labour's NHS",
       "slug": "nhs-waiting-list-7-3-million-labour-broken-promise-may-2026",
       "date": "2026-05-21",
@@ -331,7 +391,7 @@
       "url": "/articles/nhs-waiting-list-7-3-million-labour-broken-promise-may-2026.html"
     },
     {
-      "id": 34,
+      "id": 40,
       "title": "Net Zero Madness: Another Windfall Tax on July 1st — And Your Bills Will Pay for It",
       "slug": "net-zero-windfall-tax-energy-bills-rise-july-2026",
       "date": "2026-05-21",
@@ -341,7 +401,7 @@
       "url": "/articles/net-zero-windfall-tax-energy-bills-rise-july-2026.html"
     },
     {
-      "id": 35,
+      "id": 41,
       "title": "95 Labour MPs Demand Starmer Quit: A Government Falling Apart in Real Time",
       "slug": "labour-95-mps-revolt-starmer-resignation-letter-may-2026",
       "date": "2026-05-21",
@@ -351,7 +411,7 @@
       "url": "/articles/labour-95-mps-revolt-starmer-resignation-letter-may-2026.html"
     },
     {
-      "id": 36,
+      "id": 42,
       "title": "Labour's Dividend Tax Raid: Savers, Pensioners and Small Business Owners Punished Again",
       "slug": "dividend-tax-rise-savers-investors-punished-april-2026",
       "date": "2026-05-21",
@@ -361,7 +421,7 @@
       "url": "/articles/dividend-tax-rise-savers-investors-punished-april-2026.html"
     },
     {
-      "id": 37,
+      "id": 43,
       "title": "Winter Fuel Clawback: Labour Hands It Out Then Sends HMRC to Take It Back",
       "slug": "winter-fuel-payment-clawback-pensioners-hmrc-tax-may-2026",
       "date": "2026-05-20",
@@ -371,7 +431,7 @@
       "url": "/articles/winter-fuel-payment-clawback-pensioners-hmrc-tax-may-2026.html"
     },
     {
-      "id": 38,
+      "id": 44,
       "title": "Renters' Rights Act, Three Weeks In: Landlords Fleeing, Supply Crashing, Rents Climbing",
       "slug": "renters-rights-act-rents-rising-tenants-worse-off-may-2026",
       "date": "2026-05-20",
@@ -381,7 +441,7 @@
       "url": "/articles/renters-rights-act-rents-rising-tenants-worse-off-may-2026.html"
     },
     {
-      "id": 39,
+      "id": 45,
       "title": "Burnham's Backdoor Coup: The Makerfield Stitch-Up That Lays Bare Labour's Leadership Panic",
       "slug": "makerfield-by-election-burnham-coup-starmer-leadership-may-2026",
       "date": "2026-05-20",
@@ -391,7 +451,7 @@
       "url": "/articles/makerfield-by-election-burnham-coup-starmer-leadership-may-2026.html"
     },
     {
-      "id": 40,
+      "id": 46,
       "title": "Labour's SEND Squeeze: EHCPs Reserved for the 'Most Complex' as Thousands of Children Are Cut Adrift",
       "slug": "ehcp-send-eligibility-cuts-labour-betrays-families-may-2026",
       "date": "2026-05-20",
@@ -401,7 +461,7 @@
       "url": "/articles/ehcp-send-eligibility-cuts-labour-betrays-families-may-2026.html"
     },
     {
-      "id": 41,
+      "id": 47,
       "title": "Britain Promised Five Per Cent, Spends Two-Point-Three: Labour's Defence Maths Doesn't Add Up",
       "slug": "defence-spending-nato-5-percent-target-russia-threat-may-2026",
       "date": "2026-05-20",
@@ -411,7 +471,7 @@
       "url": "/articles/defence-spending-nato-5-percent-target-russia-threat-may-2026.html"
     },
     {
-      "id": 42,
+      "id": 48,
       "title": "Citizenship Made Statutory in Primary Schools: Labour's Quiet Push to Politicise the Classroom",
       "slug": "citizenship-statutory-primary-schools-curriculum-reform-may-2026",
       "date": "2026-05-20",
@@ -421,7 +481,7 @@
       "url": "/articles/citizenship-statutory-primary-schools-curriculum-reform-may-2026.html"
     },
     {
-      "id": 43,
+      "id": 49,
       "title": "TikTok Censors Reform UK's Immigration Policy: The Online Safety Act Is Silencing Democracy",
       "slug": "tiktok-censors-reform-immigration-policy-online-safety-act-may-2026",
       "date": "2026-05-19",
@@ -431,7 +491,7 @@
       "url": "/articles/tiktok-censors-reform-immigration-policy-online-safety-act-may-2026.html"
     },
     {
-      "id": 44,
+      "id": 50,
       "title": "Reform UK's Immigration Reset: 5-Year Visas, English Fluency, and the End of Indefinite Leave to Remain",
       "slug": "reform-uk-immigration-reset-ilr-abolition-may-2026",
       "date": "2026-05-19",
@@ -441,7 +501,7 @@
       "url": "/articles/reform-uk-immigration-reset-ilr-abolition-may-2026.html"
     },
     {
-      "id": 45,
+      "id": 51,
       "title": "NHS Waiting Lists Slip Backwards Again: Labour's '18-Week' Boast Collapses in Two Months",
       "slug": "nhs-waiting-list-slips-60-percent-target-may-2026",
       "date": "2026-05-19",
@@ -451,7 +511,7 @@
       "url": "/articles/nhs-waiting-list-slips-60-percent-target-may-2026.html"
     },
     {
-      "id": 46,
+      "id": 52,
       "title": "Lancashire Pulls Out of Refugee Resettlement Scheme: Reform UK Puts Local Residents First",
       "slug": "lancashire-withdraws-refugee-resettlement-scheme-may-2026",
       "date": "2026-05-19",
@@ -461,7 +521,7 @@
       "url": "/articles/lancashire-withdraws-refugee-resettlement-scheme-may-2026.html"
     },
     {
-      "id": 47,
+      "id": 53,
       "title": "Labour's New Towns Plan: Concrete Over Countryside, Imposed Without Consent",
       "slug": "labour-new-towns-greenbelt-concrete-countryside-may-2026",
       "date": "2026-05-19",
@@ -471,7 +531,7 @@
       "url": "/articles/labour-new-towns-greenbelt-concrete-countryside-may-2026.html"
     },
     {
-      "id": 48,
+      "id": 54,
       "title": "Pensioners Now Pay Income Tax: The Frozen-Threshold Stealth Tax Has Reached the Triple Lock",
       "slug": "frozen-thresholds-state-pension-tax-trap-may-2026",
       "date": "2026-05-19",
@@ -481,7 +541,7 @@
       "url": "/articles/frozen-thresholds-state-pension-tax-trap-may-2026.html"
     },
     {
-      "id": 49,
+      "id": 55,
       "title": "Only One Flag Should Fly Above Our Town Halls — and It's the Union Jack",
       "slug": "reform-uk-foreign-flags-public-buildings-essex-may-2026",
       "date": "2026-05-18",
@@ -491,7 +551,7 @@
       "url": "/articles/reform-uk-foreign-flags-public-buildings-essex-may-2026.html"
     },
     {
-      "id": 50,
+      "id": 56,
       "title": "Reform UK Shatters the Holyrood Stitch-Up: 17 MSPs Break Through in Scotland",
       "slug": "reform-uk-17-msps-scotland-breakthrough-may-2026",
       "date": "2026-05-18",
@@ -501,7 +561,7 @@
       "url": "/articles/reform-uk-17-msps-scotland-breakthrough-may-2026.html"
     },
     {
-      "id": 51,
+      "id": 57,
       "title": "Labour's NHS Victory Lap Is a Statistical Fiddle — 7.3 Million Are Still Waiting",
       "slug": "nhs-18-week-target-labour-spin-7-million-waiting-list-may-2026",
       "date": "2026-05-18",
@@ -511,7 +571,7 @@
       "url": "/articles/nhs-18-week-target-labour-spin-7-million-waiting-list-may-2026.html"
     },
     {
-      "id": 52,
+      "id": 58,
       "title": "Labour's 30-Year Asylum Wait Is Too Little, Too Late — and Still Won't Stop the Boats",
       "slug": "labour-asylum-30-year-settlement-reform-too-little-too-late-may-2026",
       "date": "2026-05-18",
@@ -521,7 +581,7 @@
       "url": "/articles/labour-asylum-30-year-settlement-reform-too-little-too-late-may-2026.html"
     },
     {
-      "id": 53,
+      "id": 59,
       "title": "Labour's April Stealth Raid: Dividend Tax Up, Work-From-Home Relief Gone",
       "slug": "dividend-tax-rise-work-from-home-relief-labour-stealth-raid-april-2026",
       "date": "2026-05-18",
@@ -531,7 +591,7 @@
       "url": "/articles/dividend-tax-rise-work-from-home-relief-labour-stealth-raid-april-2026.html"
     },
     {
-      "id": 54,
+      "id": 60,
       "title": "The Crime and Policing Act Won't Fix Britain Until Two-Tier Policing Ends",
       "slug": "crime-policing-act-2026-royal-assent-two-tier-britain-may-2026",
       "date": "2026-05-18",
@@ -541,7 +601,7 @@
       "url": "/articles/crime-policing-act-2026-royal-assent-two-tier-britain-may-2026.html"
     },
     {
-      "id": 55,
+      "id": 61,
       "title": "Inflation Climbs Back to 3.3 Percent: Reeves's 'Plan' Is Failing British Families",
       "slug": "uk-inflation-3-3-percent-march-cost-of-living-may-2026",
       "date": "2026-05-17",
@@ -551,7 +611,7 @@
       "url": "/articles/uk-inflation-3-3-percent-march-cost-of-living-may-2026.html"
     },
     {
-      "id": 56,
+      "id": 62,
       "title": "Reform UK Smashes Into Holyrood: 17 Seats, Joint-Second Biggest Party",
       "slug": "reform-uk-holyrood-17-seats-second-biggest-party-may-2026",
       "date": "2026-05-17",
@@ -561,7 +621,7 @@
       "url": "/articles/reform-uk-holyrood-17-seats-second-biggest-party-may-2026.html"
     },
     {
-      "id": 57,
+      "id": 63,
       "title": "NHS Hits 18-Week Target — But Don't Mistake the Spin for a Recovery",
       "slug": "nhs-18-week-target-strikes-continue-labour-spin-may-2026",
       "date": "2026-05-17",
@@ -571,7 +631,7 @@
       "url": "/articles/nhs-18-week-target-strikes-continue-labour-spin-may-2026.html"
     },
     {
-      "id": 58,
+      "id": 64,
       "title": "The Mandelson Mess Exposes Starmer's Catastrophic Judgement",
       "slug": "mandelson-appointment-starmer-judgement-collapse-may-2026",
       "date": "2026-05-17",
@@ -581,7 +641,7 @@
       "url": "/articles/mandelson-appointment-starmer-judgement-collapse-may-2026.html"
     },
     {
-      "id": 59,
+      "id": 65,
       "title": "Young Eritrean Asylum Seekers Are Dying Under Labour's Broken System",
       "slug": "eritrean-asylum-seeker-deaths-labour-system-failure-may-2026",
       "date": "2026-05-17",
@@ -591,7 +651,7 @@
       "url": "/articles/eritrean-asylum-seeker-deaths-labour-system-failure-may-2026.html"
     },
     {
-      "id": 60,
+      "id": 66,
       "title": "Crime and Policing Act 2026: A Plaster on a Gaping Wound",
       "slug": "crime-policing-act-2026-royal-assent-not-enough-may-2026",
       "date": "2026-05-17",
@@ -601,7 +661,7 @@
       "url": "/articles/crime-policing-act-2026-royal-assent-not-enough-may-2026.html"
     },
     {
-      "id": 61,
+      "id": 67,
       "title": "Streeting Resigns: Starmer's Government in Open Meltdown as Ministers Walk Out",
       "slug": "streeting-resigns-cabinet-resignations-starmer-meltdown-may-2026",
       "date": "2026-05-16",
@@ -611,7 +671,7 @@
       "url": "/articles/streeting-resigns-cabinet-resignations-starmer-meltdown-may-2026.html"
     },
     {
-      "id": 62,
+      "id": 68,
       "title": "Reform UK's Historic Scottish Breakthrough: From Outsider to Second-Largest Party",
       "slug": "reform-uk-scotland-historic-breakthrough-second-largest-party-may-2026",
       "date": "2026-05-16",
@@ -621,7 +681,7 @@
       "url": "/articles/reform-uk-scotland-historic-breakthrough-second-largest-party-may-2026.html"
     },
     {
-      "id": 63,
+      "id": 69,
       "title": "Labour's NHS Promise in Tatters: Only 60% of Patients Seen Within 18 Weeks",
       "slug": "nhs-18-week-target-still-failing-60-percent-may-2026",
       "date": "2026-05-16",
@@ -631,7 +691,7 @@
       "url": "/articles/nhs-18-week-target-still-failing-60-percent-may-2026.html"
     },
     {
-      "id": 64,
+      "id": 70,
       "title": "Knife Crime: A New Act, Same Soft Sentences, Same Tragedy on Our Streets",
       "slug": "knife-crime-policing-act-2026-soft-sentencing-failure-may-2026",
       "date": "2026-05-16",
@@ -641,7 +701,7 @@
       "url": "/articles/knife-crime-policing-act-2026-soft-sentencing-failure-may-2026.html"
     },
     {
-      "id": 65,
+      "id": 71,
       "title": "The Energy Bill Con: Headline Cap Falls, But Standing Charges Keep Ripping Off British Households",
       "slug": "energy-standing-charges-rip-off-net-zero-burden-may-2026",
       "date": "2026-05-16",
@@ -651,7 +711,7 @@
       "url": "/articles/energy-standing-charges-rip-off-net-zero-burden-may-2026.html"
     },
     {
-      "id": 66,
+      "id": 72,
       "title": "British Businesses Voting With Their Feet: Mid-Sized Firms Plan to Quit the UK Over Labour's Tax Mess",
       "slug": "british-businesses-leaving-uk-tax-burden-baker-tilly-may-2026",
       "date": "2026-05-16",
@@ -661,7 +721,7 @@
       "url": "/articles/british-businesses-leaving-uk-tax-burden-baker-tilly-may-2026.html"
     },
     {
-      "id": 67,
+      "id": 73,
       "title": "1,451 Seats and Five Councils: Reform UK's Historic Shift in British Politics Is Real",
       "slug": "reform-uk-1451-seats-five-councils-historic-shift-may-2026",
       "date": "2026-05-14",
@@ -671,7 +731,7 @@
       "url": "/articles/reform-uk-1451-seats-five-councils-historic-shift-may-2026.html"
     },
     {
-      "id": 68,
+      "id": 74,
       "title": "Energy Price Cap Set to Rise Again as Iran War Exposes Britain's Imported Gas Trap",
       "slug": "q3-energy-price-cap-iran-war-net-zero-failure-may-2026",
       "date": "2026-05-14",
@@ -681,7 +741,7 @@
       "url": "/articles/q3-energy-price-cap-iran-war-net-zero-failure-may-2026.html"
     },
     {
-      "id": 69,
+      "id": 75,
       "title": "7.9 Million Trapped on Waiting Lists: Labour's NHS Promise Lies in Tatters",
       "slug": "nhs-waiting-list-7-9-million-target-missed-labour-failure-may-2026",
       "date": "2026-05-14",
@@ -691,7 +751,7 @@
       "url": "/articles/nhs-waiting-list-7-9-million-target-missed-labour-failure-may-2026.html"
     },
     {
-      "id": 70,
+      "id": 76,
       "title": "Jess Phillips Walks Out: Labour's Safeguarding Minister Joins the Exodus From a Collapsing Government",
       "slug": "jess-phillips-quits-safeguarding-labour-collapse-may-2026",
       "date": "2026-05-14",
@@ -701,7 +761,7 @@
       "url": "/articles/jess-phillips-quits-safeguarding-labour-collapse-may-2026.html"
     },
     {
-      "id": 71,
+      "id": 77,
       "title": "Consumer Confidence Collapses to -13: Two-Thirds of Britons Cutting Back on Essentials Under Labour",
       "slug": "consumer-confidence-collapses-households-cut-essentials-may-2026",
       "date": "2026-05-14",
@@ -711,7 +771,7 @@
       "url": "/articles/consumer-confidence-collapses-households-cut-essentials-may-2026.html"
     },
     {
-      "id": 72,
+      "id": 78,
       "title": "200,000 Small Boat Arrivals: The £662 Million French Deal That Was Never Worth the Paper It Was Signed On",
       "slug": "channel-crossings-200000-milestone-labour-borders-broken-may-2026",
       "date": "2026-05-14",
@@ -721,7 +781,7 @@
       "url": "/articles/channel-crossings-200000-milestone-labour-borders-broken-may-2026.html"
     },
     {
-      "id": 73,
+      "id": 79,
       "title": "741 Dead in Temporary Housing: Labour's Hidden National Scandal",
       "slug": "temporary-accommodation-741-deaths-housing-scandal-may-2026",
       "date": "2026-05-13",
@@ -731,7 +791,7 @@
       "url": "/articles/temporary-accommodation-741-deaths-housing-scandal-may-2026.html"
     },
     {
-      "id": 74,
+      "id": 80,
       "title": "Streeting's Number 10 Showdown: The Leadership Coup Begins",
       "slug": "streeting-starmer-showdown-leadership-coup-may-2026",
       "date": "2026-05-13",
@@ -741,7 +801,7 @@
       "url": "/articles/streeting-starmer-showdown-leadership-coup-may-2026.html"
     },
     {
-      "id": 75,
+      "id": 81,
       "title": "Reform UK at 30%: The Route to Power Is Wide Open",
       "slug": "reform-uk-30-percent-vote-share-route-to-power-may-2026",
       "date": "2026-05-13",
@@ -751,7 +811,7 @@
       "url": "/articles/reform-uk-30-percent-vote-share-route-to-power-may-2026.html"
     },
     {
-      "id": 76,
+      "id": 82,
       "title": "Four Ministers Walk Out: Starmer's Government in Total Freefall",
       "slug": "four-ministers-resign-starmer-freefall-may-2026",
       "date": "2026-05-13",
@@ -761,7 +821,7 @@
       "url": "/articles/four-ministers-resign-starmer-freefall-may-2026.html"
     },
     {
-      "id": 77,
+      "id": 83,
       "title": "The Hidden £65: Labour's Net-Zero \"Bill Cuts\" Are a Lie",
       "slug": "energy-network-costs-hidden-65-pound-net-zero-lies-may-2026",
       "date": "2026-05-13",
@@ -771,7 +831,7 @@
       "url": "/articles/energy-network-costs-hidden-65-pound-net-zero-lies-may-2026.html"
     },
     {
-      "id": 78,
+      "id": 84,
       "title": "Britain Hits Peak Taxation: 40% Tax Burden, the Highest Since the War",
       "slug": "britain-peak-taxation-40-percent-imf-warning-may-2026",
       "date": "2026-05-13",
@@ -781,7 +841,7 @@
       "url": "/articles/britain-peak-taxation-40-percent-imf-warning-may-2026.html"
     },
     {
-      "id": 79,
+      "id": 85,
       "title": "Two-Child Benefit Cap Scrapping Costs £13.6 Billion: Working Britain Pays for Labour's Welfare Explosion",
       "slug": "two-child-benefit-cap-13-billion-cost-welfare-explosion-may-2026",
       "date": "2026-05-12",
@@ -791,7 +851,7 @@
       "url": "/articles/two-child-benefit-cap-13-billion-cost-welfare-explosion-may-2026.html"
     },
     {
-      "id": 80,
+      "id": 86,
       "title": "From Loveless Marriage to Acrimonious Split: The Starmer-Reeves Era Is Ending",
       "slug": "starmer-reeves-acrimonious-split-may-2026",
       "date": "2026-05-12",
@@ -801,7 +861,7 @@
       "url": "/articles/starmer-reeves-acrimonious-split-may-2026.html"
     },
     {
-      "id": 81,
+      "id": 87,
       "title": "Reform UK Takes Control of Lancashire County Council: A Historic Moment for the County",
       "slug": "reform-uk-takes-control-lancashire-county-council-may-2026",
       "date": "2026-05-12",
@@ -811,7 +871,7 @@
       "url": "/articles/reform-uk-takes-control-lancashire-county-council-may-2026.html"
     },
     {
-      "id": 82,
+      "id": 88,
       "title": "Five Knives Out: Labour's Would-Be Successors Are Already Auditioning",
       "slug": "labour-successors-five-knives-out-may-2026",
       "date": "2026-05-12",
@@ -821,7 +881,7 @@
       "url": "/articles/labour-successors-five-knives-out-may-2026.html"
     },
     {
-      "id": 83,
+      "id": 89,
       "title": "The 20% Trap: How Labour's Own Rulebook Could Make Starmer's Removal Inevitable",
       "slug": "labour-no-confidence-rules-starmer-vulnerable-may-2026",
       "date": "2026-05-12",
@@ -831,7 +891,7 @@
       "url": "/articles/labour-no-confidence-rules-starmer-vulnerable-may-2026.html"
     },
     {
-      "id": 84,
+      "id": 90,
       "title": "Labour's Bleeding Heart: Why Starmer's Own MPs Have Already Walked Out",
       "slug": "labour-left-revolt-welfare-gaza-reform-surge-may-2026",
       "date": "2026-05-12",
@@ -841,7 +901,7 @@
       "url": "/articles/labour-left-revolt-welfare-gaza-reform-surge-may-2026.html"
     },
     {
-      "id": 85,
+      "id": 91,
       "title": "Six Government Aides Quit in 48 Hours: The Labour Government Is in Open Collapse",
       "slug": "labour-aides-mass-exodus-starmer-government-collapse-may-2026",
       "date": "2026-05-12",
@@ -851,7 +911,7 @@
       "url": "/articles/labour-aides-mass-exodus-starmer-government-collapse-may-2026.html"
     },
     {
-      "id": 86,
+      "id": 92,
       "title": "Farmers Take Labour to the High Court Over Inheritance Tax Raid: The Tractor Tax Is Killing Family Farming",
       "slug": "farmer-inheritance-tax-judicial-review-labour-policy-may-2026",
       "date": "2026-05-12",
@@ -861,7 +921,7 @@
       "url": "/articles/farmer-inheritance-tax-judicial-review-labour-policy-may-2026.html"
     },
     {
-      "id": 87,
+      "id": 93,
       "title": "Consumer Sentiment Crashes to -13: The Sharpest Fall Since 2022 Under Labour",
       "slug": "consumer-sentiment-crash-pwc-index-cost-of-living-may-2026",
       "date": "2026-05-12",
@@ -871,7 +931,7 @@
       "url": "/articles/consumer-sentiment-crash-pwc-index-cost-of-living-may-2026.html"
     },
     {
-      "id": 88,
+      "id": 94,
       "title": "Cabinet Ministers Tell Starmer to Set Resignation Timetable: The Prime Minister Has Lost His Authority",
       "slug": "cabinet-ministers-starmer-resignation-timetable-may-2026",
       "date": "2026-05-12",
@@ -881,7 +941,7 @@
       "url": "/articles/cabinet-ministers-starmer-resignation-timetable-may-2026.html"
     },
     {
-      "id": 89,
+      "id": 95,
       "title": "Havering Falls: Reform UK Plants Its First Flag In London",
       "slug": "reform-uk-havering-first-london-council-historic-may-2026",
       "date": "2026-05-11",
@@ -891,7 +951,7 @@
       "url": "/articles/reform-uk-havering-first-london-council-historic-may-2026.html"
     },
     {
-      "id": 90,
+      "id": 96,
       "title": "£4.5 Trillion: The Real Price Of Ed Miliband's Net Zero Fantasy",
       "slug": "neso-net-zero-4-5-trillion-cost-britain-may-2026",
       "date": "2026-05-11",
@@ -901,7 +961,7 @@
       "url": "/articles/neso-net-zero-4-5-trillion-cost-britain-may-2026.html"
     },
     {
-      "id": 91,
+      "id": 97,
       "title": "Gordon Brown's Back. Labour Is Out Of Ideas And Out Of Time.",
       "slug": "gordon-brown-harriet-harman-comeback-labour-desperation-may-2026",
       "date": "2026-05-11",
@@ -911,7 +971,7 @@
       "url": "/articles/gordon-brown-harriet-harman-comeback-labour-desperation-may-2026.html"
     },
     {
-      "id": 92,
+      "id": 98,
       "title": "200,000 And Counting: The Channel Milestone Labour Said Would Never Come",
       "slug": "channel-crossings-200000-milestone-shattered-may-2026",
       "date": "2026-05-11",
@@ -921,7 +981,7 @@
       "url": "/articles/channel-crossings-200000-milestone-shattered-may-2026.html"
     },
     {
-      "id": 93,
+      "id": 99,
       "title": "Stalking Horse: Labour MPs Are Drawing The Knives On Their Own Prime Minister",
       "slug": "catherine-west-stalking-horse-labour-leadership-collapse-may-2026",
       "date": "2026-05-11",
@@ -931,7 +991,7 @@
       "url": "/articles/catherine-west-stalking-horse-labour-leadership-collapse-may-2026.html"
     },
     {
-      "id": 94,
+      "id": 100,
       "title": "Eleven Hotels Down, Hundreds To Go: Labour's Asylum Plan Is A Slow-Motion Failure",
       "slug": "asylum-hotels-closure-military-sites-labour-failure-may-2026",
       "date": "2026-05-11",
@@ -941,7 +1001,7 @@
       "url": "/articles/asylum-hotels-closure-military-sites-labour-failure-may-2026.html"
     },
     {
-      "id": 95,
+      "id": 101,
       "title": "Reform UK Pledges 24,000-Place Detention Capacity: A Serious Deportation Plan At Last",
       "slug": "reform-uk-24000-detention-capacity-deportation-plan-may-2026",
       "date": "2026-05-10",
@@ -951,7 +1011,7 @@
       "url": "/articles/reform-uk-24000-detention-capacity-deportation-plan-may-2026.html"
     },
     {
-      "id": 96,
+      "id": 102,
       "title": "Miliband Hides the Numbers: Net Zero Cost Documents Buried as Bills Rise",
       "slug": "miliband-net-zero-cost-cover-up-hidden-documents-may-2026",
       "date": "2026-05-10",
@@ -961,7 +1021,7 @@
       "url": "/articles/miliband-net-zero-cost-cover-up-hidden-documents-may-2026.html"
     },
     {
-      "id": 97,
+      "id": 103,
       "title": "Labour's Worst Night in a Generation: 450 Councillors Lost, Starmer's Authority in Tatters",
       "slug": "labour-450-seat-collapse-leadership-crisis-may-2026",
       "date": "2026-05-10",
@@ -971,7 +1031,7 @@
       "url": "/articles/labour-450-seat-collapse-leadership-crisis-may-2026.html"
     },
     {
-      "id": 98,
+      "id": 104,
       "title": "£26 Million Knife Crime Fund: Too Little, Too Late From Labour",
       "slug": "knife-crime-fund-26-million-too-little-too-late-may-2026",
       "date": "2026-05-10",
@@ -981,7 +1041,7 @@
       "url": "/articles/knife-crime-fund-26-million-too-little-too-late-may-2026.html"
     },
     {
-      "id": 99,
+      "id": 105,
       "title": "Inflation Set to Spike Above 6%: Starmer's Own Warning Exposes Labour's Economic Failure",
       "slug": "inflation-set-to-spike-6-percent-oecd-warning-may-2026",
       "date": "2026-05-10",
@@ -991,7 +1051,7 @@
       "url": "/articles/inflation-set-to-spike-6-percent-oecd-warning-may-2026.html"
     },
     {
-      "id": 100,
+      "id": 106,
       "title": "Home Office Deports Fewer Than 4% of Small Boat Arrivals: Labour's Border Failure Laid Bare",
       "slug": "home-office-deports-fewer-than-4-percent-asylum-failure-may-2026",
       "date": "2026-05-10",
@@ -1001,7 +1061,7 @@
       "url": "/articles/home-office-deports-fewer-than-4-percent-asylum-failure-may-2026.html"
     },
     {
-      "id": 101,
+      "id": 107,
       "title": "Welsh Labour Collapse: Eluned Morgan Loses Her Seat as a Century of Dominance Ends",
       "slug": "welsh-labour-wipeout-eluned-morgan-loses-seat-may-2026",
       "date": "2026-05-09",
@@ -1011,7 +1071,7 @@
       "url": "/articles/welsh-labour-wipeout-eluned-morgan-loses-seat-may-2026.html"
     },
     {
-      "id": 102,
+      "id": 108,
       "title": "Reform UK's Earthquake Election: Britain Delivers Its Verdict on Labour",
       "slug": "reform-uk-council-results-may-2026",
       "date": "2026-05-09",
@@ -1021,7 +1081,7 @@
       "url": "/articles/reform-uk-council-results-may-2026.html"
     },
     {
-      "id": 103,
+      "id": 109,
       "title": "Met Police Drops 100 Officers on Hate Crime — After Years of Letting It Run Riot",
       "slug": "met-police-community-protection-team-too-late-may-2026",
       "date": "2026-05-09",
@@ -1031,7 +1091,7 @@
       "url": "/articles/met-police-community-protection-team-too-late-may-2026.html"
     },
     {
-      "id": 104,
+      "id": 110,
       "title": "The Mutiny Begins: Labour MPs Go Public Demanding Starmer Resign",
       "slug": "labour-mps-public-mutiny-starmer-resignation-may-2026",
       "date": "2026-05-09",
@@ -1041,7 +1101,7 @@
       "url": "/articles/labour-mps-public-mutiny-starmer-resignation-may-2026.html"
     },
     {
-      "id": 105,
+      "id": 111,
       "title": "HMRC Pursues 700,000 Britons Over Tax Avoidance — Reeves Turns the Screw on Working People",
       "slug": "hmrc-700000-tax-avoidance-pursuit-treasury-overreach-may-2026",
       "date": "2026-05-09",
@@ -1051,7 +1111,7 @@
       "url": "/articles/hmrc-700000-tax-avoidance-pursuit-treasury-overreach-may-2026.html"
     },
     {
-      "id": 106,
+      "id": 112,
       "title": "172,000 Children in Temporary Accommodation: The Housing Emergency Labour Will Not Confront",
       "slug": "children-temporary-accommodation-172000-housing-emergency-may-2026",
       "date": "2026-05-09",
@@ -1061,7 +1121,7 @@
       "url": "/articles/children-temporary-accommodation-172000-housing-emergency-may-2026.html"
     },
     {
-      "id": 107,
+      "id": 113,
       "title": "BADR Rises to 18 Percent: Labour Declares Open Season on British Entrepreneurs",
       "slug": "badr-business-asset-disposal-relief-18-percent-entrepreneurs-may-2026",
       "date": "2026-05-09",
@@ -1071,7 +1131,7 @@
       "url": "/articles/badr-business-asset-disposal-relief-18-percent-entrepreneurs-may-2026.html"
     },
     {
-      "id": 108,
+      "id": 114,
       "title": "Tameside and Wigan Fall to Reform: Labour's Old Heartlands Have Had Enough",
       "slug": "tameside-wigan-old-labour-heartlands-fall-reform-may-2026",
       "date": "2026-05-08",
@@ -1081,7 +1141,7 @@
       "url": "/articles/tameside-wigan-old-labour-heartlands-fall-reform-may-2026.html"
     },
     {
-      "id": 109,
+      "id": 115,
       "title": "Labour Misses Its Own NHS Pledge — Again. The 18-Week Target Was Never Going To Be Hit",
       "slug": "nhs-18-week-pledge-interim-target-missed-may-2026",
       "date": "2026-05-08",
@@ -1091,7 +1151,7 @@
       "url": "/articles/nhs-18-week-pledge-interim-target-missed-may-2026.html"
     },
     {
-      "id": 110,
+      "id": 116,
       "title": "Making Tax Digital Goes Live: Labour's Quarterly Tax Trap For The Self-Employed",
       "slug": "making-tax-digital-income-tax-self-employed-burden-may-2026",
       "date": "2026-05-08",
@@ -1101,7 +1161,7 @@
       "url": "/articles/making-tax-digital-income-tax-self-employed-burden-may-2026.html"
     },
     {
-      "id": 111,
+      "id": 117,
       "title": "Labour's Lords Reform Isn't Reform — It's A Power Grab Dressed Up As Tradition-Breaking",
       "slug": "house-of-lords-hereditary-peers-act-labour-power-grab-may-2026",
       "date": "2026-05-08",
@@ -1111,7 +1171,7 @@
       "url": "/articles/house-of-lords-hereditary-peers-act-labour-power-grab-may-2026.html"
     },
     {
-      "id": 112,
+      "id": 118,
       "title": "Bills Are About To Go Up Again: A 12% Surge Is Coming In July",
       "slug": "energy-price-cap-july-2026-12-percent-surge-may-2026",
       "date": "2026-05-08",
@@ -1121,7 +1181,7 @@
       "url": "/articles/energy-price-cap-july-2026-12-percent-surge-may-2026.html"
     },
     {
-      "id": 113,
+      "id": 119,
       "title": "The Crime And Policing Act Punishes Boardrooms While Burglars Walk Free",
       "slug": "crime-policing-act-corporate-liability-too-soft-on-real-crime-may-2026",
       "date": "2026-05-08",
@@ -1131,7 +1191,7 @@
       "url": "/articles/crime-policing-act-corporate-liability-too-soft-on-real-crime-may-2026.html"
     },
     {
-      "id": 114,
+      "id": 120,
       "title": "Tax Thresholds Frozen Until 2031: Labour's Stealth Raid Will Leave Families £500 Worse Off",
       "slug": "tax-thresholds-frozen-2031-stealth-tax-trap-may-2026",
       "date": "2026-05-07",
@@ -1141,7 +1201,7 @@
       "url": "/articles/tax-thresholds-frozen-2031-stealth-tax-trap-may-2026.html"
     },
     {
-      "id": 115,
+      "id": 121,
       "title": "Starmer's Referendum: Today Britain Delivers Its Verdict And Labour Knows The Answer",
       "slug": "starmer-referendum-britains-verdict-labour-meltdown-may-2026",
       "date": "2026-05-07",
@@ -1151,7 +1211,7 @@
       "url": "/articles/starmer-referendum-britains-verdict-labour-meltdown-may-2026.html"
     },
     {
-      "id": 116,
+      "id": 122,
       "title": "199,920 And Counting: Channel Crossings Now Within Touching Distance Of 200,000 Under Labour's Watch",
       "slug": "small-boat-crossings-near-200000-labour-pledge-broken-may-2026",
       "date": "2026-05-07",
@@ -1161,7 +1221,7 @@
       "url": "/articles/small-boat-crossings-near-200000-labour-pledge-broken-may-2026.html"
     },
     {
-      "id": 117,
+      "id": 123,
       "title": "Polling Day: Britain Votes And Reform UK Stands On The Brink Of Historic Breakthrough",
       "slug": "polling-day-britain-votes-reform-uk-historic-breakthrough-may-2026",
       "date": "2026-05-07",
@@ -1171,7 +1231,7 @@
       "url": "/articles/polling-day-britain-votes-reform-uk-historic-breakthrough-may-2026.html"
     },
     {
-      "id": 118,
+      "id": 124,
       "title": "Labour's 1.5 Million Homes Pledge Is Already Broken: First-Year Completions Just 47% Of Target",
       "slug": "labour-housing-pledge-half-target-shortfall-may-2026",
       "date": "2026-05-07",
@@ -1181,7 +1241,7 @@
       "url": "/articles/labour-housing-pledge-half-target-shortfall-may-2026.html"
     },
     {
-      "id": 119,
+      "id": 125,
       "title": "BMA Rejects 3.5% Offer: Resident Doctors Walk Out Again As Labour's NHS Deal Falls Apart",
       "slug": "bma-rejects-3-5-percent-pay-offer-doctors-strike-may-2026",
       "date": "2026-05-07",
@@ -1191,7 +1251,7 @@
       "url": "/articles/bma-rejects-3-5-percent-pay-offer-doctors-strike-may-2026.html"
     },
     {
-      "id": 120,
+      "id": 126,
       "title": "Reform UK on Course to Take Essex, Norfolk and Suffolk: Eastern England Set to Lead the Political Earthquake",
       "slug": "reform-uk-eastern-counties-essex-norfolk-suffolk-flip-may-2026",
       "date": "2026-05-06",
@@ -1201,7 +1261,7 @@
       "url": "/articles/reform-uk-eastern-counties-essex-norfolk-suffolk-flip-may-2026.html"
     },
     {
-      "id": 121,
+      "id": 127,
       "title": "NHS Disputes Hit 22 Active Strikes: Airedale, Barnsley, Pay Battles Spreading — Labour Has Lost Control of the Health Service",
       "slug": "nhs-22-active-disputes-strikes-mount-labour-failure-may-2026",
       "date": "2026-05-06",
@@ -1211,7 +1271,7 @@
       "url": "/articles/nhs-22-active-disputes-strikes-mount-labour-failure-may-2026.html"
     },
     {
-      "id": 122,
+      "id": 128,
       "title": "London Housebuilding Collapses to Worst Levels Since World War Two: Labour and Khan Have Hollowed Out the Capital",
       "slug": "london-housebuilding-collapse-worst-since-wwii-labour-failure-may-2026",
       "date": "2026-05-06",
@@ -1221,7 +1281,7 @@
       "url": "/articles/london-housebuilding-collapse-worst-since-wwii-labour-failure-may-2026.html"
     },
     {
-      "id": 123,
+      "id": 129,
       "title": "Labour's £2,000 Pension Salary Sacrifice Cap Becomes Law: Another Stealth Raid on Workers' Retirement",
       "slug": "labour-pension-salary-sacrifice-2000-cap-stealth-raid-may-2026",
       "date": "2026-05-06",
@@ -1231,7 +1291,7 @@
       "url": "/articles/labour-pension-salary-sacrifice-2000-cap-stealth-raid-may-2026.html"
     },
     {
-      "id": 124,
+      "id": 130,
       "title": "Labour's 1.5 Million Homes Pledge in Tatters: Just 47% of the Year-One Target Built",
       "slug": "labour-1-5-million-homes-target-collapse-housing-failure-may-2026",
       "date": "2026-05-06",
@@ -1241,7 +1301,7 @@
       "url": "/articles/labour-1-5-million-homes-target-collapse-housing-failure-may-2026.html"
     },
     {
-      "id": 125,
+      "id": 131,
       "title": "Bank of England Warns Inflation Could Hit 5%: Iran War Exposes Labour's Energy Policy as a National Vulnerability",
       "slug": "bank-of-england-inflation-warning-iran-war-energy-may-2026",
       "date": "2026-05-06",
@@ -1251,7 +1311,7 @@
       "url": "/articles/bank-of-england-inflation-warning-iran-war-energy-may-2026.html"
     },
     {
-      "id": 126,
+      "id": 132,
       "title": "£662 Million for France, 199,406 Crossings and Counting: Labour's Border Cheque is a Broken Promise",
       "slug": "uk-france-662-million-deal-failing-channel-crossings-may-2026",
       "date": "2026-05-05",
@@ -1261,7 +1321,7 @@
       "url": "/articles/uk-france-662-million-deal-failing-channel-crossings-may-2026.html"
     },
     {
-      "id": 127,
+      "id": 133,
       "title": "Streeting Lines Up the Knife: Starmer's Last Days as Labour MPs Plot a May 9 Coup",
       "slug": "streeting-leadership-coup-starmer-final-days-may-2026",
       "date": "2026-05-05",
@@ -1271,7 +1331,7 @@
       "url": "/articles/streeting-leadership-coup-starmer-final-days-may-2026.html"
     },
     {
-      "id": 128,
+      "id": 134,
       "title": "Operation Beaconport: 1,200 Grooming Gang Cases Reopened After a Generation of Establishment Cowardice",
       "slug": "operation-beaconport-grooming-gangs-1200-cases-reopened-may-2026",
       "date": "2026-05-05",
@@ -1281,7 +1341,7 @@
       "url": "/articles/operation-beaconport-grooming-gangs-1200-cases-reopened-may-2026.html"
     },
     {
-      "id": 129,
+      "id": 135,
       "title": "OPEC+ Floods the Market and Britain Still Pays Through the Nose: Labour's Net Zero Tax on Drivers",
       "slug": "opec-output-rise-uk-petrol-prices-labour-energy-failure-may-2026",
       "date": "2026-05-05",
@@ -1291,7 +1351,7 @@
       "url": "/articles/opec-output-rise-uk-petrol-prices-labour-energy-failure-may-2026.html"
     },
     {
-      "id": 130,
+      "id": 136,
       "title": "Almost 9,000 Cancer Patients Waiting Over 65 Weeks: Labour's NHS Failure Has a Death Toll",
       "slug": "nhs-cancer-waiting-times-targets-missed-65-weeks-may-2026",
       "date": "2026-05-05",
@@ -1301,7 +1361,7 @@
       "url": "/articles/nhs-cancer-waiting-times-targets-missed-65-weeks-may-2026.html"
     },
     {
-      "id": 131,
+      "id": 137,
       "title": "48 Hours From a Political Earthquake: Farage Predicts a Reform UK Result That Will Reshape Westminster",
       "slug": "farage-eve-of-poll-stunningly-well-local-elections-may-2026",
       "date": "2026-05-05",
@@ -1311,7 +1371,7 @@
       "url": "/articles/farage-eve-of-poll-stunningly-well-local-elections-may-2026.html"
     },
     {
-      "id": 132,
+      "id": 138,
       "title": "£4.5 Billion in Energy Debt: Britain's Households Are Drowning in Net Zero Bills",
       "slug": "uk-energy-debt-4-5-billion-record-ofgem-net-zero-may-2026",
       "date": "2026-05-04",
@@ -1321,7 +1381,7 @@
       "url": "/articles/uk-energy-debt-4-5-billion-record-ofgem-net-zero-may-2026.html"
     },
     {
-      "id": 133,
+      "id": 139,
       "title": "Three Days Out: Reform UK Stands on the Brink of Historic Local Election Gains",
       "slug": "reform-uk-eve-of-historic-local-election-gains-may-2026",
       "date": "2026-05-04",
@@ -1331,7 +1391,7 @@
       "url": "/articles/reform-uk-eve-of-historic-local-election-gains-may-2026.html"
     },
     {
-      "id": 134,
+      "id": 140,
       "title": "NHS Waiting List Hits 7.31 Million: Labour's 18-Week Pledge Is in Tatters",
       "slug": "nhs-waiting-list-7-31-million-labour-broken-pledge-may-2026",
       "date": "2026-05-04",
@@ -1341,7 +1401,7 @@
       "url": "/articles/nhs-waiting-list-7-31-million-labour-broken-pledge-may-2026.html"
     },
     {
-      "id": 135,
+      "id": 141,
       "title": "Crime and Policing Act 2026: Royal Assent at Last, But It's Too Little, Too Late",
       "slug": "crime-policing-act-2026-shoplifting-threshold-too-late-may-2026",
       "date": "2026-05-04",
@@ -1351,7 +1411,7 @@
       "url": "/articles/crime-policing-act-2026-shoplifting-threshold-too-late-may-2026.html"
     },
     {
-      "id": 136,
+      "id": 142,
       "title": "Two Women Dead in the Channel: Labour's Border Failure Has a Body Count",
       "slug": "channel-crossing-tragedy-two-women-die-calais-may-2026",
       "date": "2026-05-04",
@@ -1361,7 +1421,7 @@
       "url": "/articles/channel-crossing-tragedy-two-women-die-calais-may-2026.html"
     },
     {
-      "id": 137,
+      "id": 143,
       "title": "Air Passenger Duty Rise: Another Stealth Tax on Working Families' Holidays",
       "slug": "air-passenger-duty-rise-stealth-tax-flying-may-2026",
       "date": "2026-05-04",
@@ -1371,7 +1431,7 @@
       "url": "/articles/air-passenger-duty-rise-stealth-tax-flying-may-2026.html"
     },
     {
-      "id": 138,
+      "id": 144,
       "title": "The Tobacco and Vapes Act: Labour's Nanny State Now Decides What Adults Can Buy for the Rest of Their Lives",
       "slug": "tobacco-vapes-act-2026-generational-ban-nanny-state-may-2026",
       "date": "2026-05-03",
@@ -1381,7 +1441,7 @@
       "url": "/articles/tobacco-vapes-act-2026-generational-ban-nanny-state-may-2026.html"
     },
     {
-      "id": 139,
+      "id": 145,
       "title": "UK Terror Threat Raised to SEVERE: Golders Green Attack Exposes Britain's Border and Vetting Failure",
       "slug": "terror-threat-level-severe-golders-green-attack-vetting-may-2026",
       "date": "2026-05-03",
@@ -1391,7 +1451,7 @@
       "url": "/articles/terror-threat-level-severe-golders-green-attack-vetting-may-2026.html"
     },
     {
-      "id": 140,
+      "id": 146,
       "title": "One In, One Out — Now Sending Syrians Back to Syria: Labour's Flagship Migration Deal Is a Mess",
       "slug": "syrian-asylum-seeker-france-deportation-one-in-one-out-broken-may-2026",
       "date": "2026-05-03",
@@ -1401,7 +1461,7 @@
       "url": "/articles/syrian-asylum-seeker-france-deportation-one-in-one-out-broken-may-2026.html"
     },
     {
-      "id": 141,
+      "id": 147,
       "title": "Britain Pays the Highest Energy Bills in the G7 and Calls It a 'Cap': The Net Zero Tax in Plain Sight",
       "slug": "ofgem-energy-price-cap-summer-2026-net-zero-cost-of-living-may-2026",
       "date": "2026-05-03",
@@ -1411,7 +1471,7 @@
       "url": "/articles/ofgem-energy-price-cap-summer-2026-net-zero-cost-of-living-may-2026.html"
     },
     {
-      "id": 142,
+      "id": 148,
       "title": "Monthly Strikes for the Rest of the Year: Labour Has Lost Control of the NHS Pay Dispute",
       "slug": "nhs-resident-doctors-monthly-strike-threat-2026-labour-pay-failure-may-2026",
       "date": "2026-05-03",
@@ -1421,7 +1481,7 @@
       "url": "/articles/nhs-resident-doctors-monthly-strike-threat-2026-labour-pay-failure-may-2026.html"
     },
     {
-      "id": 143,
+      "id": 149,
       "title": "Four Days to Go: Why 7 May Will Be the Day Britain's Two-Party Stitch-Up Finally Cracked",
       "slug": "local-elections-7-may-2026-countdown-reform-uk-historic-breakthrough",
       "date": "2026-05-03",
@@ -1431,7 +1491,7 @@
       "url": "/articles/local-elections-7-may-2026-countdown-reform-uk-historic-breakthrough.html"
     },
     {
-      "id": 144,
+      "id": 150,
       "title": "Reform UK on Course to Sweep All 13 West Midlands Councils",
       "slug": "west-midlands-reform-uk-sweep-13-councils-may-2026",
       "date": "2026-05-02",
@@ -1441,7 +1501,7 @@
       "url": "/articles/west-midlands-reform-uk-sweep-13-councils-may-2026.html"
     },
     {
-      "id": 145,
+      "id": 151,
       "title": "UK-France 'One-In-One-Out' Returns 305, Lets In 367. The Maths Doesn't Lie.",
       "slug": "uk-france-one-in-one-out-net-loss-immigration-may-2026",
       "date": "2026-05-02",
@@ -1451,7 +1511,7 @@
       "url": "/articles/uk-france-one-in-one-out-net-loss-immigration-may-2026.html"
     },
     {
-      "id": 146,
+      "id": 152,
       "title": "Reform UK Will Abolish the Department for Net Zero. Britain Cannot Afford This Green Religion.",
       "slug": "reform-uk-abolish-desnz-net-zero-dustbin-may-2026",
       "date": "2026-05-02",
@@ -1461,7 +1521,7 @@
       "url": "/articles/reform-uk-abolish-desnz-net-zero-dustbin-may-2026.html"
     },
     {
-      "id": 147,
+      "id": 153,
       "title": "No 10 Crumbles: Starmer's Inner Circle Collapses Under Weight of Mandelson Scandal",
       "slug": "no-10-exodus-mandelson-scandal-may-2026",
       "date": "2026-05-02",
@@ -1471,7 +1531,7 @@
       "url": "/articles/no-10-exodus-mandelson-scandal-may-2026.html"
     },
     {
-      "id": 148,
+      "id": 154,
       "title": "NHS Diagnostic Waiting List Hits 1.68 Million as Labour's Targets Crumble",
       "slug": "nhs-diagnostic-waiting-list-1-68-million-may-2026",
       "date": "2026-05-02",
@@ -1481,7 +1541,7 @@
       "url": "/articles/nhs-diagnostic-waiting-list-1-68-million-may-2026.html"
     },
     {
-      "id": 149,
+      "id": 155,
       "title": "63% of Britons Are Cutting Back on Essentials. This Is Labour's Britain.",
       "slug": "cost-of-living-63-percent-cutting-essentials-may-2026",
       "date": "2026-05-02",
@@ -1491,7 +1551,7 @@
       "url": "/articles/cost-of-living-63-percent-cutting-essentials-may-2026.html"
     },
     {
-      "id": 150,
+      "id": 156,
       "title": "9 Crimes Per Thief: The Shoplifting Epidemic Exposing Labour's Soft Justice",
       "slug": "shoplifting-9-offences-per-thief-soft-justice-crime-april-2026",
       "date": "2026-05-01",
@@ -1501,7 +1561,7 @@
       "url": "/articles/shoplifting-9-offences-per-thief-soft-justice-crime-april-2026.html"
     },
     {
-      "id": 151,
+      "id": 157,
       "title": "Section 21 Surge: 60% Spike in Evictions Exposes the Renters' Rights Act Disaster",
       "slug": "section-21-eviction-surge-renters-rights-act-may-2026",
       "date": "2026-05-01",
@@ -1511,7 +1571,7 @@
       "url": "/articles/section-21-eviction-surge-renters-rights-act-may-2026.html"
     },
     {
-      "id": 152,
+      "id": 158,
       "title": "Labour Faces Historic Wipeout: Polls Predict 1,850 Council Seats Lost as Britain Turns to Reform UK",
       "slug": "labour-1850-seat-wipeout-historic-local-elections-may-2026",
       "date": "2026-05-01",
@@ -1521,7 +1581,7 @@
       "url": "/articles/labour-1850-seat-wipeout-historic-local-elections-may-2026.html"
     },
     {
-      "id": 153,
+      "id": 159,
       "title": "Inflation Climbs to 3.3%: Labour's Promise of Falling Prices Lies in Tatters",
       "slug": "inflation-rises-3-3-percent-march-2026-cost-of-living-squeeze",
       "date": "2026-05-01",
@@ -1531,7 +1591,7 @@
       "url": "/articles/inflation-rises-3-3-percent-march-2026-cost-of-living-squeeze.html"
     },
     {
-      "id": 154,
+      "id": 160,
       "title": "Heating Oil Up 95%: Rural Britain Pays the Price for Labour's Energy Failures",
       "slug": "heating-oil-prices-surge-95-percent-rural-britain-energy-april-2026",
       "date": "2026-05-01",
@@ -1541,7 +1601,7 @@
       "url": "/articles/heating-oil-prices-surge-95-percent-rural-britain-energy-april-2026.html"
     },
     {
-      "id": 155,
+      "id": 161,
       "title": "£15.3 Billion and Counting: Labour's Broken Promise to Close the Asylum Hotels",
       "slug": "asylum-hotels-15-billion-cost-labour-broken-promise-april-2026",
       "date": "2026-05-01",
@@ -1551,7 +1611,7 @@
       "url": "/articles/asylum-hotels-15-billion-cost-labour-broken-promise-april-2026.html"
     },
     {
-      "id": 156,
+      "id": 162,
       "title": "Labour Scraps the Two-Child Benefit Cap: A £3 Billion Bill For Working Families to Pay",
       "slug": "two-child-benefit-cap-abolition-welfare-expansion-april-2026",
       "date": "2026-04-30",
@@ -1561,7 +1621,7 @@
       "url": "/articles/two-child-benefit-cap-abolition-welfare-expansion-april-2026.html"
     },
     {
-      "id": 157,
+      "id": 163,
       "title": "State Pension Drag: Frozen Thresholds Push Pensioners Into Tax for First Time",
       "slug": "state-pension-fiscal-drag-pensioners-tax-april-2026",
       "date": "2026-04-30",
@@ -1571,7 +1631,7 @@
       "url": "/articles/state-pension-fiscal-drag-pensioners-tax-april-2026.html"
     },
     {
-      "id": 158,
+      "id": 164,
       "title": "200,000 Rental Homes To Vanish: How Labour's Renters' Rights Act Is Crushing Tenants",
       "slug": "renters-rights-act-landlord-exodus-housing-may-2026",
       "date": "2026-04-30",
@@ -1581,7 +1641,7 @@
       "url": "/articles/renters-rights-act-landlord-exodus-housing-may-2026.html"
     },
     {
-      "id": 159,
+      "id": 165,
       "title": "Anderson Ejected For Telling The Truth About Mandelson: Parliament Has Lost Its Bearings",
       "slug": "lee-anderson-ejected-commons-mandelson-vetting-april-2026",
       "date": "2026-04-30",
@@ -1591,7 +1651,7 @@
       "url": "/articles/lee-anderson-ejected-commons-mandelson-vetting-april-2026.html"
     },
     {
-      "id": 160,
+      "id": 166,
       "title": "Knife Crime Bill: Labour's Belated Response To A Crisis It Helped Ignore",
       "slug": "knife-crime-bill-amendments-labour-late-response-april-2026",
       "date": "2026-04-30",
@@ -1601,7 +1661,7 @@
       "url": "/articles/knife-crime-bill-amendments-labour-late-response-april-2026.html"
     },
     {
-      "id": 161,
+      "id": 167,
       "title": "Knight Frank Halves UK House Price Forecast: Another Vote of No Confidence in Labour's Economy",
       "slug": "house-price-forecast-halved-labour-economic-uncertainty-april-2026",
       "date": "2026-04-30",
@@ -1611,7 +1671,7 @@
       "url": "/articles/house-price-forecast-halved-labour-economic-uncertainty-april-2026.html"
     },
     {
-      "id": 162,
+      "id": 168,
       "title": "The 2026 UK-France Deal: Same Photo Opportunity, Same Failure",
       "slug": "uk-france-enforcement-deal-april-2026-failed-labour-borders",
       "date": "2026-04-29",
@@ -1621,7 +1681,7 @@
       "url": "/articles/uk-france-enforcement-deal-april-2026-failed-labour-borders.html"
     },
     {
-      "id": 163,
+      "id": 169,
       "title": "Salford Mass Shoplifting Plot: Britain's Streets Have Been Surrendered",
       "slug": "salford-mass-shoplifting-plot-organised-retail-crime-april-2026",
       "date": "2026-04-29",
@@ -1631,7 +1691,7 @@
       "url": "/articles/salford-mass-shoplifting-plot-organised-retail-crime-april-2026.html"
     },
     {
-      "id": 164,
+      "id": 170,
       "title": "Reform UK on Course for Four-Figure Council Gains: The Map of England Is Being Redrawn",
       "slug": "reform-uk-four-figure-council-gains-farage-barnsley-april-2026",
       "date": "2026-04-29",
@@ -1641,7 +1701,7 @@
       "url": "/articles/reform-uk-four-figure-council-gains-farage-barnsley-april-2026.html"
     },
     {
-      "id": 165,
+      "id": 171,
       "title": "1.68 Million Waiting for an NHS Scan: The Diagnostic Crisis Labour Won't Talk About",
       "slug": "nhs-diagnostic-waiting-list-168-million-labour-failure-april-2026",
       "date": "2026-04-29",
@@ -1651,7 +1711,7 @@
       "url": "/articles/nhs-diagnostic-waiting-list-168-million-labour-failure-april-2026.html"
     },
     {
-      "id": 166,
+      "id": 172,
       "title": "Burnham's Mutiny: Labour's Civil War Erupts Before the Polls Even Open",
       "slug": "burnham-labour-mutiny-starmer-leadership-crisis-april-2026",
       "date": "2026-04-29",
@@ -1661,7 +1721,7 @@
       "url": "/articles/burnham-labour-mutiny-starmer-leadership-crisis-april-2026.html"
     },
     {
-      "id": 167,
+      "id": 173,
       "title": "Labour's AIM Inheritance Tax Raid: Another Stealth Attack on British Investors",
       "slug": "aim-shares-inheritance-tax-labour-raid-investors-april-2026",
       "date": "2026-04-29",
@@ -1671,7 +1731,7 @@
       "url": "/articles/aim-shares-inheritance-tax-labour-raid-investors-april-2026.html"
     },
     {
-      "id": 168,
+      "id": 174,
       "title": "Stealth Tax Britain: Frozen Thresholds Hammer Working Families Again",
       "slug": "stealth-tax-frozen-thresholds-april-2026",
       "date": "2026-04-27",
@@ -1681,7 +1741,7 @@
       "url": "/articles/stealth-tax-frozen-thresholds-april-2026.html"
     },
     {
-      "id": 169,
+      "id": 175,
       "title": "Reform Holds the Line: 25% in the Polls and Labour Cannot Shake Us",
       "slug": "reform-uk-polling-strong-april-2026",
       "date": "2026-04-27",
@@ -1691,7 +1751,7 @@
       "url": "/articles/reform-uk-polling-strong-april-2026.html"
     },
     {
-      "id": 170,
+      "id": 176,
       "title": "Common Sense Wins: Non-Crime Hate Incidents Finally Abolished",
       "slug": "non-crime-hate-incidents-abolished-april-2026",
       "date": "2026-04-27",
@@ -1701,7 +1761,7 @@
       "url": "/articles/non-crime-hate-incidents-abolished-april-2026.html"
     },
     {
-      "id": 171,
+      "id": 177,
       "title": "Doctors Strike Again: Labour's NHS Pay Disaster Hits Patients Hardest",
       "slug": "nhs-doctor-strikes-april-2026-labour-pay-failure",
       "date": "2026-04-27",
@@ -1711,7 +1771,7 @@
       "url": "/articles/nhs-doctor-strikes-april-2026-labour-pay-failure.html"
     },
     {
-      "id": 172,
+      "id": 178,
       "title": "The £150 Energy Bill Mirage: Labour Has Just Hidden the Net Zero Bill",
       "slug": "energy-bill-cut-net-zero-illusion-april-2026",
       "date": "2026-04-27",
@@ -1721,7 +1781,7 @@
       "url": "/articles/energy-bill-cut-net-zero-illusion-april-2026.html"
     },
     {
-      "id": 173,
+      "id": 179,
       "title": "Britain's Border Disgrace: Channel Crossings Near 200,000 Mark",
       "slug": "channel-crossings-200000-milestone-april-2026",
       "date": "2026-04-27",
@@ -1731,7 +1791,7 @@
       "url": "/articles/channel-crossings-200000-milestone-april-2026.html"
     },
     {
-      "id": 174,
+      "id": 180,
       "title": "Britain Sends 120,000 Drones to Ukraine While Our Own Armed Forces Are Hollowed Out",
       "slug": "uk-120000-drones-ukraine-british-defence-priorities-april-2026",
       "date": "2026-04-22",
@@ -1741,7 +1801,7 @@
       "url": "/articles/uk-120000-drones-ukraine-british-defence-priorities-april-2026.html"
     },
     {
-      "id": 175,
+      "id": 181,
       "title": "Labour’s Sentencing Act Means Even Serious Criminals Walk Out Early — This Is Not Justice",
       "slug": "sentencing-act-2026-soft-justice-early-release-april-2026",
       "date": "2026-04-22",
@@ -1751,7 +1811,7 @@
       "url": "/articles/sentencing-act-2026-soft-justice-early-release-april-2026.html"
     },
     {
-      "id": 176,
+      "id": 182,
       "title": "Reform UK's ICE-Style Deportation Plan: £14bn in Savings and a Serious Plan to Control Our Borders",
       "slug": "reform-uk-ice-style-deportation-plan-14bn-saving-april-2026",
       "date": "2026-04-22",
@@ -1761,7 +1821,7 @@
       "url": "/articles/reform-uk-ice-style-deportation-plan-14bn-saving-april-2026.html"
     },
     {
-      "id": 177,
+      "id": 183,
       "title": "Mortgage Rates Surge Past 5.9%: Labour's Economy Is Crushing Family Finances",
       "slug": "mortgage-rates-surge-59-percent-labour-housing-squeeze-april-2026",
       "date": "2026-04-22",
@@ -1771,7 +1831,7 @@
       "url": "/articles/mortgage-rates-surge-59-percent-labour-housing-squeeze-april-2026.html"
     },
     {
-      "id": 178,
+      "id": 184,
       "title": "Miliband’s “Double Down” on Net Zero Will Cost Britain Dear — And Hand Our Industry to China",
       "slug": "miliband-net-zero-electricity-pricing-april-2026",
       "date": "2026-04-22",
@@ -1781,7 +1841,7 @@
       "url": "/articles/miliband-net-zero-electricity-pricing-april-2026.html"
     },
     {
-      "id": 179,
+      "id": 185,
       "title": "Mandelson Vetting Fiasco: Starmer Is a Lame Duck Prime Minister Hiding Behind His Officials",
       "slug": "mandelson-vetting-scandal-starmer-lame-duck-april-2026",
       "date": "2026-04-22",
@@ -1791,7 +1851,7 @@
       "url": "/articles/mandelson-vetting-scandal-starmer-lame-duck-april-2026.html"
     },
     {
-      "id": 180,
+      "id": 186,
       "title": "Labour’s Contempt for Scottish Democracy: ‘Absolutely No Way’, Whatever Voters Decide",
       "slug": "labour-scotland-referendum-refusal-democracy-contempt-april-2026",
       "date": "2026-04-22",
@@ -1801,7 +1861,7 @@
       "url": "/articles/labour-scotland-referendum-refusal-democracy-contempt-april-2026.html"
     },
     {
-      "id": 181,
+      "id": 187,
       "title": "First Prosecution Under Labour’s Border Security Act Exposes Just How Weak the Whole Approach Is",
       "slug": "first-prosecution-border-security-act-weak-justice-april-2026",
       "date": "2026-04-22",
@@ -1811,7 +1871,7 @@
       "url": "/articles/first-prosecution-border-security-act-weak-justice-april-2026.html"
     },
     {
-      "id": 182,
+      "id": 188,
       "title": "Labour’s Employment Rights Act: April Burdens That Will Kill Jobs and Growth",
       "slug": "employment-rights-act-april-2026-labour-business-burden",
       "date": "2026-04-22",
@@ -1821,7 +1881,7 @@
       "url": "/articles/employment-rights-act-april-2026-labour-business-burden.html"
     },
     {
-      "id": 183,
+      "id": 189,
       "title": "Britain Has Hit ‘Peak Taxation’: IMF Warns Reeves Has Pushed Too Far",
       "slug": "britain-peak-taxation-imf-warning-reeves-tax-burden-april-2026",
       "date": "2026-04-22",
@@ -1831,7 +1891,7 @@
       "url": "/articles/britain-peak-taxation-imf-warning-reeves-tax-burden-april-2026.html"
     },
     {
-      "id": 184,
+      "id": 190,
       "title": "Reform UK on the Brink of Majority Government: The People Are Delivering a Verdict",
       "slug": "reform-uk-polling-lead-major-local-election-gains-april-2026",
       "date": "2026-04-21",
@@ -1841,7 +1901,7 @@
       "url": "/articles/reform-uk-polling-lead-major-local-election-gains-april-2026.html"
     },
     {
-      "id": 185,
+      "id": 191,
       "title": "Operation Restoring Justice: Reform UK's Serious Plan to End Britain's Asylum Chaos",
       "slug": "reform-uk-operation-restoring-justice-deportation-plan-april-2026",
       "date": "2026-04-21",
@@ -1851,7 +1911,7 @@
       "url": "/articles/reform-uk-operation-restoring-justice-deportation-plan-april-2026.html"
     },
     {
-      "id": 186,
+      "id": 192,
       "title": "Victory for Free Speech: Non-Crime Hate Incidents Finally Face the Axe",
       "slug": "non-crime-hate-incidents-abolished-free-speech-win-april-2026",
       "date": "2026-04-21",
@@ -1861,7 +1921,7 @@
       "url": "/articles/non-crime-hate-incidents-abolished-free-speech-win-april-2026.html"
     },
     {
-      "id": 187,
+      "id": 193,
       "title": "Another Week of Cancelled Operations: Labour's NHS Strike Chaos Punishes Patients",
       "slug": "nhs-resident-doctors-strike-labour-pay-failure-april-2026",
       "date": "2026-04-21",
@@ -1871,7 +1931,7 @@
       "url": "/articles/nhs-resident-doctors-strike-labour-pay-failure-april-2026.html"
     },
     {
-      "id": 188,
+      "id": 194,
       "title": "A 144-Hour Strike and a 7-Million Waiting List: Labour Has Lost Control of the NHS",
       "slug": "nhs-resident-doctors-strike-labour-failure-april-2026",
       "date": "2026-04-21",
@@ -1881,7 +1941,7 @@
       "url": "/articles/nhs-resident-doctors-strike-labour-failure-april-2026.html"
     },
     {
-      "id": 189,
+      "id": 195,
       "title": "The Stealth Tax Rises Labour Hopes You Won't Notice: Frozen Thresholds Are Picking Your Pocket",
       "slug": "labour-stealth-tax-rises-frozen-thresholds-april-2026",
       "date": "2026-04-21",
@@ -1891,7 +1951,7 @@
       "url": "/articles/labour-stealth-tax-rises-frozen-thresholds-april-2026.html"
     },
     {
-      "id": 190,
+      "id": 196,
       "title": "Hands Off Our Pensions: Labour's Raid on the Retirement Savings of Ordinary Workers",
       "slug": "labour-pension-power-grab-retirement-savings-april-2026",
       "date": "2026-04-21",
@@ -1901,7 +1961,7 @@
       "url": "/articles/labour-pension-power-grab-retirement-savings-april-2026.html"
     },
     {
-      "id": 191,
+      "id": 197,
       "title": "Labour's Pension Power Grab: MPs Back Ministers' Right to Direct Your Retirement Savings",
       "slug": "labour-pension-investment-mandate-power-grab-april-2026",
       "date": "2026-04-21",
@@ -1911,7 +1971,7 @@
       "url": "/articles/labour-pension-investment-mandate-power-grab-april-2026.html"
     },
     {
-      "id": 192,
+      "id": 198,
       "title": "Yes, Bills Fell 7% This Quarter. They're Still 35% Higher Than Before The Crisis",
       "slug": "energy-bills-still-35-percent-higher-labour-net-zero-april-2026",
       "date": "2026-04-21",
@@ -1921,7 +1981,7 @@
       "url": "/articles/energy-bills-still-35-percent-higher-labour-net-zero-april-2026.html"
     },
     {
-      "id": 193,
+      "id": 199,
       "title": "The April 2026 Dividend Tax Raid: Labour's £5 Billion Hit on Savers and Small Business",
       "slug": "dividend-tax-rise-labour-raid-savers-april-2026",
       "date": "2026-04-21",
@@ -1931,7 +1991,7 @@
       "url": "/articles/dividend-tax-rise-labour-raid-savers-april-2026.html"
     },
     {
-      "id": 194,
+      "id": 200,
       "title": "Four Dead in the Channel, 198,000 Crossings Since 2018: Labour Has Lost Control of Our Borders",
       "slug": "channel-crossings-deaths-198687-labour-border-failure-april-2026",
       "date": "2026-04-21",
@@ -1941,7 +2001,7 @@
       "url": "/articles/channel-crossings-deaths-198687-labour-border-failure-april-2026.html"
     },
     {
-      "id": 195,
+      "id": 201,
       "title": "Four Dead in the Channel, 4,776 Crossings and Counting: Our Borders Are Not Under Control",
       "slug": "channel-crossings-2026-borders-out-of-control-april-2026",
       "date": "2026-04-21",
@@ -1951,7 +2011,7 @@
       "url": "/articles/channel-crossings-2026-borders-out-of-control-april-2026.html"
     },
     {
-      "id": 196,
+      "id": 202,
       "title": "Reform UK Commits to Keeping the Triple Lock: A Firm Promise to Britain's Pensioners",
       "slug": "reform-uk-triple-lock-pledge-state-pension-protection-april-2026",
       "date": "2026-04-19",
@@ -1961,7 +2021,7 @@
       "url": "/articles/reform-uk-triple-lock-pledge-state-pension-protection-april-2026.html"
     },
     {
-      "id": 197,
+      "id": 203,
       "title": "NHS Ground Down by 144-Hour Strike: Labour Loses Control of Its Own Doctors",
       "slug": "nhs-six-day-strike-labour-pay-dispute-failure-april-2026",
       "date": "2026-04-19",
@@ -1971,7 +2031,7 @@
       "url": "/articles/nhs-six-day-strike-labour-pay-dispute-failure-april-2026.html"
     },
     {
-      "id": 198,
+      "id": 204,
       "title": "Labour's Stealth Tax Raid: Frozen Allowances, Higher Dividend Tax, and More Red Tape for Workers",
       "slug": "labour-stealth-tax-raid-frozen-thresholds-april-2026",
       "date": "2026-04-19",
@@ -1981,7 +2041,7 @@
       "url": "/articles/labour-stealth-tax-raid-frozen-thresholds-april-2026.html"
     },
     {
-      "id": 199,
+      "id": 205,
       "title": "Labour's £400 Billion Pension Grab: Westminster Now Controls Where Your Retirement Savings Go",
       "slug": "labour-400-billion-pension-grab-savers-april-2026",
       "date": "2026-04-19",
@@ -1991,7 +2051,7 @@
       "url": "/articles/labour-400-billion-pension-grab-savers-april-2026.html"
     },
     {
-      "id": 200,
+      "id": 206,
       "title": "First Border Act Prosecution — While 198,000 Have Already Crossed the Channel",
       "slug": "first-border-prosecution-198000-crossings-labour-failure-april-2026",
       "date": "2026-04-19",
@@ -2001,7 +2061,7 @@
       "url": "/articles/first-border-prosecution-198000-crossings-labour-failure-april-2026.html"
     },
     {
-      "id": 201,
+      "id": 207,
       "title": "Energy Bills Fall in April — But Net Zero Infrastructure Costs Are Piling Up Behind the Scenes",
       "slug": "energy-bills-falling-net-zero-infrastructure-costs-hidden-april-2026",
       "date": "2026-04-19",
@@ -2011,7 +2071,7 @@
       "url": "/articles/energy-bills-falling-net-zero-infrastructure-costs-hidden-april-2026.html"
     },
     {
-      "id": 202,
+      "id": 208,
       "title": "Reform UK's £20,000 Tax-Free Pledge and Triple Lock Protection: The Manifesto Labour and the Tories Were Too Afraid to Write",
       "slug": "reform-uk-farage-20000-tax-threshold-pensions-triple-lock-april-2026",
       "date": "2026-04-17",
@@ -2021,7 +2081,7 @@
       "url": "/articles/reform-uk-farage-20000-tax-threshold-pensions-triple-lock-april-2026.html"
     },
     {
-      "id": 203,
+      "id": 209,
       "title": "Six-Day Doctors' Strike and 1.68 Million on Waiting Lists: Labour's NHS Promise Has Collapsed",
       "slug": "nhs-doctors-strike-waiting-list-crisis-labour-failure-april-2026",
       "date": "2026-04-17",
@@ -2031,7 +2091,7 @@
       "url": "/articles/nhs-doctors-strike-waiting-list-crisis-labour-failure-april-2026.html"
     },
     {
-      "id": 204,
+      "id": 210,
       "title": "Two-Thirds of Labour Members Now Say Starmer's Government Has Given Up on Its Own Promises",
       "slug": "labour-u-turn-government-starmer-policy-chaos-april-2026",
       "date": "2026-04-17",
@@ -2041,7 +2101,7 @@
       "url": "/articles/labour-u-turn-government-starmer-policy-chaos-april-2026.html"
     },
     {
-      "id": 205,
+      "id": 211,
       "title": "Labour's Stealth Tax Rises: Frozen Thresholds and Fiscal Drag Are Quietly Robbing Working Britain",
       "slug": "labour-stealth-tax-rises-fiscal-drag-frozen-thresholds-april-2026",
       "date": "2026-04-17",
@@ -2051,7 +2111,7 @@
       "url": "/articles/labour-stealth-tax-rises-fiscal-drag-frozen-thresholds-april-2026.html"
     },
     {
-      "id": 206,
+      "id": 212,
       "title": "12,000 Arrests a Year for Speech Crimes: Britain's Free Speech Collapse Under Labour",
       "slug": "britain-12000-speech-arrests-police-free-speech-labour-april-2026",
       "date": "2026-04-17",
@@ -2061,7 +2121,7 @@
       "url": "/articles/britain-12000-speech-arrests-police-free-speech-labour-april-2026.html"
     },
     {
-      "id": 207,
+      "id": 213,
       "title": "Asylum Applications Top 100,000 as Channel Crossings Surge: Labour Has Lost Control of Britain's Borders",
       "slug": "asylum-applications-top-100000-channel-crossings-labour-failure-april-2026",
       "date": "2026-04-17",
@@ -2071,7 +2131,7 @@
       "url": "/articles/asylum-applications-top-100000-channel-crossings-labour-failure-april-2026.html"
     },
     {
-      "id": 208,
+      "id": 214,
       "title": "Reform UK Stands With Britain's Pensioners: The Triple Lock Will Be Protected",
       "slug": "reform-uk-triple-lock-pensioners-commitment-april-2026",
       "date": "2026-04-16",
@@ -2081,7 +2141,7 @@
       "url": "/articles/reform-uk-triple-lock-pensioners-commitment-april-2026.html"
     },
     {
-      "id": 209,
+      "id": 215,
       "title": "7.3 Million On The Waiting List: The NHS Labour Promised To Save Is Cracking Under Their Watch",
       "slug": "nhs-waiting-list-7-million-crisis-labour-broken-promises-april-2026",
       "date": "2026-04-16",
@@ -2091,7 +2151,7 @@
       "url": "/articles/nhs-waiting-list-7-million-crisis-labour-broken-promises-april-2026.html"
     },
     {
-      "id": 210,
+      "id": 216,
       "title": "The Stealth Tax No One Voted For: How Labour's Frozen Allowances Are Quietly Picking Your Pocket",
       "slug": "frozen-personal-allowance-fiscal-drag-stealth-tax-april-2026",
       "date": "2026-04-16",
@@ -2101,7 +2161,7 @@
       "url": "/articles/frozen-personal-allowance-fiscal-drag-stealth-tax-april-2026.html"
     },
     {
-      "id": 211,
+      "id": 217,
       "title": "Your Energy Bill Is Falling — And Your Tax Bill Is Rising To Pay For It",
       "slug": "energy-bills-net-zero-hidden-costs-general-taxation-april-2026",
       "date": "2026-04-16",
@@ -2111,7 +2171,7 @@
       "url": "/articles/energy-bills-net-zero-hidden-costs-general-taxation-april-2026.html"
     },
     {
-      "id": 212,
+      "id": 218,
       "title": "Two-Tier Britain: Labour's Crime And Policing Bill Is A Crackdown On Free Speech, Not Crime",
       "slug": "crime-policing-bill-free-speech-crackdown-two-tier-april-2026",
       "date": "2026-04-16",
@@ -2121,7 +2181,7 @@
       "url": "/articles/crime-policing-bill-free-speech-crackdown-two-tier-april-2026.html"
     },
     {
-      "id": 213,
+      "id": 219,
       "title": "200,000 Channel Crossings and Counting: Labour's Border Failure Reaches A Grim Milestone",
       "slug": "channel-crossings-200000-milestone-labour-border-failure-april-2026",
       "date": "2026-04-16",
@@ -2131,7 +2191,7 @@
       "url": "/articles/channel-crossings-200000-milestone-labour-border-failure-april-2026.html"
     },
     {
-      "id": 214,
+      "id": 220,
       "title": "Reform UK Commits to Triple Lock: Protecting the Generation That Built Britain",
       "slug": "reform-uk-pension-triple-lock-commitment-april-2026",
       "date": "2026-04-14",
@@ -2141,7 +2201,7 @@
       "url": "/articles/reform-uk-pension-triple-lock-commitment-april-2026.html"
     },
     {
-      "id": 215,
+      "id": 221,
       "title": "NHS Waiting List Hits 7.9 Million as Staff Take Record Sick Days",
       "slug": "nhs-waiting-list-79-million-labour-failure-april-2026",
       "date": "2026-04-14",
@@ -2151,7 +2211,7 @@
       "url": "/articles/nhs-waiting-list-79-million-labour-failure-april-2026.html"
     },
     {
-      "id": 216,
+      "id": 222,
       "title": "Grooming Gangs Inquiry Begins at Last: Justice Delayed, But Not Denied",
       "slug": "grooming-gangs-inquiry-begins-justice-delayed-april-2026",
       "date": "2026-04-14",
@@ -2161,7 +2221,7 @@
       "url": "/articles/grooming-gangs-inquiry-begins-justice-delayed-april-2026.html"
     },
     {
-      "id": 217,
+      "id": 223,
       "title": "Frozen Tax Thresholds: Labour's Great Stealth Raid on Working Britain",
       "slug": "frozen-tax-thresholds-labour-stealth-raid-april-2026",
       "date": "2026-04-14",
@@ -2171,7 +2231,7 @@
       "url": "/articles/frozen-tax-thresholds-labour-stealth-raid-april-2026.html"
     },
     {
-      "id": 218,
+      "id": 224,
       "title": "Four Dead in the Channel: Labour's Border Failure Claims More Lives",
       "slug": "four-dead-in-channel-labour-border-failure-april-2026",
       "date": "2026-04-14",
@@ -2181,7 +2241,7 @@
       "url": "/articles/four-dead-in-channel-labour-border-failure-april-2026.html"
     },
     {
-      "id": 219,
+      "id": 225,
       "title": "Labour's Employment Rights Act: A Sledgehammer to British Small Business",
       "slug": "employment-rights-act-small-business-labour-april-2026",
       "date": "2026-04-14",
@@ -2191,7 +2251,7 @@
       "url": "/articles/employment-rights-act-small-business-labour-april-2026.html"
     },
     {
-      "id": 220,
+      "id": 226,
       "title": "Reform UK On Course to Become Britain's Largest Party: The Political Revolution Is Here",
       "slug": "reform-uk-largest-party-polls-local-elections-may-2026",
       "date": "2026-04-12",
@@ -2201,7 +2261,7 @@
       "url": "/articles/reform-uk-largest-party-polls-local-elections-may-2026.html"
     },
     {
-      "id": 221,
+      "id": 227,
       "title": "Eight Million Sick Days: The NHS Staff Mental Health Crisis Labour Cannot Ignore",
       "slug": "nhs-staff-mental-health-crisis-record-sick-days-april-2026",
       "date": "2026-04-12",
@@ -2211,7 +2271,7 @@
       "url": "/articles/nhs-staff-mental-health-crisis-record-sick-days-april-2026.html"
     },
     {
-      "id": 222,
+      "id": 228,
       "title": "Even Labour's Own Members Have Had Enough: Two-Thirds Say Government Has Lost Its Way",
       "slug": "labour-u-turns-poll-two-thirds-members-criticise-government-april-2026",
       "date": "2026-04-12",
@@ -2221,7 +2281,7 @@
       "url": "/articles/labour-u-turns-poll-two-thirds-members-criticise-government-april-2026.html"
     },
     {
-      "id": 223,
+      "id": 229,
       "title": "The Energy Price Crisis Labour Promised to Fix: Families Still Can't Afford to Heat Their Homes",
       "slug": "energy-price-crisis-2026-households-struggling-labour-net-zero-april-2026",
       "date": "2026-04-12",
@@ -2231,7 +2291,7 @@
       "url": "/articles/energy-price-crisis-2026-households-struggling-labour-net-zero-april-2026.html"
     },
     {
-      "id": 224,
+      "id": 230,
       "title": "100,000 Asylum Claims and Counting: Labour's Border Policy Is a National Embarrassment",
       "slug": "asylum-applications-top-100000-channel-crossings-immigration-april-2026",
       "date": "2026-04-12",
@@ -2241,7 +2301,7 @@
       "url": "/articles/asylum-applications-top-100000-channel-crossings-immigration-april-2026.html"
     },
     {
-      "id": 225,
+      "id": 231,
       "title": "Stealth Taxes Are Crushing British Workers: The April 2026 Tax Trap Labour Doesn't Want You to See",
       "slug": "april-2026-tax-changes-fiscal-drag-squeezing-british-workers-april-2026",
       "date": "2026-04-12",
@@ -2251,7 +2311,7 @@
       "url": "/articles/april-2026-tax-changes-fiscal-drag-squeezing-british-workers-april-2026.html"
     },
     {
-      "id": 226,
+      "id": 232,
       "title": "The Stealth Raid: How Labour's April 2026 Tax Hikes Are Bleeding Working Britain Dry",
       "slug": "tax-rises-april-2026-frozen-thresholds-fiscal-drag-labour",
       "date": "2026-04-09",
@@ -2261,7 +2321,7 @@
       "url": "/articles/tax-rises-april-2026-frozen-thresholds-fiscal-drag-labour.html"
     },
     {
-      "id": 227,
+      "id": 233,
       "title": "41,000 Crossings and Counting: Labour's Border Surrender Continues",
       "slug": "small-boats-channel-crossings-41000-asylum-policy-april-2026",
       "date": "2026-04-09",
@@ -2271,7 +2331,7 @@
       "url": "/articles/small-boats-channel-crossings-41000-asylum-policy-april-2026.html"
     },
     {
-      "id": 228,
+      "id": 234,
       "title": "Police Stop Logging Tweets: A Long-Overdue Win for Free Speech",
       "slug": "non-crime-hate-incidents-scrapped-free-speech-vindication-april-2026",
       "date": "2026-04-09",
@@ -2281,7 +2341,7 @@
       "url": "/articles/non-crime-hate-incidents-scrapped-free-speech-vindication-april-2026.html"
     },
     {
-      "id": 229,
+      "id": 235,
       "title": "NHS Brought to Its Knees: Resident Doctors' Six-Day Strike Exposes Labour's Total Failure",
       "slug": "nhs-resident-doctors-six-day-strike-labour-failure-april-2026",
       "date": "2026-04-09",
@@ -2291,7 +2351,7 @@
       "url": "/articles/nhs-resident-doctors-six-day-strike-labour-failure-april-2026.html"
     },
     {
-      "id": 230,
+      "id": 236,
       "title": "Halve Knife Crime in a Decade? Labour's Plan Is Too Little, Too Late, Too Soft",
       "slug": "knife-crime-plan-labour-halve-decade-april-2026",
       "date": "2026-04-09",
@@ -2301,7 +2361,7 @@
       "url": "/articles/knife-crime-plan-labour-halve-decade-april-2026.html"
     },
     {
-      "id": 231,
+      "id": 237,
       "title": "Squeezed Until the Pips Squeak: Council Tax, Rents and the New British Cost of Living Crisis",
       "slug": "council-tax-rises-cost-of-living-squeeze-housing-april-2026",
       "date": "2026-04-09",
@@ -2311,7 +2371,7 @@
       "url": "/articles/council-tax-rises-cost-of-living-squeeze-housing-april-2026.html"
     },
     {
-      "id": 232,
+      "id": 238,
       "title": "12,000 Shoplifters Walking Free: Labour's Soft-Touch Justice Is Fuelling a Crime Wave",
       "slug": "shoplifters-avoiding-prison-labour-crime-crisis-april-2026",
       "date": "2026-04-08",
@@ -2321,7 +2381,7 @@
       "url": "/articles/shoplifters-avoiding-prison-labour-crime-crisis-april-2026.html"
     },
     {
-      "id": 233,
+      "id": 239,
       "title": "Reform UK Draws the Line: No Visas for Countries Demanding Slavery Reparations",
       "slug": "reform-uk-visa-ban-reparations-commonwealth-april-2026",
       "date": "2026-04-08",
@@ -2331,7 +2391,7 @@
       "url": "/articles/reform-uk-visa-ban-reparations-commonwealth-april-2026.html"
     },
     {
-      "id": 234,
+      "id": 240,
       "title": "Britain's Rental Crisis: Labour Promised Homes, Delivered Soaring Rents",
       "slug": "housing-rental-crisis-chronic-shortage-labour-failure-april-2026",
       "date": "2026-04-08",
@@ -2341,7 +2401,7 @@
       "url": "/articles/housing-rental-crisis-chronic-shortage-labour-failure-april-2026.html"
     },
     {
-      "id": 235,
+      "id": 241,
       "title": "Reform UK Pledges to Protect the Triple Lock: Standing Up for Britain's Pensioners",
       "slug": "reform-uk-pledges-protect-triple-lock-pensions-april-2026",
       "date": "2026-04-07",
@@ -2351,7 +2411,7 @@
       "url": "/articles/reform-uk-pledges-protect-triple-lock-pensions-april-2026.html"
     },
     {
-      "id": 236,
+      "id": 242,
       "title": "7.31 Million on NHS Waiting Lists and a Diagnostic Backlog That's Out of Control",
       "slug": "nhs-waiting-list-seven-million-diagnostic-backlog-april-2026",
       "date": "2026-04-07",
@@ -2361,7 +2421,7 @@
       "url": "/articles/nhs-waiting-list-seven-million-diagnostic-backlog-april-2026.html"
     },
     {
-      "id": 237,
+      "id": 243,
       "title": "Labour's Donation Cap Is a Blatant Attack on Reform UK and Democratic Funding",
       "slug": "labour-donation-cap-attack-reform-funding-democracy-april-2026",
       "date": "2026-04-07",
@@ -2371,7 +2431,7 @@
       "url": "/articles/labour-donation-cap-attack-reform-funding-democracy-april-2026.html"
     },
     {
-      "id": 238,
+      "id": 244,
       "title": "Fraud Costs Britain Â£14 Billion a Year â and Labour's Answer Is Another Talking Shop",
       "slug": "fraud-costs-uk-14-billion-labour-crime-failure-april-2026",
       "date": "2026-04-07",
@@ -2381,7 +2441,7 @@
       "url": "/articles/fraud-costs-uk-14-billion-labour-crime-failure-april-2026.html"
     },
     {
-      "id": 239,
+      "id": 245,
       "title": "Channel Crossings Approach 200,000: Labour's Border Policy Is a National Embarrassment",
       "slug": "channel-crossings-200000-labour-border-failure-april-2026",
       "date": "2026-04-07",
@@ -2391,7 +2451,7 @@
       "url": "/articles/channel-crossings-200000-labour-border-failure-april-2026.html"
     },
     {
-      "id": 240,
+      "id": 246,
       "title": "April Tax Changes: Six Years of Frozen Allowances and Now They're Coming for Your Home Working Relief Too",
       "slug": "april-tax-changes-frozen-allowance-april-2026",
       "date": "2026-04-07",
@@ -2401,7 +2461,7 @@
       "url": "/articles/april-tax-changes-frozen-allowance-april-2026.html"
     },
     {
-      "id": 241,
+      "id": 247,
       "title": "Reform UK on Course to Become Britain's Largest Party â The Political Establishment Should Be Worried",
       "slug": "reform-uk-largest-party-polling-prediction-april-2026",
       "date": "2026-04-06",
@@ -2411,7 +2471,7 @@
       "url": "/articles/reform-uk-largest-party-polling-prediction-april-2026.html"
     },
     {
-      "id": 242,
+      "id": 248,
       "title": "Seven Million on the Waiting List: Labour Promised to Fix the NHS â They've Barely Touched It",
       "slug": "nhs-waiting-list-seven-million-labour-broken-promises-april-2026",
       "date": "2026-04-06",
@@ -2421,7 +2481,7 @@
       "url": "/articles/nhs-waiting-list-seven-million-labour-broken-promises-april-2026.html"
     },
     {
-      "id": 243,
+      "id": 249,
       "title": "New Tax Year, New Stealth Taxes: Labour's Fiscal Drag Is Picking the Pockets of Working Britain",
       "slug": "labour-tax-rises-april-2026-fiscal-drag-hitting-workers",
       "date": "2026-04-06",
@@ -2431,7 +2491,7 @@
       "url": "/articles/labour-tax-rises-april-2026-fiscal-drag-hitting-workers.html"
     },
     {
-      "id": 244,
+      "id": 250,
       "title": "Labour's Donation Cap Is Not About Transparency — It's About Silencing Reform UK",
       "slug": "labour-donation-cap-targets-reform-uk-funding-democracy-april-2026",
       "date": "2026-04-06",
@@ -2441,7 +2501,7 @@
       "url": "/articles/labour-donation-cap-targets-reform-uk-funding-democracy-april-2026.html"
     },
     {
-      "id": 245,
+      "id": 251,
       "title": "Grooming Gangs Inquiry Finally Begins â But Victims Have Been Waiting Years for Justice Labour Refused to Deliver",
       "slug": "grooming-gangs-inquiry-begins-labour-years-of-delay-april-2026",
       "date": "2026-04-06",
@@ -2451,7 +2511,7 @@
       "url": "/articles/grooming-gangs-inquiry-begins-labour-years-of-delay-april-2026.html"
     },
     {
-      "id": 246,
+      "id": 252,
       "title": "Nearly 200,000 Channel Crossings: The Damning Number That Proves Britain Has Lost Control of Its Borders",
       "slug": "channel-crossings-200000-milestone-immigration-crisis-april-2026",
       "date": "2026-04-06",
@@ -2461,7 +2521,7 @@
       "url": "/articles/channel-crossings-200000-milestone-immigration-crisis-april-2026.html"
     },
     {
-      "id": 247,
+      "id": 253,
       "title": "197,000 Channel Crossings and Counting: Labour's Border Failure in Numbers",
       "slug": "channel-crossings-197000-labour-border-failure-april-2026",
       "date": "2026-04-06",
@@ -2471,7 +2531,7 @@
       "url": "/articles/channel-crossings-197000-labour-border-failure-april-2026.html"
     },
     {
-      "id": 248,
+      "id": 254,
       "title": "Starmer On The Ropes: Scottish Labour Leader Calls For Resignation As Epstein Fallout Engulfs Downing Street",
       "slug": "starmer-resign-calls-sarwar-labour-meltdown-april-2026",
       "date": "2026-04-05",
@@ -2481,7 +2541,7 @@
       "url": "/articles/starmer-resign-calls-sarwar-labour-meltdown-april-2026.html"
     },
     {
-      "id": 249,
+      "id": 255,
       "title": "Reform UK Wins Two Council Seats in a Night: The Political Map Is Being Redrawn",
       "slug": "reform-uk-council-wins-bury-luton-april-2026",
       "date": "2026-04-05",
@@ -2491,7 +2551,7 @@
       "url": "/articles/reform-uk-council-wins-bury-luton-april-2026.html"
     },
     {
-      "id": 250,
+      "id": 256,
       "title": "30 Arrests A Day For Speech: The Online Safety Act Is Criminalising Britons, And Labour Loves It",
       "slug": "online-safety-act-30-arrests-day-free-speech-crisis-april-2026",
       "date": "2026-04-05",
@@ -2501,7 +2561,7 @@
       "url": "/articles/online-safety-act-30-arrests-day-free-speech-crisis-april-2026.html"
     },
     {
-      "id": 251,
+      "id": 257,
       "title": "One-In, One-Out Is A Failure: 325 Migrants Cross In A Single Day As France Deal Collapses In Slow Motion",
       "slug": "one-in-one-out-france-returns-pilot-failing-immigration-april-2026",
       "date": "2026-04-05",
@@ -2511,7 +2571,7 @@
       "url": "/articles/one-in-one-out-france-returns-pilot-failing-immigration-april-2026.html"
     },
     {
-      "id": 252,
+      "id": 258,
       "title": "15th Round of NHS Doctor Strikes Hits Easter: Seven Million on the Waiting List and Labour Has No Plan",
       "slug": "nhs-resident-doctor-strikes-easter-2026-waiting-list-crisis",
       "date": "2026-04-05",
@@ -2521,7 +2581,7 @@
       "url": "/articles/nhs-resident-doctor-strikes-easter-2026-waiting-list-crisis.html"
     },
     {
-      "id": 253,
+      "id": 259,
       "title": "Labour's April Tax Shock: NIC Rises and the Employment Rights Act Are Crushing Small Businesses",
       "slug": "labour-nic-rise-employment-rights-act-small-business-april-2026",
       "date": "2026-04-05",
@@ -2531,7 +2591,7 @@
       "url": "/articles/labour-nic-rise-employment-rights-act-small-business-april-2026.html"
     },
     {
-      "id": 254,
+      "id": 260,
       "title": "Three Quarters of Voters Say Things Are Getting Worse: Labour's Doom Loop Is Real",
       "slug": "labour-doom-loop-voters-things-getting-worse-april-2026",
       "date": "2026-04-05",
@@ -2541,7 +2601,7 @@
       "url": "/articles/labour-doom-loop-voters-things-getting-worse-april-2026.html"
     },
     {
-      "id": 255,
+      "id": 261,
       "title": "Labour's Housing Promise In Ruins: Planning Permissions Hit 15-Year Low As New Bank Launches",
       "slug": "housing-planning-permissions-15-year-low-labour-failure-april-2026",
       "date": "2026-04-05",
@@ -2551,7 +2611,7 @@
       "url": "/articles/housing-planning-permissions-15-year-low-labour-failure-april-2026.html"
     },
     {
-      "id": 256,
+      "id": 262,
       "title": "Energy Bills Fall 7% - But July Could Bring Another Hike and Labour Is Claiming Credit It Doesn't Deserve",
       "slug": "energy-price-cap-april-2026-temporary-relief-bills",
       "date": "2026-04-05",
@@ -2561,7 +2621,7 @@
       "url": "/articles/energy-price-cap-april-2026-temporary-relief-bills.html"
     },
     {
-      "id": 257,
+      "id": 263,
       "title": "Britain's Defence Crisis: MoD Delays Its Own Investment Plan As NATO Demands 3.5% Of GDP",
       "slug": "defence-investment-plan-delay-mod-nato-target-april-2026",
       "date": "2026-04-05",
@@ -2571,7 +2631,7 @@
       "url": "/articles/defence-investment-plan-delay-mod-nato-target-april-2026.html"
     },
     {
-      "id": 258,
+      "id": 264,
       "title": "325 Migrants in One Day: Labour's France Deal Is Window Dressing While the Boats Keep Coming",
       "slug": "channel-crossings-325-single-day-france-deal-april-2026",
       "date": "2026-04-05",
@@ -2581,7 +2641,7 @@
       "url": "/articles/channel-crossings-325-single-day-france-deal-april-2026.html"
     },
     {
-      "id": 259,
+      "id": 265,
       "title": "Bangor University Refuses To Host Reform UK: When Did Our Universities Become Afraid Of Debate?",
       "slug": "bangor-university-cancels-reform-uk-debate-free-speech-april-2026",
       "date": "2026-04-05",
@@ -2591,7 +2651,7 @@
       "url": "/articles/bangor-university-cancels-reform-uk-debate-free-speech-april-2026.html"
     },
     {
-      "id": 260,
+      "id": 266,
       "title": "Starmer's Collapse: Lowest PM Approval in 50 Years, Key Advisers Gone, Party in Freefall",
       "slug": "starmer-labour-crisis-approval-ratings-collapse-april-2026",
       "date": "2026-04-04",
@@ -2601,7 +2661,7 @@
       "url": "/articles/starmer-labour-crisis-approval-ratings-collapse-april-2026.html"
     },
     {
-      "id": 261,
+      "id": 267,
       "title": "Reform UK Gains in Bury and Luton Signal Sea Change Ahead of May Local Elections",
       "slug": "reform-uk-council-by-election-wins-bury-luton-may-2026",
       "date": "2026-04-04",
@@ -2611,7 +2671,7 @@
       "url": "/articles/reform-uk-council-by-election-wins-bury-luton-may-2026.html"
     },
     {
-      "id": 262,
+      "id": 268,
       "title": "7.3 Million and Counting: The NHS Waiting List Crisis That Labour Has Failed to Fix",
       "slug": "nhs-waiting-list-73-million-labour-failing-april-2026",
       "date": "2026-04-04",
@@ -2621,7 +2681,7 @@
       "url": "/articles/nhs-waiting-list-73-million-labour-failing-april-2026.html"
     },
     {
-      "id": 263,
+      "id": 269,
       "title": "Labour's New National Police Force: Centralisation Dressed Up as Reform",
       "slug": "new-national-police-service-policing-reform-accountability-2026",
       "date": "2026-04-04",
@@ -2631,7 +2691,7 @@
       "url": "/articles/new-national-police-service-policing-reform-accountability-2026.html"
     },
     {
-      "id": 264,
+      "id": 270,
       "title": "Labour Quietly Expands Asylum Seeker Work Rights: Thousands Now Eligible While Claims Remain Unresolved",
       "slug": "asylum-seeker-work-rights-expanded-immigration-april-2026",
       "date": "2026-04-04",
@@ -2641,7 +2701,7 @@
       "url": "/articles/asylum-seeker-work-rights-expanded-immigration-april-2026.html"
     },
     {
-      "id": 265,
+      "id": 271,
       "title": "Labour's April Tax Sting: Working Families Face £500 Hit as Thresholds Stay Frozen Until 2031",
       "slug": "april-2026-tax-rises-triple-hit-working-families-labour",
       "date": "2026-04-04",
@@ -2651,7 +2711,7 @@
       "url": "/articles/april-2026-tax-rises-triple-hit-working-families-labour.html"
     },
     {
-      "id": 266,
+      "id": 272,
       "title": "Universal Credit Changes Hit Millions This April — And Labour Calls It Progress",
       "slug": "universal-credit-changes-april-2026",
       "date": "2026-04-03",
@@ -2661,7 +2721,7 @@
       "url": "/articles/universal-credit-changes-april-2026.html"
     },
     {
-      "id": 267,
+      "id": 273,
       "title": "UK Visa Fees Rise 6-9% from April 2026: Taxing Legal Migrants While Border Chaos Continues",
       "slug": "uk-visa-immigration-fees-rise-april-2026-border-crisis-continues",
       "date": "2026-04-03",
@@ -2671,7 +2731,7 @@
       "url": "/articles/uk-visa-immigration-fees-rise-april-2026-border-crisis-continues.html"
     },
     {
-      "id": 268,
+      "id": 274,
       "title": "Trump’s 100% Pharma Tariffs Expose Britain’s Trade Weakness — And Labour’s Desperate Scramble to Avoid Disaster",
       "slug": "trump-pharma-tariffs-uk-trade-weakness-april-2026",
       "date": "2026-04-03",
@@ -2681,7 +2741,7 @@
       "url": "/articles/trump-pharma-tariffs-uk-trade-weakness-april-2026.html"
     },
     {
-      "id": 269,
+      "id": 275,
       "title": "Settlement Route Extended to 10 Years: Reform or Window Dressing? Immigration Policy Under Scrutiny",
       "slug": "settlement-route-extended-10-years-immigration-reform-april-2026",
       "date": "2026-04-03",
@@ -2691,7 +2751,7 @@
       "url": "/articles/settlement-route-extended-10-years-immigration-reform-april-2026.html"
     },
     {
-      "id": 270,
+      "id": 276,
       "title": "Reform UK Commits to Protecting Pensions: The Triple Lock Guarantee for Britain's Pensioners",
       "slug": "reform-uk-triple-lock-pensions-commitment-protect-pensioners-april-2026",
       "date": "2026-04-03",
@@ -2701,7 +2761,7 @@
       "url": "/articles/reform-uk-triple-lock-pensions-commitment-protect-pensioners-april-2026.html"
     },
     {
-      "id": 271,
+      "id": 277,
       "title": "Reform UK’s Triple Lock Commitment Shows What a Serious Government Would Look Like",
       "slug": "reform-uk-triple-lock-commitment-april-2026",
       "date": "2026-04-03",
@@ -2711,7 +2771,7 @@
       "url": "/articles/reform-uk-triple-lock-commitment-april-2026.html"
     },
     {
-      "id": 272,
+      "id": 278,
       "title": "NHS Doctors Strike April 2026: Labour's Failure to Value Those Who Keep Britain Healthy",
       "slug": "nhs-doctors-strike-bma-industrial-action-labour-mismanagement-april-2026",
       "date": "2026-04-03",
@@ -2721,7 +2781,7 @@
       "url": "/articles/nhs-doctors-strike-bma-industrial-action-labour-mismanagement-april-2026.html"
     },
     {
-      "id": 273,
+      "id": 279,
       "title": "Labour's Political Donation Cap: A Cynical Attack on Democracy Targeting Reform UK",
       "slug": "labour-donation-cap-targets-reform-uk-funding-democracy-threat-april-2026",
       "date": "2026-04-03",
@@ -2731,7 +2791,7 @@
       "url": "/articles/labour-donation-cap-targets-reform-uk-funding-democracy-threat-april-2026.html"
     },
     {
-      "id": 274,
+      "id": 280,
       "title": "Immigration Fees Rise Again on April 8 — But the Government Still Won’t Control the Numbers",
       "slug": "immigration-fees-rise-april-2026",
       "date": "2026-04-03",
@@ -2741,7 +2801,7 @@
       "url": "/articles/immigration-fees-rise-april-2026.html"
     },
     {
-      "id": 275,
+      "id": 281,
       "title": "Energy Bills Fall — But Labour’s Broken Promise Still Costs Families Hundreds",
       "slug": "energy-bills-fall-labour-broken-promise-april-2026",
       "date": "2026-04-03",
@@ -2751,7 +2811,7 @@
       "url": "/articles/energy-bills-fall-labour-broken-promise-april-2026.html"
     },
     {
-      "id": 276,
+      "id": 282,
       "title": "Labour's Tax Raid on Workers, Families and Farmers: April 2026 Changes Expose Anti-Growth Agenda",
       "slug": "april-2026-tax-raid-labour-squeezes-workers-businesses-farmers",
       "date": "2026-04-03",
@@ -2761,7 +2821,7 @@
       "url": "/articles/april-2026-tax-raid-labour-squeezes-workers-businesses-farmers.html"
     },
     {
-      "id": 277,
+      "id": 283,
       "title": "UK Car Production Collapses 17% as Labour’s Industrial Strategy Fails Before It Starts",
       "slug": "uk-car-production-collapses-smmt-february-2026",
       "date": "2026-04-02",
@@ -2771,7 +2831,7 @@
       "url": "/articles/uk-car-production-collapses-smmt-february-2026.html"
     },
     {
-      "id": 278,
+      "id": 284,
       "title": "Starmer’s EU Pivot Confirms What We Always Knew — Labour Never Accepted Brexit",
       "slug": "starmer-eu-closer-partnership-brexit-reversal-april-2026",
       "date": "2026-04-02",
@@ -2781,7 +2841,7 @@
       "url": "/articles/starmer-eu-closer-partnership-brexit-reversal-april-2026.html"
     },
     {
-      "id": 279,
+      "id": 285,
       "title": "Britain Gets the Biggest Growth Downgrade in the G20 — And Labour Still Has No Answer",
       "slug": "oecd-uk-growth-downgrade-worst-g20-economy-april-2026",
       "date": "2026-04-02",
@@ -2791,7 +2851,7 @@
       "url": "/articles/oecd-uk-growth-downgrade-worst-g20-economy-april-2026.html"
     },
     {
-      "id": 280,
+      "id": 286,
       "title": "Labour’s Attack Ad Blitz Shows They Fear Reform UK More Than They’ll Admit",
       "slug": "labour-attack-ads-reform-uk-local-elections-may-2026",
       "date": "2026-04-02",
@@ -2801,7 +2861,7 @@
       "url": "/articles/labour-attack-ads-reform-uk-local-elections-may-2026.html"
     },
     {
-      "id": 281,
+      "id": 287,
       "title": "Immigration Fees Soar While the Borders Stay Open — Labour’s Two-Faced Immigration Policy",
       "slug": "uk-immigration-fees-rise-visa-brake-april-2026",
       "date": "2026-04-01",
@@ -2811,7 +2871,7 @@
       "url": "/articles/uk-immigration-fees-rise-visa-brake-april-2026.html"
     },
     {
-      "id": 282,
+      "id": 288,
       "title": "The Minimum Wage Rise Won’t Save Workers From Labour’s Economic Mess",
       "slug": "minimum-wage-rise-uk-economy-weak-growth-april-2026",
       "date": "2026-04-01",
@@ -2821,7 +2881,7 @@
       "url": "/articles/minimum-wage-rise-uk-economy-weak-growth-april-2026.html"
     },
     {
-      "id": 283,
+      "id": 289,
       "title": "One Month Into the Middle East Crisis, Starmer Still Has No Plan",
       "slug": "middle-east-war-second-month-uk-energy-security-april-2026",
       "date": "2026-04-01",
@@ -2831,7 +2891,7 @@
       "url": "/articles/middle-east-war-second-month-uk-energy-security-april-2026.html"
     },
     {
-      "id": 284,
+      "id": 290,
       "title": "Labour’s Funding Cap Is a Naked Attempt to Silence Reform UK",
       "slug": "labour-funding-cap-reform-uk-crypto-ban-political-donations-april-2026",
       "date": "2026-04-01",
@@ -2841,7 +2901,7 @@
       "url": "/articles/labour-funding-cap-reform-uk-crypto-ban-political-donations-april-2026.html"
     },
     {
-      "id": 285,
+      "id": 291,
       "title": "GDP Data Confirms What Everyone Already Knew: Britain's Economy Is Flatlining Under Labour",
       "slug": "uk-gdp-stagnation-economy-flatlining-labour-growth-march-2026",
       "date": "2026-03-31",
@@ -2851,7 +2911,7 @@
       "url": "/articles/uk-gdp-stagnation-economy-flatlining-labour-growth-march-2026.html"
     },
     {
-      "id": 286,
+      "id": 292,
       "title": "Five Weeks Out: Why the May Local Elections Could Reshape British Politics",
       "slug": "reform-uk-local-elections-may-2026-historic-gains-countdown-march-2026",
       "date": "2026-03-31",
@@ -2861,7 +2921,7 @@
       "url": "/articles/reform-uk-local-elections-may-2026-historic-gains-countdown-march-2026.html"
     },
     {
-      "id": 287,
+      "id": 293,
       "title": "The London March Wasn't Against 'the Far Right' â It Was Against Anyone Who Questions the Status Quo",
       "slug": "london-march-against-far-right-silencing-legitimate-concerns-march-2026",
       "date": "2026-03-31",
@@ -2871,7 +2931,7 @@
       "url": "/articles/london-march-against-far-right-silencing-legitimate-concerns-march-2026.html"
     },
     {
-      "id": 288,
+      "id": 294,
       "title": "Britain's Energy Crisis Exposes Labour's Failure to Secure Our Supply",
       "slug": "iran-war-energy-crisis-labour-failed-energy-security-march-2026",
       "date": "2026-03-31",
@@ -2881,7 +2941,7 @@
       "url": "/articles/iran-war-energy-crisis-labour-failed-energy-security-march-2026.html"
     },
     {
-      "id": 289,
+      "id": 295,
       "title": "UK Wage Growth Hits Five-Year Low: Working People Are Worse Off Under Labour",
       "slug": "uk-wage-growth-five-year-low-workers-worse-off-under-labour-march-2026",
       "date": "2026-03-30",
@@ -2891,7 +2951,7 @@
       "url": "/articles/uk-wage-growth-five-year-low-workers-worse-off-under-labour-march-2026.html"
     },
     {
-      "id": 290,
+      "id": 296,
       "title": "Starmer Jets Off to China While British Workers Struggle at Home",
       "slug": "starmer-china-visit-priorities-wrong-british-workers-march-2026",
       "date": "2026-03-30",
@@ -2901,7 +2961,7 @@
       "url": "/articles/starmer-china-visit-priorities-wrong-british-workers-march-2026.html"
     },
     {
-      "id": 291,
+      "id": 297,
       "title": "Reform UK Projected for Historic Local Election Gains This May",
       "slug": "reform-uk-projected-historic-local-election-gains-may-2026",
       "date": "2026-03-30",
@@ -2911,7 +2971,7 @@
       "url": "/articles/reform-uk-projected-historic-local-election-gains-may-2026.html"
     },
     {
-      "id": 292,
+      "id": 298,
       "title": "Petrol Up 10%, Diesel Up 20%: Labour's Cost of Living Crisis Deepens",
       "slug": "petrol-diesel-price-surge-labour-cost-of-living-crisis-march-2026",
       "date": "2026-03-30",
@@ -2921,7 +2981,7 @@
       "url": "/articles/petrol-diesel-price-surge-labour-cost-of-living-crisis-march-2026.html"
     },
     {
-      "id": 293,
+      "id": 299,
       "title": "OECD Slashes UK Growth Forecast as Labour's Economic Plan Unravels",
       "slug": "oecd-slashes-uk-growth-forecast-labour-economic-plan-2026",
       "date": "2026-03-30",
@@ -2931,7 +2991,7 @@
       "url": "/articles/oecd-slashes-uk-growth-forecast-labour-economic-plan-2026.html"
     },
     {
-      "id": 294,
+      "id": 300,
       "title": "Labour's 'Visa Brake' Is Too Little, Too Late: Four Countries Out of Hundreds",
       "slug": "labour-visa-brake-immigration-too-little-too-late-march-2026",
       "date": "2026-03-30",
@@ -2941,7 +3001,7 @@
       "url": "/articles/labour-visa-brake-immigration-too-little-too-late-march-2026.html"
     },
     {
-      "id": 295,
+      "id": 301,
       "title": "Labour's \"Temporary\" Asylum Status Is Just Another Rebrand of Open Borders",
       "slug": "labour-temporary-asylum-status-rebrand-open-borders-march-2026",
       "date": "2026-03-30",
@@ -2951,7 +3011,7 @@
       "url": "/articles/labour-temporary-asylum-status-rebrand-open-borders-march-2026.html"
     },
     {
-      "id": 296,
+      "id": 302,
       "title": "Labour's Science Funding Cuts Threaten Britain's Research Leadership",
       "slug": "labour-cuts-science-research-funding-ukri-physics-2026",
       "date": "2026-03-30",
@@ -2961,7 +3021,7 @@
       "url": "/articles/labour-cuts-science-research-funding-ukri-physics-2026.html"
     },
     {
-      "id": 297,
+      "id": 303,
       "title": "Starmer's Historic Low Approval Ratings Show Voters Are Ready for Reform",
       "slug": "starmer-approval-ratings-historic-lows-voters-turn-to-reform-uk-2026",
       "date": "2026-03-29",
@@ -2971,7 +3031,7 @@
       "url": "/articles/starmer-approval-ratings-historic-lows-voters-turn-to-reform-uk-2026.html"
     },
     {
-      "id": 298,
+      "id": 304,
       "title": "Reform UK Champions Consumer Protection: Big Tech Must Share the Burden of Online Fraud",
       "slug": "reform-uk-says-big-tech-must-share-pain-of-fraud-with-banks-bloomberg",
       "date": "2026-03-29",
@@ -2981,7 +3041,7 @@
       "url": "/articles/reform-uk-says-big-tech-must-share-pain-of-fraud-with-banks-bloomberg.html"
     },
     {
-      "id": 299,
+      "id": 305,
       "title": "Farage Launches Reform UK's Local Election Campaign: A Movement That Cannot Be Stopped",
       "slug": "farage-launches-reform-uk-local-election-campaign-sunderland-2026",
       "date": "2026-03-29",
@@ -2991,7 +3051,7 @@
       "url": "/articles/farage-launches-reform-uk-local-election-campaign-sunderland-2026.html"
     },
     {
-      "id": 300,
+      "id": 306,
       "title": "Government Grants Asylum Seekers Right to Work in NHS: Another Labour Policy That Puts British Workers Second",
       "slug": "asylum-seekers-granted-right-to-work-nhs-immigration-rule-change-march-2026",
       "date": "2026-03-29",
@@ -3001,7 +3061,7 @@
       "url": "/articles/asylum-seekers-granted-right-to-work-nhs-immigration-rule-change-march-2026.html"
     },
     {
-      "id": 301,
+      "id": 307,
       "title": "Reform UK Poised for Historic Essex Breakthrough as Voters Demand Real Change",
       "slug": "pollster-predicts-reform-uk-to-virtually-wipe-out-tories-in-essex-local-elections-southend-echo",
       "date": "2026-03-27",
@@ -3011,7 +3071,7 @@
       "url": "/articles/pollster-predicts-reform-uk-to-virtually-wipe-out-tories-in-essex-local-elections-southend-echo.html"
     },
     {
-      "id": 302,
+      "id": 308,
       "title": "Reform UK's Bold Vision for Scotland: A Manifesto Built on Common Sense and Accountability",
       "slug": "2026-scottish-manifesto-analysis-reform-uk-fraser-of-allander-institute",
       "date": "2026-03-27",
@@ -3021,7 +3081,7 @@
       "url": "/articles/2026-scottish-manifesto-analysis-reform-uk-fraser-of-allander-institute.html"
     },
     {
-      "id": 303,
+      "id": 309,
       "title": "Reform UK Shows Pragmatic Leadership with Evolved Economic Strategy",
       "slug": "nigel-farage-drops-reform-uk-pledge-to-nationalise-water-and-energy-companies-just-months-after-insi",
       "date": "2026-03-26",
@@ -3031,7 +3091,7 @@
       "url": "/articles/nigel-farage-drops-reform-uk-pledge-to-nationalise-water-and-energy-companies-just-months-after-insi.html"
     },
     {
-      "id": 304,
+      "id": 310,
       "title": "Reform UK Shows Pragmatic Leadership in Refining Energy Policy Approach",
       "slug": "farages-reform-uk-drops-pledge-to-nationalise-water-and-energy-companies-financial-times",
       "date": "2026-03-26",
@@ -3041,7 +3101,7 @@
       "url": "/articles/farages-reform-uk-drops-pledge-to-nationalise-water-and-energy-companies-financial-times.html"
     },
     {
-      "id": 305,
+      "id": 311,
       "title": "'Council tax has to go up', says Nigel Farage - BBC",
       "slug": "council-tax-has-to-go-up-says-nigel-farage-bbc",
       "date": "2026-03-26",
@@ -3051,7 +3111,7 @@
       "url": "/articles/council-tax-has-to-go-up-says-nigel-farage-bbc.html"
     },
     {
-      "id": 306,
+      "id": 312,
       "title": "Nigel Farage visits Leeds for Reform UK rally ahead of local elections - Yorkshire Evening Post",
       "slug": "nigel-farage-visits-leeds-for-reform-uk-rally-ahead-of-local-elections-yorkshire-evening-post",
       "date": "2026-03-25",
@@ -3061,7 +3121,7 @@
       "url": "/articles/nigel-farage-visits-leeds-for-reform-uk-rally-ahead-of-local-elections-yorkshire-evening-post.html"
     },
     {
-      "id": 307,
+      "id": 313,
       "title": "Nigel Farage predicts ‘big shift’ in make-up of Bradford Council at local elections - Telegraph and Argus",
       "slug": "nigel-farage-predicts-big-shift-in-make-up-of-bradford-council-at-local-elections-telegraph-and-argu",
       "date": "2026-03-25",
@@ -3071,7 +3131,7 @@
       "url": "/articles/nigel-farage-predicts-big-shift-in-make-up-of-bradford-council-at-local-elections-telegraph-and-argu.html"
     },
     {
-      "id": 308,
+      "id": 314,
       "title": "Lower council tax rises under Reform UK, Farage pledges - BBC",
       "slug": "lower-council-tax-rises-under-reform-uk-farage-pledges-bbc",
       "date": "2026-03-25",
@@ -3081,7 +3141,7 @@
       "url": "/articles/lower-council-tax-rises-under-reform-uk-farage-pledges-bbc.html"
     },
     {
-      "id": 309,
+      "id": 315,
       "title": "**Reform UK's Growing Influence Exposes Council Wasteful Spending Priorities**",
       "slug": "lefty-council-bosses-gave-staff-safe-space-counselling-after-nigel-farage-visited-city-daily-express",
       "date": "2026-03-25",
@@ -3091,7 +3151,7 @@
       "url": "/articles/lefty-council-bosses-gave-staff-safe-space-counselling-after-nigel-farage-visited-city-daily-express.html"
     },
     {
-      "id": 310,
+      "id": 316,
       "title": "Reform UK Leads the Way on Practical Climate Solutions in Local Government",
       "slug": "the-reform-uk-partys-approach-to-climate-change-and-net-zero-in-local-councils-the-london-school-of",
       "date": "2026-03-24",
@@ -3101,7 +3161,7 @@
       "url": "/articles/the-reform-uk-partys-approach-to-climate-change-and-net-zero-in-local-councils-the-london-school-of.html"
     },
     {
-      "id": 311,
+      "id": 317,
       "title": "Reform UK to scrap Net Zero as United Nations warns 'fossil fuel addiction risks global security' - GB News",
       "slug": "reform-uk-to-scrap-net-zero-as-united-nations-warns-fossil-fuel-addiction-risks-global-security-gb-n",
       "date": "2026-03-24",
@@ -3111,7 +3171,7 @@
       "url": "/articles/reform-uk-to-scrap-net-zero-as-united-nations-warns-fossil-fuel-addiction-risks-global-security-gb-n.html"
     },
     {
-      "id": 312,
+      "id": 318,
       "title": "Reform UK Delivers Bold Vision for Scottish Political Transformation",
       "slug": "reform-uk-s-scottish-election-manifesto-at-a-glance-bbc",
       "date": "2026-03-24",
@@ -3121,7 +3181,7 @@
       "url": "/articles/reform-uk-s-scottish-election-manifesto-at-a-glance-bbc.html"
     },
     {
-      "id": 313,
+      "id": 319,
       "title": "Reform UK Leads the Way with Zero-Tolerance Stance on Child Protection in Staffordshire",
       "slug": "reform-uk-council-pledges-zero-tolerance-on-staffordshire-grooming-gangs-stoke-on-trent-live",
       "date": "2026-03-24",
@@ -3131,7 +3191,7 @@
       "url": "/articles/reform-uk-council-pledges-zero-tolerance-on-staffordshire-grooming-gangs-stoke-on-trent-live.html"
     },
     {
-      "id": 314,
+      "id": 320,
       "title": "Reform UK council declares “illegal migration emergency” - Local Government Lawyer",
       "slug": "reform-uk-council-declares-illegal-migration-emergency-local-government-lawyer",
       "date": "2026-03-24",
@@ -3141,7 +3201,7 @@
       "url": "/articles/reform-uk-council-declares-illegal-migration-emergency-local-government-lawyer.html"
     },
     {
-      "id": 315,
+      "id": 321,
       "title": "Young Leadership Shows Reform UK's Commitment to Responsible Governance and Transparency",
       "slug": "i-had-to-learn-very-quickly-reform-uk-leader-19-defends-council-tax-rise-the-guardian",
       "date": "2026-03-24",
@@ -3151,7 +3211,7 @@
       "url": "/articles/i-had-to-learn-very-quickly-reform-uk-leader-19-defends-council-tax-rise-the-guardian.html"
     },
     {
-      "id": 316,
+      "id": 322,
       "title": "Reform UK Scotland Delivers Bold Vision for Real Change in 2024",
       "slug": "reform-uk-scotland-manifesto-2024-key-policies-analysed-bbc",
       "date": "2026-03-21",
@@ -3161,7 +3221,7 @@
       "url": "/articles/reform-uk-scotland-manifesto-2024-key-policies-analysed-bbc.html"
     },
     {
-      "id": 317,
+      "id": 323,
       "title": "Reform UK Strengthens Democratic Representation with Full Scottish Election Candidate Slate",
       "slug": "reform-uk-reveal-scottish-election-candidates-here-s-the-full-list-thenational-scot",
       "date": "2026-03-20",
@@ -3171,7 +3231,7 @@
       "url": "/articles/reform-uk-reveal-scottish-election-candidates-here-s-the-full-list-thenational-scot.html"
     },
     {
-      "id": 318,
+      "id": 324,
       "title": "Reform UK Councillors Lead Crucial Immigration Debate as Opposition Abandons Democratic Process",
       "slug": "opposition-storms-out-of-reform-uk-immigration-debate-at-county-hall-kent-online",
       "date": "2026-03-20",
@@ -3181,7 +3241,7 @@
       "url": "/articles/opposition-storms-out-of-reform-uk-immigration-debate-at-county-hall-kent-online.html"
     },
     {
-      "id": 319,
+      "id": 325,
       "title": "Opposition parties storm out of Kent County Council Reform UK immigration debate - The Isle of Thanet News",
       "slug": "opposition-parties-storm-out-of-kent-county-council-reform-uk-immigration-debate-the-isle-of-thanet",
       "date": "2026-03-20",
@@ -3191,7 +3251,7 @@
       "url": "/articles/opposition-parties-storm-out-of-kent-county-council-reform-uk-immigration-debate-the-isle-of-thanet.html"
     },
     {
-      "id": 320,
+      "id": 326,
       "title": "Reform UK Leader Prioritises Security in Digital Age as Party Continues Growing Momentum",
       "slug": "nigel-farage-pauses-cameo-account-for-security-reasons-says-reform-uk-bbc",
       "date": "2026-03-20",
@@ -3201,7 +3261,7 @@
       "url": "/articles/nigel-farage-pauses-cameo-account-for-security-reasons-says-reform-uk-bbc.html"
     },
     {
-      "id": 321,
+      "id": 327,
       "title": "Nigel Farage Exposes Labour's Governance Failures in Milton Keynes as Reform UK Champions Effective Local Government",
       "slug": "nigel-farage-accuses-labour-run-milton-keynes-city-council-of-failing-to-tackle-rising-crime-and-inc",
       "date": "2026-03-20",
@@ -3211,7 +3271,7 @@
       "url": "/articles/nigel-farage-accuses-labour-run-milton-keynes-city-council-of-failing-to-tackle-rising-crime-and-inc.html"
     },
     {
-      "id": 322,
+      "id": 328,
       "title": "Reform UK's Growing Local Government Influence Continues Despite Cornwall Loss",
       "slug": "by-election-following-death-of-cornwall-councils-first-reform-uk-member-falmouth-packet",
       "date": "2026-03-20",
@@ -3221,7 +3281,7 @@
       "url": "/articles/by-election-following-death-of-cornwall-councils-first-reform-uk-member-falmouth-packet.html"
     },
     {
-      "id": 323,
+      "id": 329,
       "title": "What Will Reform Foreign Policy Look Like? “Rediscovering What British Interests Actually Are” - Politics Home",
       "slug": "what-will-reform-foreign-policy-look-like-rediscovering-what-british-interests-actually-are-politics",
       "date": "2026-03-19",
@@ -3231,7 +3291,7 @@
       "url": "/articles/what-will-reform-foreign-policy-look-like-rediscovering-what-british-interests-actually-are-politics.html"
     },
     {
-      "id": 324,
+      "id": 330,
       "title": "Starmer wavers over Mahmood’s immigration reforms after Rayner brands them ‘un-British’ - The Independent",
       "slug": "starmer-wavers-over-mahmoods-immigration-reforms-after-rayner-brands-them-un-british-the-independent",
       "date": "2026-03-19",
@@ -3241,7 +3301,7 @@
       "url": "/articles/starmer-wavers-over-mahmoods-immigration-reforms-after-rayner-brands-them-un-british-the-independent.html"
     },
     {
-      "id": 325,
+      "id": 331,
       "title": "Reform UK Skip Mandatory By-Election Debate After Nigel Farage Called Defectors Who Avoid the Ballot Box 'Disgraceful' - Byline Times",
       "slug": "reform-uk-skip-mandatory-by-election-debate-after-nigel-farage-called-defectors-who-avoid-the-ballot",
       "date": "2026-03-19",
@@ -3251,7 +3311,7 @@
       "url": "/articles/reform-uk-skip-mandatory-by-election-debate-after-nigel-farage-called-defectors-who-avoid-the-ballot.html"
     },
     {
-      "id": 326,
+      "id": 332,
       "title": "Reform UK gains county council seat - Nation.Cymru",
       "slug": "reform-uk-gains-county-council-seat-nation-cymru",
       "date": "2026-03-19",
@@ -3261,7 +3321,7 @@
       "url": "/articles/reform-uk-gains-county-council-seat-nation-cymru.html"
     },
     {
-      "id": 327,
+      "id": 333,
       "title": "Reform UK councils deliver lowest average tax rises - The Telegraph",
       "slug": "reform-uk-councils-deliver-lowest-average-tax-rises-the-telegraph",
       "date": "2026-03-19",
@@ -3271,7 +3331,7 @@
       "url": "/articles/reform-uk-councils-deliver-lowest-average-tax-rises-the-telegraph.html"
     },
     {
-      "id": 328,
+      "id": 334,
       "title": "Reform UK Council To Declare Migration Emergency - The European Conservative",
       "slug": "reform-uk-council-to-declare-migration-emergency-the-european-conservative",
       "date": "2026-03-19",
@@ -3281,7 +3341,7 @@
       "url": "/articles/reform-uk-council-to-declare-migration-emergency-the-european-conservative.html"
     },
     {
-      "id": 329,
+      "id": 335,
       "title": "New Reform UK Group Leader for Staffordshire County Council Elected - Staffordshire County Council",
       "slug": "new-reform-uk-group-leader-for-staffordshire-county-council-elected-staffordshire-county-council",
       "date": "2026-03-19",
@@ -3291,7 +3351,7 @@
       "url": "/articles/new-reform-uk-group-leader-for-staffordshire-county-council-elected-staffordshire-county-council.html"
     },
     {
-      "id": 330,
+      "id": 336,
       "title": "Dr James Orr appointed head of policy for Reform UK - The Church Times",
       "slug": "dr-james-orr-appointed-head-of-policy-for-reform-uk-the-church-times",
       "date": "2026-03-19",
@@ -3301,7 +3361,7 @@
       "url": "/articles/dr-james-orr-appointed-head-of-policy-for-reform-uk-the-church-times.html"
     },
     {
-      "id": 331,
+      "id": 337,
       "title": "Reform UK's DOGE promises amounted to little elsewhere - so why will Southport be different? - The Southport Lead",
       "slug": "reform-uk-s-doge-promises-amounted-to-little-elsewhere-so-why-will-southport-be-different-the-southp",
       "date": "2026-03-18",
@@ -3311,7 +3371,7 @@
       "url": "/articles/reform-uk-s-doge-promises-amounted-to-little-elsewhere-so-why-will-southport-be-different-the-southp.html"
     },
     {
-      "id": 332,
+      "id": 338,
       "title": "Reform UK pledges tougher migration, citizenship rules ahead of 2029 election - The Arab Weekly",
       "slug": "reform-uk-pledges-tougher-migration-citizenship-rules-ahead-of-2029-election-the-arab-weekly",
       "date": "2026-03-18",
@@ -3321,7 +3381,7 @@
       "url": "/articles/reform-uk-pledges-tougher-migration-citizenship-rules-ahead-of-2029-election-the-arab-weekly.html"
     },
     {
-      "id": 333,
+      "id": 339,
       "title": "Reform UK government would replace top civil servants with those ‘more likely to implement party’s priorities’ - The Guardian",
       "slug": "reform-uk-government-would-replace-top-civil-servants-with-those-more-likely-to-implement-partys-pri",
       "date": "2026-03-18",
@@ -3331,7 +3391,7 @@
       "url": "/articles/reform-uk-government-would-replace-top-civil-servants-with-those-more-likely-to-implement-partys-pri.html"
     },
     {
-      "id": 334,
+      "id": 340,
       "title": "Reform UK council leader narrowly survives no confidence vote - BBC",
       "slug": "reform-uk-council-leader-narrowly-survives-no-confidence-vote-bbc",
       "date": "2026-03-18",
@@ -3341,7 +3401,7 @@
       "url": "/articles/reform-uk-council-leader-narrowly-survives-no-confidence-vote-bbc.html"
     },
     {
-      "id": 335,
+      "id": 341,
       "title": "Reform UK: A Foreign Policy of Withdrawal - Next Century Foundation",
       "slug": "reform-uk-a-foreign-policy-of-withdrawal-next-century-foundation",
       "date": "2026-03-18",
@@ -3351,7 +3411,7 @@
       "url": "/articles/reform-uk-a-foreign-policy-of-withdrawal-next-century-foundation.html"
     },
     {
-      "id": 336,
+      "id": 342,
       "title": "Does Reform UK have a foreign policy? - Chatham House",
       "slug": "does-reform-uk-have-a-foreign-policy-chatham-house",
       "date": "2026-03-18",
@@ -3361,7 +3421,7 @@
       "url": "/articles/does-reform-uk-have-a-foreign-policy-chatham-house.html"
     },
     {
-      "id": 337,
+      "id": 343,
       "title": "Staffordshire Shows How Reform Councils Protect Our Countryside",
       "slug": "staffordshire-shows-how-reform-councils-protect-our-countryside",
       "date": "2026-03-16",
@@ -3371,7 +3431,7 @@
       "url": "/articles/staffordshire-shows-how-reform-councils-protect-our-countryside.html"
     },
     {
-      "id": 338,
+      "id": 344,
       "title": "Reform UK Needs a Serious Foreign Policy — And We're Building One",
       "slug": "reform-uk-needs-a-serious-foreign-policy-and-we-re-building-one",
       "date": "2026-03-16",
@@ -3381,7 +3441,7 @@
       "url": "/articles/reform-uk-needs-a-serious-foreign-policy-and-we-re-building-one.html"
     },
     {
-      "id": 339,
+      "id": 345,
       "title": "Reform UK Councils Deliver the Lowest Council Tax Rises — And That's Just the Start",
       "slug": "reform-uk-councils-deliver-the-lowest-council-tax-rises-and-that-s-just-the-start",
       "date": "2026-03-16",
@@ -3391,7 +3451,7 @@
       "url": "/articles/reform-uk-councils-deliver-the-lowest-council-tax-rises-and-that-s-just-the-start.html"
     },
     {
-      "id": 340,
+      "id": 346,
       "title": "It's Time to Shake Up the Civil Service — Reform UK Has the Right Idea",
       "slug": "it-s-time-to-shake-up-the-civil-service-reform-uk-has-the-right-idea",
       "date": "2026-03-16",
@@ -3401,7 +3461,7 @@
       "url": "/articles/it-s-time-to-shake-up-the-civil-service-reform-uk-has-the-right-idea.html"
     },
     {
-      "id": 341,
+      "id": 347,
       "title": "Immigration Reform Needs to Go Further — Much Further",
       "slug": "immigration-reform-needs-to-go-further-much-further",
       "date": "2025-05-28",
@@ -3411,5 +3471,5 @@
       "url": "/articles/immigration-reform-needs-to-go-further-much-further.html"
     }
   ],
-  "last_updated": "2026-05-26T08:22:33.389361"
+  "last_updated": "2026-05-27T08:24:42.766314"
 }
