@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/universal-credit-6-2-percent-boost-workers-squeezed-may-2026.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/uk-rents-1381-pounds-record-renters-rights-act-failing-may-2026.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/statutory-homelessness-145800-record-labour-housing-failure-may-2026.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/starmer-18-billion-defence-boost-too-late-may-2026.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/reeves-great-british-summer-vat-gimmick-may-2026.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/imf-uk-growth-0-8-percent-labour-economy-stalls-may-2026.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/sizewell-c-hidden-energy-bill-cost-net-zero-rip-off-may-2026.html</loc>
