@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/starmer-95-mps-leadership-crisis-zombie-government-june-2026.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/resident-doctors-strike-june-2026-appointments-lost-nhs.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/reform-uk-official-opposition-wales-senedd-breakthrough-june-2026.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/labour-housing-target-failure-mortgage-rates-rise-june-2026.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/frozen-tax-thresholds-2031-fiscal-drag-stealth-raid-june-2026.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/france-returns-pilot-expires-labour-border-failure-june-2026.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/resident-doctors-strike-171000-appointments-lost-bma-june-2026.html</loc>
