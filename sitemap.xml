@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/reform-councils-cutting-waste-delivering-value-june-2026.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/ofgem-13-percent-cap-rise-summer-bills-shock-june-2026.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/nhs-doctors-walkout-begins-waiting-list-risk-labour-june-2026.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/labour-government-paralysis-resignations-starmer-june-2026.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/frozen-allowance-fiscal-drag-pay-rise-tax-trap-june-2026.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/channel-crossings-summer-surge-borders-broken-june-2026.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/small-boats-39000-record-year-france-deal-failure-june-2026.html</loc>
