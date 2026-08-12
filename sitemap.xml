@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lukeparker.co.uk/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/about.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/national-care-service-nhs-reorganisation-waiting-lists-august-2026.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/burnham-tax-rises-ask-for-a-little-more-no-mandate-august-2026.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lukeparker.co.uk/articles/burnham-death-tax-national-care-levy-inheritance-august-2026.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lukeparker.co.uk/articles/vat-electricity-cut-october-2026-energy-bills-sticking-plaster.html</loc>
