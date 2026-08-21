@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UK job vacancies fell to 707,000, the lowest outside the pandemic since 2014. The ONS says small firms are not recruiting because of rising labour costs.">
+    <meta property="og:title" content="Job Vacancies Fall to Their Lowest Since 2014 &mdash; and the ONS Says Why">
+    <meta property="og:description" content="UK job vacancies fell to 707,000, the lowest outside the pandemic since 2014. The ONS says small firms are not recruiting because of rising labour costs.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://lukeparker.co.uk/articles/job-vacancies-lowest-since-2014-august-2026.html">
+    <meta property="og:image" content="https://lukeparker.co.uk/images/heroes/job-vacancies-lowest-since-2014-august-2026.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Job Vacancies Fall to Their Lowest Since 2014 &mdash; and the ONS Says Why">
+    <meta name="twitter:description" content="UK job vacancies fell to 707,000, the lowest outside the pandemic since 2014. The ONS says small firms are not recruiting because of rising labour costs.">
+    <meta name="twitter:image" content="https://lukeparker.co.uk/images/heroes/job-vacancies-lowest-since-2014-august-2026.jpg">
+    <title>Job Vacancies Fall to Their Lowest Since 2014 &mdash; and the ONS Says Why</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #12B0B0;
+            --dark-bg: #0a0e27;
+            --card-bg: #131d3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border: #1f2d4d;
+            --accent: #12B0B0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+
+        /* HERO SECTION */
+        .article-hero {
+            background: linear-gradient(135deg, #131d3a 0%, #0a0e27 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 4rem 2rem;
+        }
+
+        .hero-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .category-badge {
+            background: var(--accent);
+            color: var(--dark-bg);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .article-meta-info {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .meta-separator {
+            color: var(--border);
+        }
+
+        h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin: 1rem 0;
+            letter-spacing: -1.5px;
+        }
+
+        .article-excerpt {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-top: 1.5rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .article-hero {
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* HERO IMAGE */
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 2rem;
+            border-radius: 8px;
+            display: block;
+        }
+
+        /* ARTICLE CONTENT */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .article-body {
+            max-width: 720px;
+            margin: 0 auto 3rem;
+        }
+
+        .article-body h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 2rem 0 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .article-body h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 1.5rem 0 0.75rem;
+            letter-spacing: -0.3px;
+        }
+
+        .article-body p {
+            margin: 1.5rem 0;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+
+        .article-body ul, .article-body ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+            line-height: 1.8;
+        }
+
+        .article-body li {
+            margin: 0.75rem 0;
+        }
+
+        .article-body strong {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .article-body em {
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .article-body blockquote {
+            border-left: 4px solid var(--accent);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .article-body a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .article-body a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .article-container {
+                padding: 2rem 1.5rem;
+            }
+
+            .article-body h2 {
+                font-size: 1.4rem;
+            }
+        }
+
+        /* SOURCE ATTRIBUTION */
+        .source-box {
+            max-width: 720px;
+            margin: 3rem auto 3rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 6px;
+        }
+
+        .source-box p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .source-box a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .source-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* SHARE BUTTONS */
+        .share-container {
+            max-width: 720px;
+            margin: 3rem auto;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .share-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .share-btn:hover {
+            background: var(--accent);
+            color: var(--dark-bg);
+            border-color: var(--accent);
+        }
+
+        @media (max-width: 768px) {
+            .share-buttons {
+                flex-direction: column;
+            }
+
+            .share-btn {
+                justify-content: center;
+            }
+        }
+
+        /* MORE ARTICLES */
+        .more-articles {
+            max-width: 1200px;
+            margin: 4rem auto 0;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .more-articles h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            letter-spacing: -0.75px;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .article-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--text-primary);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #12B0B0 0%, #0a8a8a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-category {
+            color: var(--accent);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
+        }
+
+        .card-excerpt {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .card-meta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .more-articles h2 {
+                font-size: 1.5rem;
+            }
+
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* FOOTER */
+        footer {
+            background: linear-gradient(135deg, #0a0e27 0%, #131d3a 100%);
+            border-top: 1px solid var(--border);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom p {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                padding: 2rem 1.5rem;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="/" class="logo">Luke <span>Parker</span></a>
+            <ul class="nav-links">
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ARTICLE HERO -->
+    <article>
+        <section class="article-hero">
+            <div class="hero-container">
+                <div class="article-meta">
+                    <span class="category-badge">Economy</span>
+                    <div class="article-meta-info">
+                        <span class="meta-item">21 August 2026</span>
+                        <span class="meta-separator">&bull;</span>
+                        <span class="meta-item">6 min read</span>
+                    </div>
+                </div>
+                <h1>Job Vacancies Fall to Their Lowest Since 2014 &mdash; and the ONS Says Why</h1>
+                <p class="article-excerpt">Vacancies have fallen to 707,000 — a level not seen outside the pandemic since 2014. The ONS says small firms are not hiring because labour costs have gone up. That is not a mystery. That is a consequence.</p>
+            </div>
+        </section>
+
+        <!-- ARTICLE BODY -->
+        <div class="article-container">
+            <div class="article-body">
+
+                <p>Every so often a statistical release does the arguing for you. The Office for National Statistics published its labour market overview on Monday, and buried in the careful language of an official bulletin is a sentence that ought to be read aloud in the Treasury. <strong>Vacancies have fallen to 707,000 &mdash; and the ONS says small firms are not recruiting because their labour costs have gone up.</strong></p>
+
+                <h2>Twelve Years Back</h2>
+
+                <p>The headline figure first. Estimated vacancies for May to July 2026 fell by 6,000 to 707,000. To find a lower number outside the pandemic you have to go back to September to November 2014, when there were 703,000. That is twelve years.</p>
+
+                <p>Set against that, payrolled employees stood at 30.3 million in the July flash estimate, <strong>down 94,000 on the year</strong>. Over the year to June, payrolls fell by 78,000. The unemployment rate for April to June was 4.9%, up 0.2 percentage points on the year. The employment rate was 75.1%, down 0.2 points on the year.</p>
+
+                <h2>The ONS Says the Quiet Part</h2>
+
+                <p>What lifts this from a soft patch to an indictment is the explanation the statisticians themselves offer. In the bulletin's own words: <em>"Feedback from our Vacancy Survey suggests that some small firms may not be recruiting because of increases in labour costs and other operating expenses."</em></p>
+
+                <p>That is not a Reform UK press release. That is the national statistical office reporting what employers told it. <strong>Put up the cost of employing someone, and fewer people get employed.</strong> Employer National Insurance went up in April 2025. The bill did not vanish; it turned into jobs that were never advertised. Every one of those 707,000 vacancies is a real opening, and every vacancy that no longer exists is a door that closed on someone in Preston East before they ever knew it was there.</p>
+
+                <h2>Where the Wage Growth Is Going</h2>
+
+                <p>The pay figures deserve a closer look than they usually get. Annual growth in regular earnings was 3.5% across the economy. Split it, though, and the picture changes: <strong>public sector regular pay grew at 6.1%, private sector at 2.8%</strong>. The ONS notes public sector growth continues to be affected by the timing of pay awards, which is a fair caveat.</p>
+
+                <p>Even so, the gap is more than double. The people generating the tax revenue are seeing pay rise at less than half the rate of the people spending it. That is a difficult thing to defend to a small employer who has just decided not to take on an extra pair of hands.</p>
+
+                <h2>What the Figures Do Not Say</h2>
+
+                <p>I said at the start that the release does the arguing, and that obliges me to report the parts that cut the other way. There are several, and they matter.</p>
+
+                <p>The Claimant Count for July fell &mdash; both on the month and on the year &mdash; to 1.665 million. Unemployment, while up on the year, was actually <em>down</em> 0.1 points on the quarter. The employment rate rose 0.1 points on the quarter. Real regular pay, adjusted for CPIH inflation, is still growing at 0.5%. And vacancies have been broadly flat since January, down only 11,000 across the whole year so far.</p>
+
+                <p><strong>So this is not a collapse, and anyone telling you it is has not read the bulletin.</strong> It is something slower and, in its way, more worrying: a labour market that has stopped creating opportunities. Not a cliff edge &mdash; a slow closing of doors.</p>
+
+                <h2>What Reform UK Would Do</h2>
+
+                <p>Reform UK would cut the cost of giving someone a job. <strong>That means reversing the employer National Insurance rise that landed in April 2025, lifting the employment allowance for small firms, and cutting the business rates that hit high street employers hardest.</strong> When the national statistical office tells you in plain English that firms are not hiring because employing people costs too much, the policy response writes itself.</p>
+
+                <p>A vacancy is a promise of a job. There are 707,000 of them left, the fewest in twelve years outside a pandemic. Every one that disappears is somebody's chance that never came. Making it cheaper to hire is not a favour to business &mdash; it is the only way that number goes back up.</p>
+            </div>
+
+            <!-- SOURCE ATTRIBUTION -->
+            <div class="source-box">
+                <p><strong>Sources:</strong> Office for National Statistics, <a href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/august2026">Labour market overview, UK: August 2026</a>, released 18 August 2026 &mdash; vacancies 707,000 for May to July 2026 (down 6,000; lowest outside the pandemic since September to November 2014, when there were 703,000); payrolled employees 30.3 million in July, down 94,000 on the year; unemployment 4.9%; employment rate 75.1%; economic inactivity 20.9%; Claimant Count 1.665 million in July, down on the month and the year; regular pay growth 3.5% (public sector 6.1%, private sector 2.8%); real regular pay growth 0.5% on CPIH. The quotation on small firms and labour costs is taken verbatim from the bulletin's main points.</p>
+            </div>
+        </div>
+
+        <!-- SHARE BUTTONS -->
+        <div class="share-container">
+            <div class="share-label">Share this article</div>
+            <div class="share-buttons">
+                <a href="#" class="share-btn" onclick="shareOnTwitter(event)" title="Share on Twitter/X">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"/>
+                    </svg>
+                    Twitter
+                </a>
+                <a href="#" class="share-btn" onclick="shareOnFacebook(event)" title="Share on Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="#" class="share-btn" onclick="copyLink(event)" title="Copy link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                    </svg>
+                    Copy Link
+                </a>
+            </div>
+        </div>
+    </article>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/about">About Luke Parker</a></li>
+                    <li><a href="/contact">Get in Touch</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Topics</h3>
+                <ul>
+                    <li><a href="/articles?category=immigration">Immigration</a></li>
+                    <li><a href="/articles?category=economy">Economy</a></li>
+                    <li><a href="/articles?category=nhs">NHS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://twitter.com" target="_blank">Twitter/X</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luke Parker. Reform UK Councillor.</p>
+            <p><a href="/privacy" style="color: var(--accent);">Privacy Policy</a> &bull; <a href="/terms" style="color: var(--accent);">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function shareOnTwitter(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const title = document.querySelector('h1').textContent;
+            const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title + ' - ')}&url=${encodeURIComponent(url)}`;
+            window.open(twitterUrl, 'twitter-share', 'width=600,height=400');
+        }
+
+        function shareOnFacebook(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+            window.open(facebookUrl, 'facebook-share', 'width=600,height=400');
+        }
+
+        function copyLink(e) {
+            e.preventDefault();
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = e.currentTarget;
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
